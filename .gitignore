@@ -3,12 +3,18 @@
 
 # 2. 但不要忽略（取消忽略）我们的公共文件夹
 !/Public/
-
-# 3. (这是新增的修复) 也不要忽略 Public 文件夹内的所有内容
 !/Public/**
 
-# 4. 也不要忽略配置文件
+# 3. 也不要忽略 GitHub Actions 的配置
 !/.github/
 
-# 忽略 Quartz 的依赖包
+# 4. (!! 这是新的修复 !!) 
+# 也不要忽略 Quartz 的配置文件
+!/package.json
+!/quartz.config.ts
+!/quartz.layout.ts
+!/tsconfig.json
+!/package-lock.json
+
+# 5. 忽略 Quartz 的依赖包
 /node_modules
