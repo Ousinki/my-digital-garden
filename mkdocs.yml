@@ -1,0 +1,37 @@
+# 网站名称
+site_name: 我的数字花园
+
+# 告诉 MkDocs 你的 Markdown 文件在哪里
+# (重要：这里指向你的 'Public' 文件夹)
+docs_dir: Public 
+
+# 使用 Material 主题
+theme:
+  name: material
+  # (可选) 设置中文
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tabs
+
+# Markdown 插件扩展
+# 这些插件让 MkDocs 能更好地理解 Obsidian 的语法
+markdown_extensions:
+  # 智能处理 wikilinks (Obsidian 核心)
+  - mdx_wikilink_plus:
+      base_url: /
+      end_url: /
+      html_class: "internal-link"
+  # 支持 Obsidian 的 Callouts (如 [!NOTE])
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  # 支持代码高亮
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  # 支持任务列表 [ ] [x]
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  # 支持脚注
+  - footnotes
