@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0 # Fetch all history
       - uses: actions/setup-node@v4
         with:
-          node-version: 18 # uses nvmrc or version specified here
+          node-version: 22 # uses nvmrc or version specified here
           cache: "npm"
       - name: Install dependencies
         run: npm install
