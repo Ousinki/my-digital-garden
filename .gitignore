@@ -12,6 +12,8 @@
 # 4. DO NOT ignore the Quartz config files
 !/quartz/
 !/quartz/**
+!/scripts/
+!/scripts/**
 !/package.json
 !/package-lock.json
 !/quartz.config.ts
