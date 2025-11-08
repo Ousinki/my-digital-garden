@@ -8,5 +8,7 @@
 !/Public/**
 
 # 4. 也不要忽略配置文件
-!/mkdocs.yml
 !/.github/
+
+# 忽略 Quartz 的依赖包
+/node_modules
