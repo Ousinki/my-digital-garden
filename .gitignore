@@ -10,6 +10,8 @@
 !/.github/**
 
 # 4. DO NOT ignore the Quartz config files
+!/quartz/
+!/quartz/**
 !/package.json
 !/package-lock.json
 !/quartz.config.ts
@@ -20,6 +22,3 @@
 
 # 5. DO ignore the heavy node_modules folder
 /node_modules
-
-# 6. Ignore build output; it is generated during CI
-/public
