@@ -21,12 +21,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Fetch all history
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - uses: actions/setup-node@v4
         with:
           node-version: 22 # uses nvmrc or version specified here
           cache: "npm"
       - name: Install dependencies
         run: npm install
+      - name: Prepare Quartz CLI shims
+        run: npm run prepare
       - name: Build Quartz
         run: npm run build
       - name: Upload artifact
