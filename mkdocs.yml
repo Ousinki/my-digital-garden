@@ -13,35 +13,40 @@ theme:
     - navigation.tabs
   logo: assets/logo.png # (你之前添加的 logo)
 
-  # --- 从这里开始替换 ---
-  palette:
-    # 浅色模式 (Light Mode)
-    - media: "(prefers-color-scheme: light)"  # 优先匹配系统设置
-      scheme: default   # 'default' 是浅色皮肤
-      primary: blue     # 浅色模式的主色 (可以保持 blue)
-      accent: orange    # 浅色模式的强调色 (可以保持 orange)
-      toggle:
-        icon: material/brightness-7  # 切换到深色的图标 (太阳)
-        name: 切换到深色模式
+# --- 从这里开始替换 ---
+palette:
+  # 浅色模式 (Light Mode)
+  - media: "(prefers-color-scheme: light)"  # 优先匹配系统设置
+    scheme: default   # 'default' 是浅色皮肤
+    primary: blue     # 浅色模式的主色 (可以保持 blue)
+    accent: orange    # 浅色模式的强调色 (可以保持 orange)
+    toggle:
+      icon: material/brightness-7  # 切换到深色的图标 (太阳)
+      name: 切换到深色模式
 
-    # 深色模式 (Dark Mode)
-    - media: "(prefers-color-scheme: dark)" # 优先匹配系统设置
-      scheme: slate     # 'slate' 是深色皮肤
-      primary: black    # 深色模式的主色 (推荐 black 或 deep-purple)
-      accent: orange    # 深色模式的强调色 (orange 在深色上很好看)
-      toggle:
-        icon: material/brightness-4  # 切换到浅色的图标 (月亮)
-        name: 切换到浅色模式
-  # --- 替换到这里结束 ---
+  # 深色模式 (Dark Mode)
+  - media: "(prefers-color-scheme: dark)" # 优先匹配系统设置
+    scheme: slate     # 'slate' 是深色皮肤
+    primary: black    # 深色模式的主色 (推荐 black 或 deep-purple)
+    accent: orange    # 深色模式的强调色 (orange 在深色上很好看)
+    toggle:
+      icon: material/brightness-4  # 切换到浅色的图标 (月亮)
+      name: 切换到浅色模式
+# --- 替换到这里结束 ---
 
 # Markdown 插件扩展
 # 这些插件让 MkDocs 能更好地理解 Obsidian 的语法
 markdown_extensions:
   # 智能处理 wikilinks (Obsidian 核心)
-  - mdx_wikilink_plus:
+  - pymdownx.wikilinks:
+      # 告诉它你的根 URL，修复 404 错误
       base_url: /my-digital-garden/
+      # 告诉它链接结尾加 /
       end_url: /
-      html_class: "internal-link"
+      # 告诉它图片链接也使用这个 base_url
+      image_path_is_relative: false
+
+
   # 支持 Obsidian 的 Callouts (如 [!NOTE])
   - admonition
   - pymdownx.details
