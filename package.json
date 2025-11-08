@@ -14,7 +14,7 @@
   "scripts": {
     "prepare": "node scripts/link-quartz-cli.mjs",
     "start": "npx quartz build --serve",
-    "docs": "npx quartz build --serve -d docs",
+    "docs": "npx quartz build -d docs",
     "build": "npx quartz build"
   },
   "engines": {

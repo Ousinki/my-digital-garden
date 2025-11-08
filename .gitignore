@@ -12,13 +12,13 @@
 # 4. DO NOT ignore the Quartz config files
 !/quartz/
 !/quartz/**
-!/scripts/
-!/scripts/**
 !/package.json
 !/package-lock.json
 !/quartz.config.ts
 !/quartz.layout.ts
 !/tsconfig.json
+!/scripts/
+!/scripts/**
 
 # 5. DO ignore the heavy node_modules folder
 /node_modules
