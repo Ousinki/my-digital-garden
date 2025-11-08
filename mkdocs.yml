@@ -11,28 +11,25 @@ theme:
   features:
     - navigation.instant
     - navigation.tabs
-  logo: assets/logo.png # (你之前添加的 logo)
-
-# --- 从这里开始替换 ---
+  logo: assets/logo.png
+  
+  # 非常好！palette: 在 theme: 内部 (有缩进)
   palette:
-    # 浅色模式 (Light Mode)
-    - media: "(prefers-color-scheme: light)"  # 优先匹配系统设置
-      scheme: default   # 'default' 是浅色皮肤
-      primary: blue     # 浅色模式的主色 (可以保持 blue)
-      accent: orange    # 浅色模式的强调色 (可以保持 orange)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: orange
       toggle:
-        icon: material/brightness-7  # 切换到深色的图标 (太阳)
+        icon: material/brightness-7
         name: 切换到深色模式
-
-    # 深色模式 (Dark Mode)
-    - media: "(prefers-color-scheme: dark)" # 优先匹配系统设置
-      scheme: slate     # 'slate' 是深色皮肤
-      primary: black    # 深色模式的主色 (推荐 black 或 deep-purple)
-      accent: orange    # 深色模式的强调色 (orange 在深色上很好看)
+    
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: orange
       toggle:
-        icon: material/brightness-4  # 切换到浅色的图标 (月亮)
+        icon: material/brightness-4
         name: 切换到浅色模式
-  # --- 替换到这里结束 ---
 
 # Markdown 插件扩展
 # 这些插件让 MkDocs 能更好地理解 Obsidian 的语法
