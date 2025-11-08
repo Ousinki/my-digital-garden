@@ -1,5 +1,5 @@
 {
-  "name": "@jackyzha0/quartz",
+  "name": "my-digital-garden",
   "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
   "version": "4.5.2",
@@ -13,8 +13,8 @@
   },
   "scripts": {
     "start": "npx quartz build --serve",
-    "docs": "npx quartz build --serve -d docs",
-    "build": "npx quartz build" 
+    "docs": "npx quartz build -d docs",
+    "build": "npx quartz build"
   },
   "engines": {
     "npm": ">=10.9.2",

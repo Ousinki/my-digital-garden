@@ -10,6 +10,8 @@
 !/.github/**
 
 # 4. DO NOT ignore the Quartz config files
+!/quartz/
+!/quartz/**
 !/package.json
 !/package-lock.json
 !/quartz.config.ts
