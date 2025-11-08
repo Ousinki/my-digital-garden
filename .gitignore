@@ -1,0 +1,11 @@
+# 1. Default to ignoring everything
+*
+
+# 2. But DO NOT ignore the Public folder
+!/Public/
+
+# 3. DO NOT ignore the mkdocs config file (you'll create this soon)
+!/mkdocs.yml
+
+# 4. DO NOT ignore the GitHub Actions folder (you'll create this soon)
+!/.github/
