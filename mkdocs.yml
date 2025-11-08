@@ -1,5 +1,5 @@
 # 网站名称
-site_name: 我的数字花园
+site_name: Digital Garden
 
 # 告诉 MkDocs 你的 Markdown 文件在哪里
 # (重要：这里指向你的 'Public' 文件夹)
@@ -39,7 +39,7 @@ theme:
 markdown_extensions:
   # 智能处理 wikilinks (Obsidian 核心)
   - mdx_wikilink_plus:
-      base_url: /
+      base_url: /my-digital-garden/
       end_url: /
       html_class: "internal-link"
   # 支持 Obsidian 的 Callouts (如 [!NOTE])
