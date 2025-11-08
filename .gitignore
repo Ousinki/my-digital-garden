@@ -1,21 +1,20 @@
-# 1. 默认忽略所有内容
+# 1. Default to ignoring everything in the vault
 *
 
-# 2. 但不要忽略（取消忽略）我们的公共文件夹
+# 2. But, DO NOT ignore the Public folder or its contents
 !/Public/
 !/Public/**
 
-# 3. 也不要忽略 GitHub Actions 的配置
+# 3. (THE FIX) DO NOT ignore the .github folder or its contents
 !/.github/
 !/.github/**
 
-# 4. (!! 这是新的修复 !!) 
-# 也不要忽略 Quartz 的配置文件
+# 4. DO NOT ignore the Quartz config files
 !/package.json
+!/package-lock.json
 !/quartz.config.ts
 !/quartz.layout.ts
 !/tsconfig.json
-!/package-lock.json
 
-# 5. 忽略 Quartz 的依赖包
+# 5. DO ignore the heavy node_modules folder
 /node_modules
