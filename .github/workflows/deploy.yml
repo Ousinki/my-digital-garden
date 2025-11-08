@@ -31,6 +31,8 @@ jobs:
           cache: "npm"
       - name: Install dependencies
         run: npm install
+      - name: Prepare Quartz CLI shims
+        run: npm run prepare
       - name: Build Quartz
         run: npm run build
       - name: Upload artifact
