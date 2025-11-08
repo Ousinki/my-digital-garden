@@ -12,6 +12,7 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
+    "prepare": "node scripts/link-quartz-cli.mjs",
     "start": "npx quartz build --serve",
     "docs": "npx quartz build -d docs",
     "build": "npx quartz build"
