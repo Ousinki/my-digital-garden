@@ -1,5 +1,5 @@
 {
-  "name": "@jackyzha0/quartz",
+  "name": "my-digital-garden",
   "description": "🌱 publish your digital garden and notes as a website",
   "private": true,
   "version": "4.5.2",
@@ -12,9 +12,9 @@
     "url": "https://github.com/jackyzha0/quartz.git"
   },
   "scripts": {
-    "start": "npx quartz build --serve",
-    "docs": "npx quartz build --serve -d docs",
-    "build": "npx quartz build" 
+    "start": "node quartz/bootstrap-cli.mjs build --serve",
+    "docs": "node quartz/bootstrap-cli.mjs build -d docs",
+    "build": "node quartz/bootstrap-cli.mjs build"
   },
   "engines": {
     "npm": ">=10.9.2",
@@ -28,9 +28,6 @@
     "blog",
     "quartz"
   ],
-  "bin": {
-    "quartz": "./quartz/bootstrap-cli.mjs"
-  },
   "dependencies": {
     "@clack/prompts": "^0.11.0",
     "@floating-ui/dom": "^1.7.4",
