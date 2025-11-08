@@ -15,6 +15,11 @@
 !/quartz.config.ts
 !/quartz.layout.ts
 !/tsconfig.json
+!/scripts/
+!/scripts/**
 
 # 5. DO ignore the heavy node_modules folder
 /node_modules
+
+# 6. Ignore build output; it is generated during CI
+/public
