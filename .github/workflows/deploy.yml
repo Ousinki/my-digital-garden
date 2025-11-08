@@ -28,7 +28,7 @@ jobs:
       # (注意：这里的插件列表需要和你 mkdocs.yml 中用的匹配)
       - name: Install dependencies
         run: |
-          pip install mkdocs-material pymdown-extensions
+          pip install mkdocs-material pymdown-extensions==9.9.2
 
       # 4. 最关键的一步：
       # 运行 mkdocs gh-deploy 命令
