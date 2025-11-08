@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null, // <-- 3. 关闭了默认的分析
     locale: "zh-CN", // <-- 4. 设置为中文
-    baseUrl: "my-digital-garden", // <-- 5. (关键) 你的 GitHub 仓库名
+    baseUrl: "https://ousinki.github.io/my-digital-garden", // <-- 5. (关键) 你的 GitHub 仓库名
     
     // ⬇️ 6. (最关键的修改) ⬇️
     // 告诉 Quartz 你的笔记在 "Public" 文件夹
