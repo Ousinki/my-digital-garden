@@ -32,16 +32,7 @@ theme:
         name: 切换到浅色模式
 
 # Markdown 插件扩展
-# 这些插件让 MkDocs 能更好地理解 Obsidian 的语法
 markdown_extensions:
-  # 1. 我们使用一个真正支持 Obsidian 语法的插件
-  - obsidian-support:
-      # 告诉它普通 [[wikilink]] 的 URL 前缀
-      wikilink_base_url: /my-digital-garden/
-      # 告诉它 ![[image]] 嵌入的 URL 前缀
-      image_url_prefix: /my-digital-garden/
-
-  # 2. 保留所有其他你需要的插件
   # 支持 Obsidian 的 Callouts (如 [!NOTE])
   - admonition
   - pymdownx.details
