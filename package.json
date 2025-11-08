@@ -14,7 +14,7 @@
   "scripts": {
     "start": "npx quartz build --serve",
     "docs": "npx quartz build --serve -d docs",
-    "build": "quartz build" 
+    "build": "npx quartz build" 
   },
   "engines": {
     "npm": ">=10.9.2",
