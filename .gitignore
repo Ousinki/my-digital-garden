@@ -1,11 +1,12 @@
-# 1. Default to ignoring everything
+# 1. 默认忽略所有内容
 *
 
-# 2. But DO NOT ignore the Public folder
+# 2. 但不要忽略（取消忽略）我们的公共文件夹
 !/Public/
 
-# 3. DO NOT ignore the mkdocs config file (you'll create this soon)
-!/mkdocs.yml
+# 3. (这是新增的修复) 也不要忽略 Public 文件夹内的所有内容
+!/Public/**
 
-# 4. DO NOT ignore the GitHub Actions folder (you'll create this soon)
+# 4. 也不要忽略配置文件
+!/mkdocs.yml
 !/.github/
