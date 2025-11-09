@@ -27,3 +27,7 @@
 
 # 6. DO ignore the heavy node_modules folder and build output
 /node_modules
+
+# 7. DO ignore macOS system files
+.DS_Store
+**/.DS_Store

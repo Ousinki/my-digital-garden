@@ -5,6 +5,8 @@ import NotFound from "./pages/404"
 import ArticleTitle from "./ArticleTitle"
 import Darkmode from "./Darkmode"
 import ReaderMode from "./ReaderMode"
+import FontSizeToggle from "./FontSizeToggle"
+import FontFamilyToggle from "./FontFamilyToggle"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
 import ContentMeta from "./ContentMeta"
@@ -31,6 +33,8 @@ export {
   FolderContent,
   Darkmode,
   ReaderMode,
+  FontSizeToggle,
+  FontFamilyToggle,
   Head,
   PageTitle,
   ContentMeta,

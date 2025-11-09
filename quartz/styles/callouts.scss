@@ -118,6 +118,87 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
+  // seamless callout - no border, no background
+  &[data-callout="seamless"] {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    --callout-border-width: 0px;
+    padding: 4px 0;
+    --color: var(--darkgray);
+    --callout-icon: none;
+    
+    & > .callout-title {
+      padding: 0;
+      margin-bottom: 4px;
+      align-items: center;
+      line-height: inherit;
+      
+      & > .callout-icon {
+        display: none;
+      }
+      
+      & > .callout-title-inner {
+        font-weight: normal;
+        color: var(--darkgray);
+        
+        & > p {
+          color: var(--darkgray);
+        }
+      }
+    }
+    
+    & > .callout-content {
+      line-height: inherit;
+      margin-top: 8px;
+      border-left: 2px solid var(--lightgray);
+      padding-left: 12px;
+      color: var(--darkgray);
+    }
+  }
+
+  // columns callout - multi-column layout
+  &[data-callout="columns"] {
+    & > .callout-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      
+      & > blockquote,
+      & > p,
+      & > * {
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: transparent;
+      }
+      
+      // Handle separator (---)
+      & > hr {
+        display: none;
+      }
+      
+      // Split content by hr separator
+      & > :not(hr) {
+        break-inside: avoid;
+      }
+    }
+  }
+
+  // col callout - similar to columns but simpler
+  &[data-callout="col"] {
+    & > .callout-content {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      
+      & > * {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+
   &.is-collapsed {
     & > .callout-title > .fold-callout-icon {
       transform: rotateZ(-90deg);

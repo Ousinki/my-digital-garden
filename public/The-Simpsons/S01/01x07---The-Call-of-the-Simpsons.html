@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>01x07 - The Call of the Simpsons</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="My Digital Garden"/><meta property="og:title" content="01x07 - The Call of the Simpsons"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="01x07 - The Call of the Simpsons"/><meta name="twitter:description" content="FADE IN: We begin outside the Simpsons house, where HOMER hums as he waters flowers. To the left of him, BART guides a lawnmower across the yard. BART: Man! Rus"/><meta property="og:description" content="FADE IN: We begin outside the Simpsons house, where HOMER hums as he waters flowers. To the left of him, BART guides a lawnmower across the yard. BART: Man! Rus"/><meta property="og:image:alt" content="FADE IN: We begin outside the Simpsons house, where HOMER hums as he waters flowers. To the left of him, BART guides a lawnmower across the yard. BART: Man! Rus"/><meta property="twitter:domain" content="https://ousinki.github.io/my-digital-garden"/><meta property="og:url" content="https://https//ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons"/><meta property="twitter:url" content="https://https//ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="FADE IN: We begin outside the Simpsons house, where HOMER hums as he waters flowers. To the left of him, BART guides a lawnmower across the yard. BART: Man! Rus"/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL291c2luL0xpYnJhcnkvQ2xvdWRTdG9yYWdlL0Ryb3Bib3gvQXV0b3N5bmMvU3luY1ZhdWx0L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://ousinki.github.io/my-digital-garden/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons-og-image.webp"/><meta property="og:image:url" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons-og-image.webp"/><meta name="twitter:image" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="The-Simpsons/S01/01x07---The-Call-of-the-Simpsons"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">My Digital Garden</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="font-size-toggle" aria-label="切换字号"><span>A</span></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="font-family-toggle" aria-label="切换字体"><span>Aa</span></button></div></div><div class="explorer desktop-only" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-8" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../The-Simpsons/">The Simpsons</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../The-Simpsons/S01/">S01</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>01x07   The Call of the Simpsons</a></div></nav><h1 class="article-title">01x07 - The Call of the Simpsons</h1><p show-comma="true" class="content-meta"><time datetime="2025-09-21T16:00:00.000Z">Sep 22, 2025</time><span>54 min read</span></p><ul class="tags"><li><a href="../../tags/clippings" class="internal tag-link">clippings</a></li></ul></div></div><article class="popover-hint gray"><p><span class="cn">辛普森家的召唤</span></p>
+<p>FADE IN:
+<span class="cn">淡入：</span></p>
+<p>We begin outside the Simpsons house, where HOMER hums as he waters flowers.<br/>
+<span class="cn">我们从辛普森家外开始，荷默一边哼着歌一边给花浇水。</span></p>
+<p>To the left of him, BART guides a lawnmower across the yard.<br/>
+<span class="cn">在他左边，巴特在院子里推着割草机。</span></p>
+<p>BART: Man! Rusty old hunk of junk!<br/>
+<span class="cn">巴特：天哪！这破旧生锈的玩意儿！</span></p>
+<p>The FLANDER’S SON (ROD OR TODD) honks to Bart from the yard over. He is driving his own lawnmower as he sips a drink.<br/>
+<span class="cn">弗兰德家的儿子（罗德或托德）在隔壁院子对着巴特按喇叭。他一边喝着饮料一边开着自己的割草机。</span></p>
+<p>FLANDER’S SON: Howdy, Bart. Hot enough for you?<br/>
+<span class="cn">弗兰德的儿子：你好，巴特。够热吧？</span></p>
+<p>BART (grumbling): Shut up, Flanders. Hey, Dad, how come we can’t get a decent mower like the Flanders have?<br/>
+<span class="cn">巴特（抱怨道）：闭嘴，弗兰德斯。嘿，爸爸，为什么我们不能像弗兰德斯那样有辆体面的割草机？</span></p>
+<p>HOMER: Just be happy with what you’ve got, son. Don’t try to keep up with the Flanders.<br/>
+<span class="cn">霍默：儿子，对你已有的感到满足就好。别总想跟弗兰德斯攀比。</span></p>
+<p>A horn honks and a large shadow looms over Homer and Bart. It is NED FLANDERS, driving a brand new trailer house / RV.<br/>
+<span class="cn">一声喇叭响起，一个巨大的身影在霍默和巴特头顶投下。是内德·弗兰德斯，开着一辆崭新的拖车屋/房车。</span></p>
+<p>NED: How do you like my new wheels, Simpson?<br/>
+NED：
+<span class="cn">辛普森，你觉得我的新车怎么样？</span></p>
+<p>BART: Oh, wow, man! What an RV!<br/>
+BART：
+<span class="cn">哇，老兄！真是一辆房车！</span></p>
+<p>HOMER: Bart! I, uh, suppose it has various features.<br/>
+HOMER：
+<span class="cn">巴特！我，呃，想它有各种功能。</span></p>
+<p>NED: Oh, it’s got everything: microwave, dish washer, big screen <a href="https://transcripts.foreverdreaming.org/?t=21867&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">TV<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>, deep fryer and oh, see up there on the roof?<br/>
+NED：
+<span class="cn">哦，它应有尽有：微波炉、洗碗机、大屏电视、油炸锅，哦，看那屋顶上？</span></p>
+<p>Homer gasps. A shiny satellite dish rests on top.<br/>
+<span class="cn">霍默倒吸一口气。一只闪亮的卫星天线竖在上面。</span></p>
+<p>HOMER: A satellite dish!<br/>
+<span class="cn">霍默：卫星天线！</span></p>
+<p>NED: Yes, indeedly-doodly.<br/>
+<span class="cn">内德：是的，确实确确实实。</span></p>
+<p>HOMER: But, uh, how can you afford something like this, Ned? I get your mail once in a while and you make only 27 dollars a week more than I do.<br/>
+<span class="cn">霍默：可是，呃，你怎么负担得起这种东西，内德？我偶尔会帮你拿邮件，你每周也只比我多赚 27 美元。</span></p>
+<p>NED: Oh, it’s simple, Simpson. Credit!<br/>
+<span class="cn">奈德：哦，很简单，辛普森。赊账！</span></p>
+<p>HOMER: Ooh, credit!
+<span class="cn">霍默：哦，赊账！</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>A sign that says: Bob’s RV Round-Up. Another sigh below that says: We’d rather make a friend…than a profit. Basically, it’s a whole lot filled with loads of RV’s. Homer, Bart, MARGE, LISA, and MAGGIE all walk alongside each other.<br/>
+<span class="cn">一个标牌写着：鲍勃的房车大集。下面另一行叹息写着：我们宁愿交个朋友……也不图利润。基本上，这是一个堆满了许多房车的场地。霍默、巴特、玛吉、丽莎和玛吉一起并肩走着。</span></p>
+<p>HOMER: Ooh…aah!
+<span class="cn">霍默：哦……啊！</span></p>
+<p>A SALESMAN looks at them from a booth.<br/>
+<span class="cn">一位推销员从一个摊位里看着他们。</span></p>
+<p>SALESMAN: Thank you, God.<br/>
+<span class="cn">推销员：感谢上帝。</span></p>
+<p>He greets them.
+<span class="cn">他向他们打招呼。</span></p>
+<p>SALESMAN: May I help you?<br/>
+<span class="cn">推销员：我能帮您吗？</span></p>
+<p>MARGE: We’re just browsing, thank you.<br/>
+<span class="cn">玛姬：我们只是随便看看，谢谢。</span></p>
+<p>HOMER: I’d like to see your finest RV. Do you have something that’s better than the Land Behemoth?<br/>
+<span class="cn">荷默：我想看看你们最好的房车。有没有比“陆地巨兽”更好的？</span></p>
+<p>SALESMAN: Yes, we do. That would be the Ultimate Behemoth.<br/>
+<span class="cn">销售员：有的。那就是“终极巨兽”。</span></p>
+<p>HOMER: Where is it?<br/>
+<span class="cn">荷默：在哪儿？</span></p>
+<p>SALESMAN: You are standing in its presence. Behold!<br/>
+<span class="cn">售货员：你们正站在它面前。瞧！</span></p>
+<p>The Simpsons realize they are standing next to it. It is gigantic.<br/>
+<span class="cn">辛普森一家意识到他们正站在它旁边。它巨大无比。</span></p>
+<p>BART: Oh, wow!
+<span class="cn">巴特：哇哦！</span></p>
+<p>SALESMAN: Would you look at this thing? Man built this. It’s a vehicle.<br/>
+<span class="cn">售货员：看看这玩意儿？人造的。它是一辆交通工具。</span></p>
+<p>BART: Does it have its own satellite dish, sir?<br/>
+<span class="cn">巴特：它有自己的卫星接收天线吗，先生？</span></p>
+<p>SALESMAN: You can tell your son it has its own satellite. The VanStar One, launched last February, just for this thing, that’s all.<br/>
+<span class="cn">推销员：你可以告诉你儿子它有自己的卫星。VanStar One，去年二月刚发射的，就为这个东西，专门的。</span></p>
+<p>BART: Whoa, man!
+<span class="cn">巴特：哇，老兄！</span></p>
+<p>MARGE: I’m not sure that we can afford---<br/>
+<span class="cn">玛姬：我不确定我们买得起——</span></p>
+<p>HOMER: Does it have a deep fryer?!<br/>
+<span class="cn">霍默：它有油炸锅吗？！</span></p>
+<p>SALESMAN: It has four of them --- one for each part of the chicken.<br/>
+<span class="cn">推销员：它有四个——每个鸡的部位一个。</span></p>
+<p>MARGE: I don’t think we can afford this, Homer.<br/>
+<span class="cn">玛琦：霍默，我想我们买不起这个。</span></p>
+<p>SALESMAN: Let’s worry about that later. Come on. Let’s take a tour. Want to? Come on.<br/>
+<span class="cn">推销员：这些我们以后再担心。来吧。参观一下。想吗？走吧。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The Simpsons and the salesman look inside the trailer. Everything is luxurious and well-designed.<br/>
+<span class="cn">辛普森一家和推销员走进拖车里。里面的一切都很豪华、设计精良。</span></p>
+<p>BART: Ay, caramba!
+<span class="cn">巴特：哎呀，糟糕！</span></p>
+<p>LISA: This is better than our house.<br/>
+<span class="cn">丽莎：这比我们的房子还好。</span></p>
+<p>HOMER: Wait till Flanders gets a load of this.<br/>
+<span class="cn">荷马：等弗兰德斯看到这个他可得惊呆了。</span></p>
+<p>MARGE (grumbles): Seems so expensive.<br/>
+<span class="cn">玛姬（嘟囔）：看起来好贵。</span></p>
+<p>Homer honks the horn.<br/>
+<span class="cn">荷马按喇叭。</span></p>
+<p>HOMER: Hey! How much is it?<br/>
+<span class="cn">荷马：喂！多少钱？</span></p>
+<p>SALESMAN: You’re a man of your convict --- you just wanted to ask that and blurted it out, didn’t you?<br/>
+<span class="cn">售货员：你是个被囚犯支配的人——你只是想问这个，然后脱口而出了，对吧？</span></p>
+<p>HOMER: Yeah, how much is it?<br/>
+<span class="cn">荷默：嗯，这要多少钱？</span></p>
+<p>SALESMAN: Well, first of all, I want you to know I like your face.<br/>
+<span class="cn">推销员：首先，我得让你知道我喜欢你的长相。</span></p>
+<p>HOMER: You do?
+<span class="cn">荷默：你喜欢？</span></p>
+<p>SALESMAN: I really do. I’m not saying that. I mean it. You got color in there. You’re not Roman, are you?<br/>
+<span class="cn">推销员：真的。我不是随便说说。我是认真的。你脸色不错。你应该不是罗马人吧？</span></p>
+<p>HOMER: No.
+<span class="cn">荷默：不行。</span></p>
+<p>SALESMAN: Look like a god, sort of. Why don’t we step into the credit office, Zeus? (to rest of family). Hey, your dad’s gonna just go in here, work it out, and you’ll drive home in this!<br/>
+<span class="cn">推销员：看起来有点像个神。我们为什么不进信用部办办呢，宙斯？（对其他人）嘿，你们老爸就进去一会儿，弄定了，你们就开着这辆回家！</span></p>
+<p>QUICK DISSOLVE TO:
+<span class="cn">快速溶解到：</span></p>
+<p>The salesman and Homer sit on opposite sides of a desk and talk.<br/>
+<span class="cn">推销员和荷默坐在桌子两边交谈。</span></p>
+<p>SALESMAN (laughs): I’m not gonna quote you a price till I check your credit rating. And let me --- I want to make myself clear on this. This is a formality. If you’re saying to me, “Bob, is this guy good for it?”, I say, “Yes.”. I don’t check this machine, but I don’t own the place, even though’s my name up there. Long story, but that doesn’t matter. I’m gonna have to run it through the computer.<br/>
+<span class="cn">售货员（笑着）：在我查你信用记录之前我可不会报个价。让我把话说清楚。这只是个形式。如果你跟我说，“鲍勃，这家伙可靠吗？”，我会说，“是的。”我不查这台机器，但这地方不是我开的，尽管上面有我的名字。长话短说，这不重要。我得把它输进电脑。</span></p>
+<p>The salesman presses Enter and suddenly, a loud siren erupts.<br/>
+<span class="cn">售货员按下回车，突然一阵刺耳的警报响起。</span></p>
+<p>HOMER: Is that a good siren? Am I approved?<br/>
+<span class="cn">荷马：那是好的警报吗？我通过了吗？</span></p>
+<p>SALESMAN: You ever know a siren to be good? (chuckles). No, Mr. Simpson, it’s not. It’s a bad siren. That’s the computer in case I went blind, telling me “Sell the vehicle to this fella and you’re out of business!”. That’s what the siren says.<br/>
+<span class="cn">售货员：你见过哪有好警报？（轻笑）不，辛普森先生，不是好的。是坏的。那是电脑在我瞎了眼的情况下提醒我的声音，告诉我“把车卖给这家伙你就完蛋了！”。警报就是这么说的。</span></p>
+<p>HOMER: Oh.
+<span class="cn">霍默：哦。</span></p>
+<p>SALESMAN: Seems the Ultimate Behemoth is a wee bit out of your price range. And “wee bit” is me being polite. You couldn’t afford this thing if you lived to be a million.<br/>
+<span class="cn">推销员：看起来终极巨兽有点超出你的预算。说“有点”是我在客气。要是你活到一百万岁也买不起这东西。</span></p>
+<p>HOMER: Don’t you have something that isn’t out of my price range? I don’t wanna go away empty handed, Bob.<br/>
+<span class="cn">霍默：你有没有不那么贵的东西？我可不想两手空空走，鲍勃。</span></p>
+<p>SALESMAN: Take it easy there. Don’t ruin this feeling I’m getting for ya. Perhaps I can show you something, uh…a little more you.<br/>
+<span class="cn">推销员：放轻松。别破坏我对你的这股好感。或许我可以给你看点，更适合你的东西。</span></p>
+<p>QUICK DISSOLVE TO:
+<span class="cn">快速溶解切换到：</span></p>
+<p>A broken down, old, and disgusting trailer. The windows are broken, there are scratches are everywhere, and the seats are teared.<br/>
+<span class="cn">一辆破旧、又老又脏的拖车。窗户破碎，到处都有划痕，座椅撕破了。</span></p>
+<p>SALESMAN: Well, what do you think?<br/>
+<span class="cn">推销员：嗯，你们觉得怎么样？</span></p>
+<p>The whole family groans.<br/>
+<span class="cn">全家人都发出呻吟声。</span></p>
+<p>BART: You gotta be kidding me.<br/>
+<span class="cn">巴特：你在开玩笑吧。</span></p>
+<p>MARGE: Used, isn’t it?<br/>
+<span class="cn">玛姬：是旧的，对吧？</span></p>
+<p>SALESMAN: What’d you say?<br/>
+<span class="cn">推销员：你刚才说什么？</span></p>
+<p>HOMER: Uh, is it used?<br/>
+<span class="cn">荷马：呃，这是二手的吧？</span></p>
+<p>SALESMAN: Mr. Simpson, you’re never gonna own a better RV. And I don’t mean that in a good way. I mean literally. This is it for you, you know? It’s this or a wagon.<br/>
+<span class="cn">推销员：辛普森先生，你再也买不到比这更好的房车了。我可不是在夸它。我是字面意思。对你来说就是这辆了，知道吗？不是它就是马车。</span></p>
+<p>HOMER: Then, uh…how much do you want for it?<br/>
+<span class="cn">霍默：那，呃……你要这多少钱？</span></p>
+<p>SALESMAN: This is yours. The price I’m quoting you…you’re not gonna hand it to someone else? Cause I’m gonna give you a price for you, not for someone else. Someone else, I’m doubling this.<br/>
+<span class="cn">推销员：这是你的。我报给你的这个价……你不会拿去给别人吧？因为我要给的是你的价，不是给别人的。如果是别人，我就翻倍报价。</span></p>
+<p>HOMER: I swear it, Bob.<br/>
+<span class="cn">霍默：我发誓，鲍勃。</span></p>
+<p>SALESMAN: This is you and me.<br/>
+<span class="cn">推销员：就是你和我。</span></p>
+<p>HOMER: Yeah!
+<span class="cn">霍默：好！</span></p>
+<p>SALESMAN: In other words, two months from now, I see this vehicle, your head’s in that window.<br/>
+<span class="cn">推销员：换句话说，两个月后，我看到这辆车，你的头伸出那窗外。</span></p>
+<p>HOMER: On my honor.<br/>
+<span class="cn">霍默：我发誓。</span></p>
+<p>SALESMAN: 350 a month.<br/>
+<span class="cn">售货员：每月 350。</span></p>
+<p>HOMER: Oh, I don’t know. Would it be all right if I conferred with my family?<br/>
+<span class="cn">霍默：噢，我不知道。我能和家人商量一下吗？</span></p>
+<p>SALESMAN: Oh, Mr. Simpson, if you have to go talk it over with those humans out there, then there’s something wrong with all of us. You look like a man who is able to make a decision or I wouldn’t be wasting---see that man over there?<br/>
+<span class="cn">售货员：哦，辛普森先生，如果你得去和外面那些人商量，那我们大家都有问题。你看起来像个能做决定的人，否则我就不会——看到那边那个人了吗？</span></p>
+<p>The salesman points.
+<span class="cn">售货员指了指。</span></p>
+<p>HOMER: Yeah.
+<span class="cn">霍默：好。</span></p>
+<p>SALESMAN: He’s buying this. Did you know that?<br/>
+<span class="cn">推销员：他要买这个。你知道吗？</span></p>
+<p>HOMER: No.
+<span class="cn">霍默：不知道。</span></p>
+<p>SALESMAN: Called me two minutes before you came in, said “Save the little one, I’m coming now.” Here he is. Now you want it or not?<br/>
+<span class="cn">推销员：他在你进来前两分钟给我打电话，说“救救小家伙，我这就来。”他现在来了。你要不要？</span></p>
+<p>HOMER: All right, all right. I’ll take it!<br/>
+<span class="cn">霍默：好吧，好吧。我买了！</span></p>
+<p>SALESMAN: Best decision you ever made. You are gonna --- you are gonna --- this is gonna change your life.<br/>
+<span class="cn">推销员：你做过的最明智的决定。你会——你会——这会改变你的人生。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>A muffler pops as Homer rides the RV to the front of Flander’s house. The engine sputters a bit. Homer yells out the window.<br/>
+<span class="cn">排气管噗的一声，霍默开着房车开到弗兰德斯家门前。引擎有点打嗝。霍默从窗外喊道。</span></p>
+<p>HOMER: Hey, Flanders. Look what I got.<br/>
+<span class="cn">霍默：嘿，弗兰德斯。看看我买了什么。</span></p>
+<p>NED: (whistles): Oh, she’s a beaut! Hey, congratulations, Simpson, I’m sure you’ll have loads of fun.<br/>
+NED：（
+<span class="cn">吹口哨）：哦，真漂亮！嘿，恭喜你，辛普森，我敢肯定你会玩得很开心的。</span></p>
+<p>HOMER (chuckles): Jealous. Everybody ready?<br/>
+HOMER（
+<span class="cn">笑着）：嫉妒了吧。大家准备好了吗？</span></p>
+<p>BART: I hate this, I don’t wanna go.<br/>
+BART：
+<span class="cn">我讨厌这个，我不想去。</span></p>
+<p>HOMER: That’s the spirit! Ready or not, nature, here we come!<br/>
+HOMER：
+<span class="cn">这就对了！不管准备与否，大自然，我们来了！</span></p>
+<p>The RV rolls down the road sputtering as Flanders waves goodbye.<br/>
+<span class="cn">房车在路上颤颤巍巍地行驶着，弗兰德斯在一旁挥手告别。</span></p>
+<p>QUICK DISSOLVE TO:
+<span class="cn">快速溶接到：</span></p>
+<p>The Simpsons stands in the front of a long line of traffic. Cars honk at him from behind.<br/>
+<span class="cn">辛普森站在长长车流的前面。后面的汽车对他按喇叭。</span></p>
+<p>BART: Turkey farm?
+<span class="cn">巴特：火鸡农场？</span></p>
+<p>LISA: No.
+<span class="cn">莉萨：不。</span></p>
+<p>BART: Skunks?
+<span class="cn">巴特：臭鼬？</span></p>
+<p>LISA: No.
+<span class="cn">莉萨：不。</span></p>
+<p>BART: Slaughterhouse?
+<span class="cn">巴特：屠宰场？</span></p>
+<p>LISA: No.
+<span class="cn">丽莎：不。</span></p>
+<p>MARGE: What are you doing back there?<br/>
+<span class="cn">玛姬：你们在那儿做什么？</span></p>
+<p>LISA: We’re playing, “What’s that odor?”<br/>
+<span class="cn">丽莎：我们在玩“这是什么味儿？”</span></p>
+<p>Lisa sniffs.
+<span class="cn">丽莎闻了闻。</span></p>
+<p>BART: Dad’s feet?
+<span class="cn">巴特：爸的脚？</span></p>
+<p>HOMER: Bart!
+<span class="cn">霍默：巴特！</span></p>
+<p>LISA: You win, Bart.<br/>
+<span class="cn">丽萨：你赢了，巴特。</span></p>
+<p>HOMER: Lisa!
+<span class="cn">荷马：丽萨！</span></p>
+<p>BART: Are we there yet, Dad?<br/>
+<span class="cn">巴特：我们到了吗，爸？</span></p>
+<p>HOMER: I’ll tell you when we get there. Go back to your smell game.<br/>
+<span class="cn">霍默：到了再告诉你。回去继续玩闻味道的游戏。</span></p>
+<p>Homer turns a corner and the RV travels through some trees.<br/>
+<span class="cn">霍默转过一个弯，房车穿过一些树木。</span></p>
+<p>MARGE: Homer, I’m telling you…this is not the interstate.<br/>
+<span class="cn">玛姬：霍默，我跟你说……这不是州际公路。</span></p>
+<p>HOMER (scoffs): Pssh. Maps.<br/>
+<span class="cn">霍默（嗤之以鼻）：切。地图。</span></p>
+<p>MARGE: Shouldn’t we stop somewhere and ask for directions?<br/>
+<span class="cn">玛姬：我们不应该找个地方问路吗？</span></p>
+<p>HOMER: Don’t worry, this is an all-terrain vehicle.<br/>
+<span class="cn">荷马：别担心，这是辆全地形车。</span></p>
+<p>Homer drives over several hills and then into a big body of water.<br/>
+<span class="cn">荷马开车翻过好几个小山，然后驶入一大片水域。</span></p>
+<p>MARGE: My feet are getting wet!<br/>
+<span class="cn">玛姬：我的脚都湿了！</span></p>
+<p>HOMER: Oh, come on. We’re getting back to nature.<br/>
+<span class="cn">荷默：哦，得了吧。我们在回归自然。</span></p>
+<p>LISA: Mom, I’m scared.<br/>
+<span class="cn">丽莎：妈妈，我好害怕。</span></p>
+<p>MARGE: We all are, dear. Your father says there’s nothing to worry about.<br/>
+<span class="cn">玛姬：我们都害怕，亲爱的。你爸爸说没什么好担心的。</span></p>
+<p>Homer begins whistling as the vehicle makes it way out the water and begins crushing numerous trees in its path.<br/>
+<span class="cn">荷默开始吹口哨，车辆驶出水面，开始碾压路上的许多树木。</span></p>
+<p>HOMER: What do you think? Should we stop here?<br/>
+<span class="cn">霍默：你们觉得呢？我们要在这里停吗？</span></p>
+<p>ALL: Yes!!
+<span class="cn">众人：要！！</span></p>
+<p>HOMER: All righty.
+<span class="cn">霍默：好哇。</span></p>
+<p>He slams on the brakes. The vehicle comes to a screeching halt.<br/>
+<span class="cn">他猛踩刹车。车辆发出尖锐的刹车声停了下来。</span></p>
+<p>HOMER: Well, here we are.<br/>
+<span class="cn">荷马：好了，我们到了。</span></p>
+<p>Suddenly, the vehicle begins leaning forward…the truck is careening off the side of a cliff. Everybody screams.<br/>
+<span class="cn">突然，车开始前倾……卡车正冲出悬崖边。众人尖叫。</span></p>
+<p>HOMER: Okay, nobody move, and nobody panic. When I give the word, everyone, ever so slowly, open your door and slide out. On the count of three. One---<br/>
+<span class="cn">荷马：好，大家别动，别慌。当我说了开门的时候，大家一点点地打开车门，滑出去。数到三。第一——</span></p>
+<p>The doors are all opened and everybody but Homer exit. Homer climbs out himself. The RV falls off the cliff, falls for several seconds, and then explodes at the bottom. Smoke drifts up.<br/>
+<span class="cn">车门都被打开了，除了荷马之外的人都下了车。荷马自己也爬了出去。房车从悬崖上坠落，落下好几秒钟，然后在底下爆炸。烟雾升起。</span></p>
+<p>LISA: The Simpsons have entered the forest.<br/>
+<span class="cn">丽萨：辛普森一家已经进入森林。</span></p>
+<p>FADE TO BLACK:
+<span class="cn">淡出黑屏：</span></p>
+<p>FADE IN:
+<span class="cn">画面淡入：</span></p>
+<p>The Simpsons talk in a group at the top of the cliff.<br/>
+<span class="cn">辛普森一家在悬崖顶上成群交谈。</span></p>
+<p>HOMER: Well, ha, ha, now we get a chance to be real pioneers. Yes, sir, this is a real adventure.<br/>
+<span class="cn">霍默：好啊，哈，哈，现在我们有机会成为真正的开拓者。是的，先生，这真是一次冒险。</span></p>
+<p>Bart, Lisa, and Maggie shiver in fear.<br/>
+<span class="cn">巴特、丽莎和玛吉吓得发抖。</span></p>
+<p>HOMER: Why, I bet there are people who would trade everything they have in the world for an adventure like this.<br/>
+<span class="cn">荷马：哎，我敢打赌有些人会把他们所有的一切都换来像这样的冒险。</span></p>
+<p>BART: You mean, like we just did?<br/>
+<span class="cn">巴特：你的意思，是像我们刚刚做的那样？</span></p>
+<p>Maggie shivers.
+<span class="cn">玛吉发抖。</span></p>
+<p>HOMER: Will somebody help her?<br/>
+<span class="cn">霍默：有人能帮帮她吗？</span></p>
+<p>LISA: Look, Maggie. Birdies.<br/>
+<span class="cn">莉萨：看，玛吉。小鸟。</span></p>
+<p>A group of vultures fly around in the sky.<br/>
+<span class="cn">一群秃鹫在天空中盘旋。</span></p>
+<p>MARGE: Oh, Homer, what are we going to do?<br/>
+<span class="cn">玛吉：哦，霍默，我们该怎么办？</span></p>
+<p>HOMER: Now, don’t worry, our situation isn’t as bad as it seems. And you’re forgetting…I’m an experienced woodsman. Now you all stay here for a minute while I go over this way and try to get my bearings.<br/>
+<span class="cn">霍默：别担心，情况没看起来那么糟。而且你们忘了……我是个有经验的伐木工。你们都先在这儿等我一会儿，我过去那边试着辨认方向。</span></p>
+<p>Homer walks away for several seconds, then sits down on a rock and begins crying.<br/>
+<span class="cn">霍默走开了好几秒钟，然后坐在一块石头上开始哭。</span></p>
+<p>HOMER: What am I gonna do? I’ve m*rder*d us all.<br/>
+<span class="cn">霍默：我该怎么办？我把我们大家都谋*杀*了。</span></p>
+<p>“I’ve m*rder*d us all” echoes across the entire canyon. The rest of the Simpson family looks over.<br/>
+“
+<span class="cn">我把我们大家都谋*杀*了”在整个峡谷回荡。辛普森家的其他人都转过头看着。</span></p>
+<p>HOMER: Shut up!
+<span class="cn">荷默：闭嘴！</span></p>
+<p>“Shut up!” echoes across the canyon.<br/>
+“
+<span class="cn">闭嘴！”回声在峡谷中回荡。</span></p>
+<p>HOMER: Doh!
+<span class="cn">荷默：哇！</span></p>
+<p>Same effect. Marge groans.<br/>
+<span class="cn">同样的效果。玛姬（Marge）呻吟起来。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Homer works on some kind of structure, placing branches over a big log.<br/>
+<span class="cn">霍默在搭建某种结构，把树枝放在一根大木头上。</span></p>
+<p>HOMER: There. Finished.
+<span class="cn">霍默：好了。完成。</span></p>
+<p>LISA: You are?
+<span class="cn">丽莎：你这是在做什么？</span></p>
+<p>HOMER: Well, it’s a quick job, but it’s shelter.<br/>
+<span class="cn">霍默：嗯，这活儿挺快，但这是个避难所。</span></p>
+<p>The log can’t fit more than one person.<br/>
+<span class="cn">原木一次只能装一个人。</span></p>
+<p>MARGE: It is?
+<span class="cn">玛姬：是吗？</span></p>
+<p>HOMER: Uh-huh. We’ll be back with help before you know it. (motions to Bart). You girls just stay here and relax.<br/>
+<span class="cn">荷马：嗯哼。我们很快就会去找人来帮忙的。（示意巴特）你们两个就在这儿放松点儿。</span></p>
+<p>LISA: Remember, Dad, the handle of the Big Dipper points to the North Star.<br/>
+<span class="cn">莉萨：记住，爸爸，北斗七星的勺柄指着北极星。</span></p>
+<p>HOMER: (chuckles): That’s nice, Lisa, but we’re not in astronomy class. We’re in the woods.<br/>
+<span class="cn">荷马：（轻笑）那很好，丽莎，不过我们不是在上天文学课。我们在树林里。</span></p>
+<p>Marge and Lisa groan as Bart and Homer walk off. Maggie suddenly crawls out of the log and begins crawling after them.<br/>
+<span class="cn">玛姬和丽莎随着巴特和荷马走开而发出呻吟声。玛姬突然从树干里爬出来，开始爬着追他们。</span></p>
+<p>LISA: Should Maggie be going with them, Mom?<br/>
+<span class="cn">丽莎：妈妈，玛姬应该跟他们一起去吗？</span></p>
+<p>MARGE: No, I don’t think they’ll be gone long, and she’s in good hands, Lisa.<br/>
+<span class="cn">玛姬：不，我想她们不会走很久，而且丽莎，她很安全。</span></p>
+<p>Vultures fly over the logs and then take off in the direction of Homer and Bart.<br/>
+<span class="cn">秃鹫在原木上盘旋，然后朝霍默和巴特的方向飞去。</span></p>
+<p>BART: There aren’t any dangerous animals in the forest, are there, Dad?<br/>
+<span class="cn">巴特：森林里没有什么危险的动物吧，爸？</span></p>
+<p>HOMER: Well, might be a few but don’t worry. If you leave them alone, they’ll leave you alone.<br/>
+<span class="cn">霍默：嗯，可能有几只，不过别担心。如果你别去打扰它们，它们也会不去打扰你。</span></p>
+<p>BART: It’s a deal.<br/>
+<span class="cn">巴特：成交。</span></p>
+<p>HOMER: And remember not to act afraid. Animals can smell fear and they don’t like it. Besides, there’s nothing to be afraid of.<br/>
+<span class="cn">霍默：记住别表现出害怕。动物能闻到恐惧，它们不喜欢。而且根本没什么好怕的。</span></p>
+<p>BART: Right.
+<span class="cn">巴特：好。</span></p>
+<p>Behind them, Maggie sucks on her pacifier. Homer gasps.<br/>
+<span class="cn">在他们身后，玛吉吮着奶嘴。霍默喘了口气。</span></p>
+<p>HOMER: A rattler!
+<span class="cn">霍默：一条响尾蛇！</span></p>
+<p>BART: I’m not afraid, I’m not afraid, I’m not---<br/>
+<span class="cn">巴特：我不害怕，我不害怕，我不---</span></p>
+<p>HOMER: Run, you fool!!<br/>
+<span class="cn">荷马：快跑，你这个笨蛋！！</span></p>
+<p>Homer and Bart run off screaming while Maggie waits behind them. They slow down after a couple feet and gasp for air.<br/>
+<span class="cn">荷马和巴特尖叫着跑开，玛姬在后面等着他们。他们跑了几步后放慢脚步，大口喘气。</span></p>
+<p>HOMER: Through here, boy. Back to civilization.<br/>
+<span class="cn">荷马：从这儿走，孩子。回到文明世界去。</span></p>
+<p>BART: How do you know?<br/>
+<span class="cn">巴特：你怎么知道的？</span></p>
+<p>HOMER: When you’re an experienced woodsman like me, you get a feel for these things. It becomes natural, like a third sense.<br/>
+<span class="cn">荷马：像我这样有经验的樵夫，会对这些事有感觉。那变得很自然，就像第三只眼。</span></p>
+<p>They walk through a bush and finds themselves falling off a cliff. Both scream like crazy until they land in a stream of water. They continue yelling as it carries them around a bend and down a waterfall.<br/>
+<span class="cn">他们穿过一丛灌木，结果从悬崖上掉了下去。两人疯狂地尖叫，直到落入一股水流中。他们继续喊叫，水流带着他们绕过一个弯，冲下了瀑布。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The camp ground, where Lisa and Marge are building a better shelter. Lisa cleans as Marge sets up squirrels for decoration.<br/>
+<span class="cn">营地，丽莎和玛姬正在搭建一个更好的庇护所。丽莎在打扫，玛姬在摆放松鼠作装饰。</span></p>
+<p>MARGE: The boys certainly are taking a long time. I hope Maggie isn’t slowing them up too much.<br/>
+<span class="cn">玛姬：男孩们确实花了很长时间。我希望玛吉没有把他们拖慢太多。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Maggie sits alone on a dirt path. Suddenly, a large shadow looms over her. She looks up. It’s a giant grizzly bear! He growls and prepares to attack her when she sticks a pacifier in his mouth.<br/>
+<span class="cn">玛姬独自坐在一条土路上。突然，一个巨大的影子笼罩在她头上。她抬头一看。是一只巨大的灰熊！它咆哮着准备攻击她，这时她把奶嘴塞进它的嘴里。</span></p>
+<p>He sucks on his, she sucks on hers, and soon they are rhythmically sucking together.<br/>
+<span class="cn">它吮吸着它的奶嘴，她吮吸着她的，两人很快就开始有节奏地一起吮吸起来。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Homer surfaces from the water.<br/>
+<span class="cn">荷马从水面浮出。</span></p>
+<p>HOMER: Bart! Where are you, Bart?<br/>
+<span class="cn">荷默：巴特！巴特你在哪，巴特？</span></p>
+<p>He sees a red cap and gasps.<br/>
+<span class="cn">他看到一顶红色的帽子，倒吸一口气。</span></p>
+<p>HOMER: His lucky red hat. Oh, dear God! No! Bart, Bart, Bart!<br/>
+<span class="cn">荷默：他那顶幸运的红帽子。哦，天哪！不！巴特，巴特，巴特！</span></p>
+<p>Homer swims over to a piece of land and cries.<br/>
+<span class="cn">荷默游到一块陆地上，哭了起来。</span></p>
+<p>HOMER: Oh, Bart! Oh, Bart, my beautiful son! Why couldn’t You have taken me?? Of all the fates on heaven and earth, why did this one befall me?<br/>
+<span class="cn">霍默：哦，巴特！哦，巴特，我美丽的儿子！你为什么不能带走我？？在天地间所有的命运中，为什么偏偏是这样的降临到我身上？</span></p>
+<p>BART: Don’t have a cow, Dad.<br/>
+<span class="cn">巴特：别大惊小怪，爸。</span></p>
+<p>HOMER: What the---?
+<span class="cn">霍默：什么——？</span></p>
+<p>Homer looks over. Bart is on another piece of land opposite to him. Both of them are completely stripped naked.<br/>
+<span class="cn">霍默向旁边看去。巴特在对面另一块土地上。他们俩都完全赤裸着。</span></p>
+<p>HOMER: You’re alive! And (chuckles) buck naked.<br/>
+<span class="cn">霍默：你还活着！而且（咯咯笑）赤裸裸的。</span></p>
+<p>BART: I’m not the only one, Home boy.<br/>
+<span class="cn">巴特：我不是唯一一个，老爸。</span></p>
+<p>HOMER: What?
+<span class="cn">霍默：什么？</span></p>
+<p>He looks down. His “area” is covered by a large bush.<br/>
+<span class="cn">他低头看。他的“那一带”被一丛大灌木遮住。</span></p>
+<p>HOMER: Ooooh! (chuckles). Jungle man.<br/>
+<span class="cn">荷马：哦哦哦！（轻笑）丛林人。</span></p>
+<p>He begins screaming and tapping his chest like an ape.<br/>
+<span class="cn">他开始尖叫着敲打自己的胸膛，像只猿猴一样。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Maggie is being carried along by the big bear. He brings her to a whole crowd of bear, who growl at her. He does several motions and growls and they look weirdly at him.<br/>
+<span class="cn">玛吉被大熊抱着带着走。他把她带到一群熊面前，熊们对她咆哮。大熊做了几个动作并咆哮，它们奇怪地看着他。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Back to Homer and Bart, now on the same side.<br/>
+<span class="cn">回到荷马和巴特，现在站在同一边。</span></p>
+<p>HOMER: The first thing you learn about surviving in the woods, boy: Conceal your nakedness.<br/>
+<span class="cn">霍默：在树林里求生你学到的第一件事，孩子：掩盖你的赤裸。</span></p>
+<p>BART: Yeah, man.
+<span class="cn">巴特：对，老爸。</span></p>
+<p>HOMER: Okay. Slap a fern on there, boy. And now with some mud. There. Oooh…that requires a little moss. And some moss for me. All right. We’re ready to hit the town.<br/>
+<span class="cn">霍默：好。把一片蕨叶拍上去，孩子。现在抹点泥。好了。哦……这还需要点苔藓。给我也来点苔藓。好了。我们可以去城里了。</span></p>
+<p>They’ve made a complete covering for themselves. Pretty ingenuous, actually.<br/>
+<span class="cn">他们已经把自己完全遮盖起来了。实际上相当聪明。</span></p>
+<p>BART: But, Dad, I am so hungry! Can’t we eat something first? I’m starving, man.<br/>
+<span class="cn">巴特：可是，爸爸，我饿死了！我们不能先吃点东西吗？我都快饿晕了，老兄。</span></p>
+<p>HOMER: Ahh, food, good thinking, son. This young sapling ought to do the trick.<br/>
+<span class="cn">荷马：啊，食物，想到这个真聪明，儿子。这株幼苗应该够用了。</span></p>
+<p>Homer starts tying a noose on the ground.<br/>
+<span class="cn">荷马开始在地上系套索。</span></p>
+<p>BART: What are we gonna do, hang ourselves?<br/>
+<span class="cn">巴特：我们要做什么，是要上吊吗？</span></p>
+<p>HOMER: No! This is a trap. It’s gonna catch us our dinner. Come on, boy. Shh. Just watch.<br/>
+<span class="cn">荷默：不！这是一场陷阱。它要抓我们的晚餐。来吧，孩子。嘘。看着点。</span></p>
+<p>The two hide behind a bush and watch as a rabbit comes into view.<br/>
+<span class="cn">两人躲在灌木后看着一只兔子出现。</span></p>
+<p>HOMER: Oooh.
+<span class="cn">荷默：哦哦。</span></p>
+<p>The rabbit observes a leaf in the noose and steps inside.<br/>
+<span class="cn">那只兔子看到套索里的叶子，走了进去。</span></p>
+<p>HOMER: A-ha! Got him!<br/>
+<span class="cn">荷马：啊哈！抓住他了！</span></p>
+<p>The sapling and the noose fling up, sending the rabbit flying into the clouds and beyond. There is a thud far away.<br/>
+<span class="cn">幼苗和套索一弹， 把兔子弹飞到云层之外。远处传来一声重响。</span></p>
+<p>HOMER: Okay, okay. This time I’ll just go into the bushes over there, make a lot of noise, and flush out a rabbit. And when he comes out, you step on him.<br/>
+<span class="cn">荷马：好，好。这次我就到那边的灌木丛里去，弄出很大的动静，把兔子赶出来。等他一出来，你踩住他。</span></p>
+<p>BART: Right, Dad.
+<span class="cn">巴特：好，爸爸。</span></p>
+<p>Homer walks into a bush. There is some chittering, then Homer screams, and he walks out with rabbits, squirrels, snakes, and raccoons all hanging on to different parts of his body.<br/>
+<span class="cn">霍默走进一丛灌木。传来一些吱吱声，然后霍默尖叫起来，他走出来时兔子、松鼠、蛇和浣熊等抓着他身体的不同部位。</span></p>
+<p>HOMER: Oooh, get ‘em off me! Get ‘em off me!<br/>
+<span class="cn">霍默：噢，把它们从我身上弄走！把它们从我身上弄走！</span></p>
+<p>He rolls around in front of Bart, who stands there doing nothing.<br/>
+<span class="cn">他在巴特面前打滚，巴特站在那里什么也不做。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Another campground, where a family sits with their baby.<br/>
+<span class="cn">另一个露营地，一户人家带着他们的婴儿坐着。</span></p>
+<p>MAN: Great camping trip, honey. Traveled 800 miles, haven’t even seen a squirrel yet.<br/>
+<span class="cn">男人：很棒的露营旅行，亲爱的。开了 800 英里，连一只松鼠都没看到。</span></p>
+<p>WOMAN: Well, the ranger at the gate said we should watch out for bears.<br/>
+<span class="cn">女人：门口的护林员说我们要当心熊。</span></p>
+<p>A bear hides in the bushes, starring at them.<br/>
+<span class="cn">一只熊躲在灌木丛中，盯着他们看。</span></p>
+<p>MAN: Ooh, bears. (laughs).<br/>
+<span class="cn">男人：哦，熊。（笑）</span></p>
+<p>WOMAN: Mm-hmm.
+<span class="cn">女：嗯哼。</span></p>
+<p>MAN: Right, right. Let me show you how many bears there are around here. Uh, hello, bears! Um, come on. Have a donut! Oh, what the heck, have me! Come and get it!<br/>
+<span class="cn">男：对，对。让我给你看看这附近有多少只熊。呃，你们好，熊们！嗯，来吧。吃个甜甜圈！哦，算了，吃我吧！过来抓我啊！</span></p>
+<p>WOMAN: All right, all right. You made your point.<br/>
+<span class="cn">女：好啦，好啦。你说到点子上了。</span></p>
+<p>MAN: (laughs) (mocking) Bears.<br/>
+<span class="cn">男：（笑）（嘲弄地）熊。</span></p>
+<p>The bear sneaks up behind them.<br/>
+<span class="cn">熊从他们身后悄悄靠近。</span></p>
+<p>He steals a bottle from the baby and brings it back to Lisa, who waits in the cave. She begins drinking as he also brings a baby doll. Then, a toy. And a ball. And another toy. And cubes. And a light.<br/>
+<span class="cn">它从婴儿那儿偷走一瓶奶，然后带回给在洞里等待的丽莎。它开始喝奶，同时还带回了一个婴儿玩偶。接着是一个玩具。还有一个球。又一个玩具。还有积木。还有一盏灯。</span></p>
+<p>Discover more
+<span class="cn">探索更多</span></p>
+<p>Soon, it is night time and the bears all crowd around Lisa and her collection of goodies.<br/>
+<span class="cn">很快，夜幕降临，所有的熊都围在丽莎和她的宝物堆旁。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Simpson campground. An owl hoots as Marge and Lisa sit around a campfire.<br/>
+<span class="cn">辛普森露营地。猫头鹰呜呜叫着，玛姬和丽莎围着篝火坐着。</span></p>
+<p>LISA: I hope Maggie and the boys are all right.<br/>
+<span class="cn">丽萨：我希望玛吉和男孩子们都没事。</span></p>
+<p>MARGE: Oh, I’m sure they’re just fine. After all, we built a fire and we don’t know anything about nature. Imagine what your father, an experienced woodsman, has done.<br/>
+<span class="cn">玛姬：哦，我相信他们肯定没事。毕竟我们生了火，而我们对大自然一无所知。想想你爸爸，一个经验丰富的伐木工，会怎么做。</span></p>
+<p>LISA: Yeah, I suppose so. Good night, Mom.<br/>
+<span class="cn">丽萨：是啊，我想也是。晚安，妈妈。</span></p>
+<p>MARGE: Good night, dear.<br/>
+<span class="cn">玛姬：晚安，亲爱的。</span></p>
+<p>They both lie down to sleep.<br/>
+<span class="cn">他们两个躺下睡觉。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Homer and Bart in a similar position but without a campfire…or clothes. They are freezing.<br/>
+<span class="cn">荷马和巴特处于相似的姿势，但没有篝火……也没有衣服。他们冻得发抖。</span></p>
+<p>BART (teeth chattering): G-G-Good n-n-night, D-D-Dad.<br/>
+<span class="cn">巴特（牙齿打颤）：晚、晚、晚安，爸、爸、爸爸。</span></p>
+<p>A wolf howls in the background.<br/>
+<span class="cn">远处传来一声狼嚎。</span></p>
+<p>HOMER: G-G-Good n-n-night, son. Sleep tight.<br/>
+<span class="cn">霍默：晚——晚——晚安，儿子。睡个好觉。</span></p>
+<p>Their teeth chatter.
+<span class="cn">他们的牙齿在打颤。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Maggie, sleeping in the embrace of one of the bears. She wakes up and covers herself with one of his arms.<br/>
+<span class="cn">玛吉在一只熊的怀里睡着。她醒来，用那只熊的一条胳膊把自己盖住。</span></p>
+<p>FADE TO BLACK
+<span class="cn">淡出至黑</span></p>
+<p>FADE IN:
+<span class="cn">画面淡入：</span></p>
+<p>Morning. Bart and Homer emerge from a cluster of trees.<br/>
+<span class="cn">早上。巴特和霍默从一片树丛中走出来。</span></p>
+<p>BART (groaning): Are we there yet?<br/>
+<span class="cn">巴特（呻吟）：我们到了吗？</span></p>
+<p>HOMER: No!
+<span class="cn">霍默：没有！</span></p>
+<p>BART: Are we ever gonna be there?<br/>
+<span class="cn">巴特：我们什么时候才能到？</span></p>
+<p>HOMER: How would I know? Quit asking pointless---<br/>
+<span class="cn">霍默：我怎么会知道？别再问无聊的——</span></p>
+<p>He gasps.
+<span class="cn">他喘着气。</span></p>
+<p>HOMER: Bart, look!
+<span class="cn">霍默：巴特，看！</span></p>
+<p>Homer spies several bees flying around a honeycomb.<br/>
+<span class="cn">霍默发现几只蜜蜂在蜂巢周围飞舞。</span></p>
+<p>HOMER: Honey. Honey! We’re saved.<br/>
+<span class="cn">霍默：蜂蜜。蜂蜜！我们得救了。</span></p>
+<p>BART: Uh, Homer. Bees?<br/>
+<span class="cn">巴特：呃，荷马。蜜蜂？</span></p>
+<p>Homer attacks it, takes a slop of honey, and gobbles it up.<br/>
+<span class="cn">荷马攻击它，拿了一勺蜂蜜，塞进嘴里咕嘟咕嘟地吃掉。</span></p>
+<p>BART: How is it?<br/>
+<span class="cn">巴特：味道怎么样？</span></p>
+<p>HOMER: Tangy.
+<span class="cn">荷马：有点酸。</span></p>
+<p>He spits out several bees and starts to choke. Then, he starts shouting gibberish.<br/>
+<span class="cn">他吐出好几只蜜蜂，开始窒息。然后，他开始大声胡言乱语。</span></p>
+<p>BART: What?
+<span class="cn">巴特：什么？</span></p>
+<p>Homer makes motions.
+<span class="cn">霍默做出手势。</span></p>
+<p>BART: Oh, water? That-a-way, man.<br/>
+<span class="cn">巴特：哦，水？那边，伙计。</span></p>
+<p>Homer runs off.
+<span class="cn">霍默跑了。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>A man filming a reindeer near a stream of muddy water. Suddenly, Homer emerges from the bushes and plunges himself into the water. The man yells. Homer advances towards him and the man runs away screaming. Homer stands still, sadly defeated.<br/>
+<span class="cn">一名男子正在拍摄溪边一只驯鹿，溪水泥泞。忽然，霍默从灌木丛中钻出，纵身跳入水中。那人喊叫。霍默朝他走去，那人尖叫着逃跑。霍默站在原地，沮丧而黯然。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>A <a href="https://transcripts.foreverdreaming.org/?t=21867&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">TV<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> special, titled BIGFOOT! (with a picture of Homer in mud)<br/>
+<span class="cn">一档电视特辑，标题为：大脚怪！（配有一张泥地里霍默的照片）</span></p>
+<p>TV ANNOUNCER: Bigfoot. The legendary half-man, half-ape is no longer a legend. He’s very, very real. What you’re about to see is unedited video footage taken earlier today in the hills three miles southwest of Tenderfoot Gorge.<br/>
+<span class="cn">电视播报员：大脚怪。这个传说中的半人半猿不再只是传说。他非常，非常真实。你们即将看到的是今天早些时候在坦德福峡谷西南三英里处山丘上拍到的未剪辑录像。</span></p>
+<p>The shaky camera shows Homer screaming (same scene).<br/>
+<span class="cn">摇晃的摄像机显示荷马在尖叫（同一场景）。</span></p>
+<p>TV ANNOUNCER: Now, the naturalist who took these absolutely extraordinary pictures was most impressed with the creature’s uncivilized look, its foul language and, most of all, its indescribable stench. A popular supermarket tabloid has offered a reward of $5,000 of anyone who brings in the creature alive.<br/>
+<span class="cn">电视播音员：现在，拍下这些绝对非凡画面的博物学家对这种生物最深刻的印象是它那未经驯化的外表、粗俗的语言，最重要的是它难以形容的恶臭。一份大众超市小报悬赏五千美元，奖励任何能活捉该生物的人。</span></p>
+<p>A standard tabloid is shown, but a modified picture of Homer.<br/>
+<span class="cn">显示一本普通的小报，但照片被改成荷马的。</span></p>
+<p>TV ANNOUNCER: Naturally, we’ll have more on this story as soon as it develops. We now return you to the president’s address already in progress.<br/>
+<span class="cn">电视播音员：当然，这条新闻一有进展我们会继续报道。现在回到正在进行中的总统讲话。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Homer, still dirty, and Bart sit on a log.<br/>
+<span class="cn">霍默仍然满身污渍，和巴特坐在一根木头上。</span></p>
+<p>FADE TO BLACK
+<span class="cn">淡出至黑</span></p>
+<p>FADE IN:
+<span class="cn">画面淡入：</span></p>
+<p>A group of people (a lot with cameras) gather around the entrance to the park, all mindlessly chattering. There are concession stands for such things as “Official Bigfoot Souveniers” and “Half-Man Half-Ape Burgers”.<br/>
+<span class="cn">一群人（很多人带着相机）聚集在公园入口处，喋喋不休地闲聊着。还有卖小吃的摊位，售卖诸如“官方大脚怪纪念品”和“半人半猿汉堡”等商品。</span></p>
+<p>There’s even a photo op with a paper replica of Bigfoot.<br/>
+<span class="cn">甚至还有一个与纸制大脚怪合影的拍照点。</span></p>
+<p>A tough-looking PARK RANGER talks with Lisa and Marge.<br/>
+<span class="cn">一个看起来很强悍的公园护林员正在和丽莎与玛姬交谈。</span></p>
+<p>PARK RANGER: It looks as if you girls have been getting along all right but it’s a darn good thing we found you when we did. There’s something horrible roaming these woods.<br/>
+<span class="cn">护林员：看起来你们这些女孩相处得还算不错，但幸好我们及时找到了你们。这里的树林里有些可怕的东西在游荡。</span></p>
+<p>MARGE: There is?
+<span class="cn">玛姬：有吗？</span></p>
+<p>The ranger hands her a newspaper. The headline reads “Bigfoot Still at Large” with Homer’s picture.<br/>
+<span class="cn">护林员把一份报纸递给她。头版标题写着“巨人足迹仍在逃”，配的是荷马的照片。</span></p>
+<p>MARGE: Why, that’s my husband!<br/>
+<span class="cn">玛姬：哎，那是我丈夫！</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>A new magazine flashing up. The headline reads “I married BIgfoot” with Homer and Marge on the cover.<br/>
+<span class="cn">一本新杂志闪现。头条写着“我嫁给了大脚怪”，封面是荷马和玛姬。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Marge, who gives a press conference to several reporters, all who shove their microphones into her face.<br/>
+<span class="cn">玛姬在向几位记者召开新闻发布会，所有人都把麦克风塞到她面前。</span></p>
+<p>MARGE: His name isn’t Bigfoot. His name is Homer.<br/>
+<span class="cn">玛姬：他不叫大脚怪。他叫荷马。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>An updated newspaper. Headline: “Bigfoot’s Wife Pleads: “Call Him Homer!”.<br/>
+<span class="cn">一份更新的报纸。头条：“大脚怪的妻子恳求：‘叫他荷马！’”</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Back to the conference.<br/>
+<span class="cn">回到记者招待会。</span></p>
+<p>FEMALE REPORTER: What does it eat?<br/>
+<span class="cn">女记者：它吃什么？</span></p>
+<p>MARGE: I don’t understand. What’s this all about? Well, I suppose pork chops are his favorite.<br/>
+<span class="cn">玛姬：我不明白。这是怎么回事？嗯，我想猪排是它最喜欢的。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Newspaper. “The Bigfoot Diet: Pork Chops Aplenty”.<br/>
+<span class="cn">报纸。“大脚怪的饮食：猪排吃个够”。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Behind Marge, a group of bears arrive.<br/>
+<span class="cn">玛吉后面，一群熊走了过来。</span></p>
+<p>MALE REPORTER: Hey, get those bears out of here. I’m trying to do an interview.<br/>
+<span class="cn">男记者：嘿，把那些熊赶走。我正要做个采访。</span></p>
+<p>ASSISTANT: No bears! We’re taping! All bears off the set.<br/>
+<span class="cn">助理：不准有熊！我们在录影！所有熊离开布景。</span></p>
+<p>The bears leave. Nobody notices Maggie riding on one of them.<br/>
+<span class="cn">熊们离开了。没人注意到玛吉正骑在其中一只熊身上。</span></p>
+<p>MALE REPORTER: Okay. Now let’s get back to your, uh, husband. How would you describe your marital relations? Brutish?<br/>
+<span class="cn">男记者：好。现在回到你那位，呃，丈夫。你会如何描述你们的婚姻关系？粗暴吗？</span></p>
+<p>MARGE: Is this going to be on TV?<br/>
+<span class="cn">玛姬：这会上电视吗？</span></p>
+<p>MALE REPORTER: Coast to coast.<br/>
+<span class="cn">男记者：全国直播。</span></p>
+<p>Marge groans.
+<span class="cn">玛姬呻吟。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The tired Homer and Bart, still wading through endless trees.<br/>
+<span class="cn">疲惫的荷马和巴特，仍在无尽的树林中跋涉。</span></p>
+<p>HOMER: Just a little further.<br/>
+<span class="cn">荷马：就快到啦。</span></p>
+<p>BART: Are we there yet?<br/>
+<span class="cn">巴特：我们到了吗？</span></p>
+<p>HOMER: Just a little further.<br/>
+<span class="cn">荷马：就快到啦。</span></p>
+<p>BART: Are we there yet?<br/>
+<span class="cn">巴特：我们到了吗？</span></p>
+<p>HOMER: Just a little further.<br/>
+<span class="cn">霍默：再过一小会儿。</span></p>
+<p>BART: Are we there yet?<br/>
+<span class="cn">巴特：我们到了吗？</span></p>
+<p>HOMER: Just a little further.<br/>
+<span class="cn">霍默：再过一小会儿。</span></p>
+<p>Homer sniffs the air.<br/>
+<span class="cn">荷马嗅了嗅空气。</span></p>
+<p>HOMER: Food!
+<span class="cn">荷马：有吃的！</span></p>
+<p>He walks into the bear’s cave and is surprised to find a bear towering over them. Soon, the entire clan surrounds them.<br/>
+<span class="cn">他走进熊洞，惊讶地发现一只熊高高地站在他们面前。不久，整族熊把他们团团围住。</span></p>
+<p>HOMER: Nice grizzlies.
+<span class="cn">荷马：好大的灰熊们。</span></p>
+<p>They slowly back away…<br/>
+<span class="cn">他们慢慢后退……</span></p>
+<p>HOMER: N-nice grizzlies. Nice grizzlies.<br/>
+<span class="cn">荷马：好——好可爱的灰熊。好可爱的灰熊。</span></p>
+<p>BART: What do we do, Dad?<br/>
+<span class="cn">巴特：我们该怎么办，爸爸？</span></p>
+<p>HOMER: Praise the grizzlies, son.<br/>
+<span class="cn">荷马：孩子，赞美这些灰熊。</span></p>
+<p>BART + HOMER: Nice grizzlies. Nice grizzlies.<br/>
+<span class="cn">巴特 + 荷马：好大的灰熊。好大的灰熊。</span></p>
+<p>HOMER: That’s a good grizzly.<br/>
+<span class="cn">荷马：那是一只好灰熊。</span></p>
+<p>The bears growl. Bart starts to whimper when the sucking of a pacifier is heard. The bears turn around and see Maggie. Slowly, the bears back away.<br/>
+<span class="cn">熊发出低吼声。吸奶嘴的吮吸声响起，巴特开始抽噎。熊转过身看到玛吉。熊慢慢后退。</span></p>
+<p>BART + HOMER: Huh?<br/>
+<span class="cn">巴特 + 荷马：哈？</span></p>
+<p>HOMER: Maggie! Oh, my little girl.<br/>
+<span class="cn">荷默：玛吉！哦，我的小女孩。</span></p>
+<p>He picks her up.<br/>
+<span class="cn">他抱起她。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Homer and Maggie walk (well, walk and crawl) out of the cave. Homer slowly backs out, still saying “Nice grizzlies, nice grizzlies.”<br/>
+<span class="cn">荷默和玛吉（好吧，一个走一个爬）走出洞穴。荷默慢慢地向后退着，仍然说着“好灰熊，好灰熊”。</span></p>
+<p>BART: Later, grizzly dudes.<br/>
+<span class="cn">巴特：回头见，灰熊伙计们。</span></p>
+<p>Maggie looks back and sucks her pacifier. The bears stare in sadness. One has even got a pacifier in his mouth. Maggie waves and crawls away.<br/>
+<span class="cn">玛吉回头含住她的奶嘴。熊们伤心地盯着她看。其中一只甚至嘴里也含着奶嘴。玛吉挥手然后爬走。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart and Maggie and Homer walk through a field when they hear chattering.<br/>
+<span class="cn">巴特、玛吉和荷马走过一片田地时，他们听到叽喳声。</span></p>
+<p>BOY: Look! It’s him! It’s Bigfoot!<br/>
+<span class="cn">男孩：看！是他！是大脚怪！</span></p>
+<p>VOICE: Get in the car. Get em. Get em.<br/>
+<span class="cn">声音：上车。抓住他。抓住他。</span></p>
+<p>All the reporters and hunters rush towards him. They throw a net over Homer and bring him to the ground.<br/>
+<span class="cn">所有记者和猎人冲向他。他们把网扔在霍默身上，把他按倒在地。</span></p>
+<p>BOY: We got him! We got Bigfoot!<br/>
+<span class="cn">男孩：我们抓到他了！我们抓到大脚怪了！</span></p>
+<p>PARK RANGER: You are darn lucky we got here in time to rescue you.<br/>
+<span class="cn">公园护林员：你可真走运，我们及时赶到救了你。</span></p>
+<p>BART: What the hell are you talking about, sir?<br/>
+<span class="cn">巴特：长官，你到底在说什么鬼话？</span></p>
+<p>Homer grumbles and escapes from the net.<br/>
+<span class="cn">霍默咕哝着从网中逃脱。</span></p>
+<p>CATCHER: He’s getting away! After him!<br/>
+<span class="cn">抓捕者：他要逃了！追上他！</span></p>
+<p>CATCHER 2: We gotta take him alive. You got that tranquilizer g*n ready?<br/>
+<span class="cn">抓捕者 2：我们要活捉他。你准备好镇静剂枪了吗？</span></p>
+<p>A woman loads a g*n with a dart and fires. It lands in Homer’s…um…backside. He shrieks and falls.<br/>
+<span class="cn">一名妇女给枪装上麻醉箭并开火。它射中了霍默的……嗯……后面。他尖叫着倒下。</span></p>
+<p>BART: Dad! Oh, Dad!<br/>
+<span class="cn">巴特：爸爸！哦，爸爸！</span></p>
+<p>HOMER: Avenge me, son. Avenge my death.<br/>
+<span class="cn">荷马：为我报仇，儿子。为我的死报仇。</span></p>
+<p>Homer begins snoring.
+<span class="cn">荷马开始打鼾。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>A television program. Homer is kept in a glass cage.<br/>
+<span class="cn">一个电视节目。荷马被关在一个玻璃笼子里。</span></p>
+<p><a href="https://transcripts.foreverdreaming.org/?t=21867&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">TV<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> REPORTER: Last week’s capture of Bigfoot turned into the scientific poser of the century.<br/>
+<span class="cn">电视记者：上周抓到的大脚怪成了世纪性的科学难题。</span></p>
+<p>Homer is handed a pork chop and he slops it down.<br/>
+<span class="cn">荷马接过一块猪排，大口吞了下去。</span></p>
+<p>TV REPORTER: Although the creature was ultimately released, the question remains, “Who was this Homer?” Was it a man, or was it in fact the legendary missing link known as Bigfoot?<br/>
+<span class="cn">电视记者：虽然这只生物最终被释放，但问题依然存在：“这究竟是谁的荷马？”他是个人类，还是实际上就是传说中的失落环节——大脚怪？</span></p>
+<p>HOMER: Could I have some applesauce?<br/>
+<span class="cn">荷马：能给我点苹果酱吗？</span></p>
+<p>TV REPORTER: Specialists around the world gathered at the Springfield Primate Institute for a firsthand examination of the controversial creature. They are now ready to announce their findings.<br/>
+<span class="cn">电视记者：来自世界各地的专家聚集在春田灵长类研究所，亲自检查这一备受争议的生物。他们现在准备公布调查结果。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The conference. Marvin (from a couple episodes ago) speaks to a room full of reporters.<br/>
+<span class="cn">会议上。马文（几集前出现过）对一屋子的记者发言。</span></p>
+<p>MARVIN: Uh, ladies and gentlemen, uh, distinguished colleagues, after extensive biological and anatomical testing, I regret to announce that the evidence we have is inconclusive. This thing may or may not be human.<br/>
+<span class="cn">马文：呃，女士们，先生们，呃，尊敬的同事们，经过广泛的生物学和解剖学检测，我遗憾地宣布，我们掌握的证据并不确定。这个东西可能是人类，也可能不是。</span></p>
+<p>The crowd chatters.
+<span class="cn">人群窃窃私语。</span></p>
+<p>GERMAN SCIENTIST: That’s what he thinks. I say it’s none other than Bigfoot himself.<br/>
+<span class="cn">德国科学家：那是他那样想的。我说那不是别人，正是大脚怪本人。</span></p>
+<p>FRENCH SCIENTIST: Oh, no, I disagree. I think it is a man. The eyes have the glimmer of human intelligence.<br/>
+<span class="cn">法国科学家：哦不，我不同意。我认为那是个人。眼睛里有着人类智慧的光芒。</span></p>
+<p>RANDOM SCIENTIST: Really. Glimmer in the eyes. What about the sloping ape-like forehead?<br/>
+<span class="cn">随机科学家：真的吗。眼中有光芒。那倾斜的类猿额头呢？</span></p>
+<p>Back at home, Marge and Homer watch this on their television.<br/>
+<span class="cn">在家里，玛吉和荷马在电视上观看这个节目。</span></p>
+<p>HOMER: Oh, the guys at work are gonna have a field day with this.<br/>
+<span class="cn">荷默：哦，工作上的那些人会为了这事乐坏的。</span></p>
+<p>MARGE: Cheer up, Homer. At least they let you go.<br/>
+<span class="cn">玛姬：振作点，荷默。至少他们放你走了。</span></p>
+<p>GERMAN SCIENTIST: Gentlemen, gentlemen, fraulein, please. This much I believe we can agree upon: this specimen is either a below-average human being or a brilliant beast.<br/>
+<span class="cn">德国科学家：先生们，先生们，小姐，请。至少这一点我们可以达成共识：这个标本要么是个平庸的人类，要么是个聪明的兽类。</span></p>
+<p>HOMER (scoffs): Stupid egghead.<br/>
+<span class="cn">荷默（嗤之以鼻）：愚蠢的书呆子。</span></p>
+<p>He turns the TV off.<br/>
+<span class="cn">他关掉了电视。</span></p>
+<p>MARGE: Oh, Homer. My brilliant beast.<br/>
+<span class="cn">玛姬：哦，霍默。我的聪明野兽。</span></p>
+<p>She kisses him on the cheek and turns off the light.<br/>
+<span class="cn">她在他脸颊上亲了一下，然后关了灯。</span></p>
+<p>FADE OUT
+<span class="cn">画面淡出</span></p>
+<p>CREDITS BEGIN
+<span class="cn">字幕开始</span></p>
+<p>THE END.
+<span class="cn">结束。</span></p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/Ousinki/my-digital-garden">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>

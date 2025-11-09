@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>01x05 - Bart the General</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="My Digital Garden"/><meta property="og:title" content="01x05 - Bart the General"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="01x05 - Bart the General"/><meta name="twitter:description" content="Inside, HOMER opens an oven. HOMER: Do I smell cupcakes? Ooh, do I ever! MARGE: Uh-uh, Homer. Lisa's making these for her teacher. HOMER: Ah. Say no more. He cl"/><meta property="og:description" content="Inside, HOMER opens an oven. HOMER: Do I smell cupcakes? Ooh, do I ever! MARGE: Uh-uh, Homer. Lisa's making these for her teacher. HOMER: Ah. Say no more. He cl"/><meta property="og:image:alt" content="Inside, HOMER opens an oven. HOMER: Do I smell cupcakes? Ooh, do I ever! MARGE: Uh-uh, Homer. Lisa's making these for her teacher. HOMER: Ah. Say no more. He cl"/><meta property="twitter:domain" content="https://ousinki.github.io/my-digital-garden"/><meta property="og:url" content="https://https//ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x05---Bart-the-General"/><meta property="twitter:url" content="https://https//ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x05---Bart-the-General"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="Inside, HOMER opens an oven. HOMER: Do I smell cupcakes? Ooh, do I ever! MARGE: Uh-uh, Homer. Lisa's making these for her teacher. HOMER: Ah. Say no more. He cl"/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL291c2luL0xpYnJhcnkvQ2xvdWRTdG9yYWdlL0Ryb3Bib3gvQXV0b3N5bmMvU3luY1ZhdWx0L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://ousinki.github.io/my-digital-garden/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x05---Bart-the-General-og-image.webp"/><meta property="og:image:url" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x05---Bart-the-General-og-image.webp"/><meta name="twitter:image" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x05---Bart-the-General-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="The-Simpsons/S01/01x05---Bart-the-General"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">My Digital Garden</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="font-size-toggle" aria-label="切换字号"><span>A</span></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="font-family-toggle" aria-label="切换字体"><span>Aa</span></button></div></div><div class="explorer desktop-only" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-6"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-6" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../The-Simpsons/">The Simpsons</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../The-Simpsons/S01/">S01</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>01x05   Bart the General</a></div></nav><h1 class="article-title">01x05 - Bart the General</h1><p show-comma="true" class="content-meta"><time datetime="2025-09-21T16:00:00.000Z">Sep 22, 2025</time><span>63 min read</span></p><ul class="tags"><li><a href="../../tags/clippings" class="internal tag-link">clippings</a></li></ul></div></div><article class="popover-hint gray"><p><span class="cn">01x05 - 小巴特将军</span></p>
+<p>Inside, HOMER opens an oven.<br/>
+<span class="cn">在里面，霍默打开了烤箱。</span></p>
+<p>HOMER: Do I smell cupcakes? Ooh, do I ever!<br/>
+<span class="cn">霍默：我闻到纸杯蛋糕的味道了吗？哦，太棒了！</span></p>
+<p>MARGE: Uh-uh, Homer. Lisa’s making these for her teacher.<br/>
+<span class="cn">玛姬：不行，霍默。丽莎是给她老师做这些的。</span></p>
+<p>HOMER: Ah. Say no more.<br/>
+<span class="cn">荷默：啊。别说了。</span></p>
+<p>He closes it and seconds later Bart opens it.<br/>
+<span class="cn">他关上了，几秒钟后巴特又打开了。</span></p>
+<p>BART: Yum! Don’t mind if I do!<br/>
+<span class="cn">巴特：好吃！那我就不客气了！</span></p>
+<p>HOMER: Bart!
+<span class="cn">荷默：巴特！</span></p>
+<p>Homer drags him back into the kitchen.<br/>
+<span class="cn">霍默把他拽回厨房。</span></p>
+<p>BART: Oh, man!
+<span class="cn">巴特：哦，天哪！</span></p>
+<p>LISA: Keep your greasy mitts outta there.<br/>
+<span class="cn">莉萨：别把你那油乎乎的爪子伸进去。</span></p>
+<p>MARGE: These are for Lisa’s class.<br/>
+<span class="cn">玛姬：这些是给莉萨班上的。</span></p>
+<p>LISA: It’s Mrs. Hoover’s birthday.<br/>
+<span class="cn">丽萨：今天是胡佛太太的生日。</span></p>
+<p>BART: You know, there are names for people like you.<br/>
+<span class="cn">巴特：你知道吗，像你这样的人有专门的称呼。</span></p>
+<p>LISA: No, there aren’t.<br/>
+<span class="cn">丽萨：没有的。</span></p>
+<p>BART: Teacher’s pet, <a href="https://transcripts.foreverdreaming.org/?t=21865&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">apple<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> polisher, butt kisser—<br/>
+<span class="cn">巴特：老师的宠儿、献殷勤的人、拍马屁的家伙——</span></p>
+<p>HOMER: Bart! You’re saying “butt kisser” like it’s a bad thing.<br/>
+<span class="cn">霍默：巴特！你把“拍马屁的人”说得好像那是件坏事。</span></p>
+<p>BART: Huh?
+<span class="cn">巴特：嗯？</span></p>
+<p>Homer taps his jeans and Bart moves to sit on his lap.<br/>
+<span class="cn">霍默拍了拍他的牛仔裤，巴特挪过去坐到他腿上。</span></p>
+<p>HOMER: Well, you see, boy, it never hurts to grease the wheels a little.<br/>
+<span class="cn">霍默：你看，孩子，事事靠点油水总是有好处的。</span></p>
+<p>LISA: I’m not greasing the wheels, Dad. I like my teacher.<br/>
+<span class="cn">丽莎：我不是在走后门，爸。我喜欢我的老师。</span></p>
+<p>HOMER: Sure, Lis. You see how it works, Bart? A cupcake here, a good grade here.<br/>
+<span class="cn">荷马：当然了，莉斯。你看明白了吧，巴特？这里一个杯子蛋糕，那里一张好成绩。</span></p>
+<p>LISA: Dad, I get good grades ‘cause I’m smart and I pay attention and I study hard.<br/>
+<span class="cn">丽莎：爸，我考得好是因为我聪明、我专心、我用功学习。</span></p>
+<p>HOMER: Yeah right, Lisa. It’s the three roads to success, Bart: work, brains, and hmm—<br/>
+<span class="cn">荷马：是啊，莉莎。成功的三条路，巴特：努力、聪明，嗯——</span></p>
+<p>He lifts up a cupcake.<br/>
+<span class="cn">他举起一个纸杯蛋糕。</span></p>
+<p>LISA: Oh, brother.
+<span class="cn">丽莎：哦，天哪。</span></p>
+<p>There is a loud honking outside.<br/>
+<span class="cn">外面传来一阵响亮的按喇叭声。</span></p>
+<p>BART: Uh-oh, school bus! Gotta go.<br/>
+<span class="cn">巴特：哎呀，校车来了！得走了。</span></p>
+<p>HOMER: Heh-heh-heh.
+<span class="cn">荷默：呵呵呵。</span></p>
+<p>As he is about to shove the cupcake into his mouth, Lisa reaches over and grabs it from him.<br/>
+<span class="cn">就在他要把纸杯蛋糕塞进嘴里的时候，丽莎伸手把它从他那儿抢了过来。</span></p>
+<p>HOMER: Doh!
+<span class="cn">荷默：哎呀！</span></p>
+<p>CUT TO:
+<span class="cn">切换到：</span></p>
+<p>Bart and Lisa make their way onto the bus. OTTO listens to music.<br/>
+<span class="cn">巴特和莉萨上了校车。奥托在听音乐。</span></p>
+<p>BART: Yo, Ottoman!
+<span class="cn">巴特：喂，奥托曼！</span></p>
+<p>OTTO: Yo, Bartdude!
+<span class="cn">奥托：喂，巴特小子！</span></p>
+<p>BART: Hey, can you believe it man? My sister here made a whole pile of cupcakes to butter up her teacher, and she won’t give anybody else even one measly little crumb.<br/>
+<span class="cn">巴特：嘿，你能信吗，伙计？我妹妹为了讨老师欢心做了一大堆纸杯蛋糕，可她连一小块渣渣都不愿意分给别人。</span></p>
+<p>OTTO: Huh, that’s bad news, man.<br/>
+<span class="cn">奥托：哎，这可不是好消息，伙计。</span></p>
+<p>LISA: Here, Otto. I made an extra one for you.<br/>
+<span class="cn">丽莎：给你，奥托。我多做了一个给你。</span></p>
+<p>OTTO: Oh, thanks, little lady.<br/>
+<span class="cn">奥托：哦，谢谢你，小姑娘。</span></p>
+<p>LISA: You’re welcome.
+<span class="cn">丽莎：不客气。</span></p>
+<p>Bart and Lisa sit together in one seat. The engine rumbles and everybody jumps around.<br/>
+<span class="cn">巴特和丽莎挤在一个座位上。引擎轰鸣，大家都晃动起来。</span></p>
+<p>STUDENTS: Whoa!
+<span class="cn">学生们：哇！</span></p>
+<p>BART: Better let me hold these, Lis.<br/>
+<span class="cn">巴特：让我来抱这些，丽丝。</span></p>
+<p>He grabs for the box of cupcakes.<br/>
+<span class="cn">他抓向那盒纸杯蛋糕。</span></p>
+<p>LISA: Forger it.
+<span class="cn">莉萨：别管它了。</span></p>
+<p>She snatches it back.<br/>
+<span class="cn">她把它夺了回来。</span></p>
+<p>BART: You sniveling toad! You little egg sucker!<br/>
+<span class="cn">巴特：你这个卑鄙的癞蛤蟆！你这小蛋吸虫！</span></p>
+<p>LISA: Tell me more.<br/>
+<span class="cn">莉萨：继续说。</span></p>
+<p>BART: Back-scratcher! Foot-licker! Honor student!<br/>
+<span class="cn">巴特：背部抓挠者！脚舐者！优等生！</span></p>
+<p>LISA: You’ll never get one now, Mr. Name-caller.<br/>
+<span class="cn">丽萨：你现在再也得不到一只了，爱叫名字的人先生。</span></p>
+<p>BART: All, all right. Look, I’m sorry. I got upset. In the heat of the moment, I said some things I didn’t mean.<br/>
+<span class="cn">巴特：好，好吧。听着，对不起。我冲动了。一时激动，说了些不该说的话。</span></p>
+<p>LISA: You weren’t thinking, were you?<br/>
+<span class="cn">丽萨：你当时没多想，是吧？</span></p>
+<p>BART: No.
+<span class="cn">巴特：不。</span></p>
+<p>LISA: I’m not a sniveling toad, am I?<br/>
+<span class="cn">丽萨：我不是个爱哭的小蟾蜍，对吧？</span></p>
+<p>BART: Not really.
+<span class="cn">巴特：不完全是。</span></p>
+<p>LISA: I’m not a little egg sucker, am I?<br/>
+<span class="cn">丽萨：我不是个讨厌的小吸蛋怪，对吧？</span></p>
+<p>BART: Of course not.<br/>
+<span class="cn">巴特：当然不是。</span></p>
+<p>LISA: Then what am I?<br/>
+<span class="cn">丽莎：那我是什么？</span></p>
+<p>BART: A beautiful human being.<br/>
+<span class="cn">巴特：一个美丽的人类。</span></p>
+<p>LISA: What do you like best about me?<br/>
+<span class="cn">丽莎：你最喜欢我什么？</span></p>
+<p>BART: Well, I’d have to say your generous nature, your spirit of giving.<br/>
+<span class="cn">巴特：嗯，我得说是你那慷慨的天性，你那乐于奉献的精神。</span></p>
+<p>LISA: Well, open your mouth and close your eyes, and you will get a big surprise.<br/>
+<span class="cn">莉萨：好了，张开嘴，闭上眼睛，你会得到一个大惊喜。</span></p>
+<p>Bart does as instructed. As he does, Lisa moves quickly from her seat. She drops a cupcake and then grabs it from the floor. She pushes it into Bart’s mouth.<br/>
+<span class="cn">巴特按指示去做。正当他照做时，莉萨迅速从座位上站起。她掉了一个纸杯蛋糕，然后从地上捡起来。她把它塞进巴特的嘴里。</span></p>
+<p>BART: Thanks, Lis. You’re the best.<br/>
+<span class="cn">巴特：谢谢你，莉斯。你是最棒的。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">淡出至：</span></p>
+<p>The front yard of school, where students talk. Lisa talks with her friend JANEY.<br/>
+<span class="cn">学校前院，学生们在说话。丽莎和她的朋友珍妮交谈。</span></p>
+<p>LISA: Look, Janey, cupcakes.<br/>
+<span class="cn">丽莎：看，珍妮，纸杯蛋糕。</span></p>
+<p>As she hands over the box, a BULLY comes in and snatches it up.<br/>
+<span class="cn">当她把盒子递过去时，一个恶霸走过来，一把抢走了。</span></p>
+<p>BULLY: Ah, give me that!<br/>
+<span class="cn">恶霸：啊，把那个给我！</span></p>
+<p>LISA: Hey, give those back!<br/>
+<span class="cn">丽莎：嘿，把那些还回来！</span></p>
+<p>The bully takes a bite out of every cupcake and throws them away. Bart runs over, his fist high in the air.<br/>
+<span class="cn">恶霸把每个纸杯蛋糕咬了一口然后扔掉。巴特冲过来，拳头高举在空中。</span></p>
+<p>BART: Hey, what’s the big idea? That’s my sister, man.<br/>
+<span class="cn">巴特：嘿，什么意思啊？那是我妹妹，伙计。</span></p>
+<p>BULLY: So what?
+<span class="cn">混混：那又怎样？</span></p>
+<p>BART: So give her back those cupcakes before I knock your block off.<br/>
+<span class="cn">巴特：把这些纸杯蛋糕还给她，否则我就揍扁你。</span></p>
+<p>LISA: Don’t, Bart! He’s a friend of Nelson Muntz!<br/>
+<span class="cn">丽萨：别，巴特！他是纳尔逊·芒茨的朋友！</span></p>
+<p>The bully drops the box of cupcakes and stomps on it. Bart and the bully lock eyes.<br/>
+<span class="cn">混混把装蛋糕的盒子扔下踩碎了。巴特和混混对视着。</span></p>
+<p>BART: Ooh!
+<span class="cn">巴特：哦！</span></p>
+<p>He leaps into the air and brings the bully down to the ground. They fight before a hand reaches and takes Bart off. The hand of NELSON MUNTZ. Bart swings blindly in all directions.<br/>
+<span class="cn">他跳到空中，把恶霸摔到地上。他们扭打在一起，这时一只手伸过来把巴特抱走。是纳尔森·芒茨的手。巴特盲目地向四周挥拳。</span></p>
+<p>BART: Ah-ah-ah-ah-ah!
+<span class="cn">巴特：啊—啊—啊—啊—啊！</span></p>
+<p>Nelson throws Bart to the ground.<br/>
+<span class="cn">纳尔森把巴特摔到地上。</span></p>
+<p>BART: Wha?
+<span class="cn">巴特：什么？</span></p>
+<p>BULLY: Nelson, you’re bleeding!<br/>
+<span class="cn">恶霸：纳尔逊，你在流血！</span></p>
+<p>A small trickle of b lood comes out of Nelson’s nose.<br/>
+<span class="cn">纳尔逊的鼻子流出一小股血。</span></p>
+<p>NELSON: Nah, happens all the time. Somebody else’s blood splatters on me. Hey, wait a minute. You’re right! You made me bleed my own blood!<br/>
+<span class="cn">纳尔逊：不，常有的事。别人的血溅到我身上。哎，等等，你说得对！你让我流出我自己的血！</span></p>
+<p>The students gasp.
+<span class="cn">学生们倒吸一口冷气。</span></p>
+<p>BART: It was an accident, man. A terrible, ghastly mistake. Ask anybody.<br/>
+<span class="cn">巴特：这是意外，伙计。一个可怕、骇人的错误。问问任何人。</span></p>
+<p>The wind blows. Everyone is silent.<br/>
+<span class="cn">风吹过。所有人都沉默。</span></p>
+<p>BART: Uh-oh. A cold wind.<br/>
+<span class="cn">巴特：哦哦。一阵冷风。</span></p>
+<p>PRINCIPAL SKINNER suddenly arrives.<br/>
+<span class="cn">史金纳校长突然出现。</span></p>
+<p>SKINNER: Hello kids, everything above the board here? Good, play friendly, children.<br/>
+<span class="cn">史金纳：孩子们好，大家都在黑板上方吗？很好，友好地玩，孩子们。</span></p>
+<p>The bell rings.
+<span class="cn">钟声响起。</span></p>
+<p>SKINNER: Uh-oh, there’s your bell. Come along, now, all of you. No dawdling, now.<br/>
+<span class="cn">史金纳：哦哦，钟来了。快点，现在，你们都跟上。别磨蹭。</span></p>
+<p>NELSON: I’ll get you after school, man.<br/>
+<span class="cn">纳尔逊：放学后我会找你算账的，伙计。</span></p>
+<p>BART: But—
+<span class="cn">巴特：可是——</span></p>
+<p>SKINNER: Oh, no, no, no. He’ll get you after school, son. Now, hurry up. It’s time for class.<br/>
+<span class="cn">斯金纳：哦，不，不，不。他会放学后找你，孩子。现在，快点，课堂时间到了。</span></p>
+<p>BART: But—
+<span class="cn">巴特：可是——</span></p>
+<p>SKINNER: Scoot, young Simpson. There’s learning afoot.<br/>
+<span class="cn">斯金纳：走开，小辛普森。要上课了。</span></p>
+<p>Bart slowly walks into the school.<br/>
+<span class="cn">巴特慢慢走进学校。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解为：</span></p>
+<p>A classroom. Various students have their books open. Bart sits thinking.<br/>
+<span class="cn">一间教室。各个学生都打开了书。巴特坐着沉思。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解转场到：</span></p>
+<p>Bart’s dream. Bart stands, his fists in front of him on the playground.<br/>
+<span class="cn">巴特的梦境。巴特站着，双拳握在面前，位于游乐场。</span></p>
+<p>BART: Okay, Nelson, put up your dukes!<br/>
+<span class="cn">巴特：好吧，纳尔逊，上手吧！</span></p>
+<p>A big shadow looms over Bart.<br/>
+<span class="cn">一道巨大的阴影笼罩在巴特身上。</span></p>
+<p>BART: Aaa!
+<span class="cn">巴特：啊啊！</span></p>
+<p>He runs away and goes through a school door. Seconds later, the door is punched through by a big hand.<br/>
+<span class="cn">他跑开并钻进一扇学校的门。几秒钟后，一只大手把门捅开。</span></p>
+<p>It falls and Nelson arrives.<br/>
+<span class="cn">门倒了，纳尔逊出现了。</span></p>
+<p>BART: Yikes!
+<span class="cn">巴特：哎呀！</span></p>
+<p>Bart runs to a crate of knives. He picks them up by the handful and throws them into Nelson.<br/>
+<span class="cn">巴特跑向一箱刀子。他一把把它们抓起，朝纳尔逊扔去。</span></p>
+<p>BART: Ah ah ah!<br/>
+<span class="cn">巴特：啊啊啊！</span></p>
+<p>They all land in Nelson’s chest. He is unaffected. He takes them all out.<br/>
+<span class="cn">刀子全部插在纳尔逊的胸口。他毫发无损。他把它们全都拔出来。</span></p>
+<p>NELSON: Ha ha ha!<br/>
+<span class="cn">纳尔逊：哈哈哈！</span></p>
+<p>Bart grabs a machine g*n and fires off into Nelson’s chest. The b*ll*ts simply bounce off.<br/>
+<span class="cn">巴特抓起一把机关枪，朝纳尔逊的胸口开火。那些子弹只是弹了回去。</span></p>
+<p>NELSON: Ha ha ha!<br/>
+<span class="cn">纳尔逊：哈哈哈！</span></p>
+<p>BART: Oh.
+<span class="cn">巴特：哦。</span></p>
+<p>His g*n out of a*mo, Bart throws it at Nelson. The giant Nelson grabs it and eats it.<br/>
+<span class="cn">枪没子弹了，巴特把它扔向纳尔逊。巨大的纳尔逊抓住了它并把它吃了。</span></p>
+<p>Bart runs up a long staircase as Nelson’s increasing face comes behind him.<br/>
+<span class="cn">巴特跑上长长的楼梯，纳尔逊越来越大的面孔出现在他身后。</span></p>
+<p>Bart reaches the top of the staircase. Dead end.<br/>
+<span class="cn">巴特到达楼梯顶端。无路可走。</span></p>
+<p>BART: Uh, oh, stop.<br/>
+<span class="cn">巴特：呃，哦，停下。</span></p>
+<p>Nelson grabs him.
+<span class="cn">纳尔逊抓住了他。</span></p>
+<p>NELSON: Lunchtime! Ha, ha, ha! Lunchtime!<br/>
+NELSON：
+<span class="cn">午饭时间！哈，哈，哈！午饭时间！</span></p>
+<p>He shoves Bart down his throat. Bart screams as he falls…<br/>
+<span class="cn">他把巴特塞进喉咙里。巴特尖叫着摔下……</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解切换到：</span></p>
+<p>Back to classroom. MILHOUSE taps Bart on the shoulder.<br/>
+<span class="cn">回到教室。米尔豪斯拍了拍巴特的肩膀。</span></p>
+<p>MILHOUSE: Lunchtime, Bart. It’s lunchtime.<br/>
+<span class="cn">米尔豪斯：吃午饭啦，巴特。该吃午饭了。</span></p>
+<p>BART: I ain’t gonna get out of the fourth grade alive.<br/>
+<span class="cn">巴特：我活不出四年级去了。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Milhouse and Bart walk along a school hallway.<br/>
+<span class="cn">米尔豪斯和巴特沿着学校的走廊走。</span></p>
+<p>MILHOUSE: You gotta tell Principal Skinner, Bart.<br/>
+<span class="cn">米尔豪斯：你得告诉斯金纳校长，巴特。</span></p>
+<p>BART: I can’t squeal. It would violate the code of the schoolyard.<br/>
+<span class="cn">巴特：我不能告密。这会违反校园游乐场的潜规则。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>Bart and Milhouse walk into the cafeteria.<br/>
+<span class="cn">巴特和米尔豪斯走进餐厅。</span></p>
+<p>LISA: Hey everybody, here comes my brother, Bart the bully-k*ller!<br/>
+LISA：
+<span class="cn">大家注意，我弟弟来了，欺凌者巴特——小混混杀手！</span></p>
+<p>Everybody yells in cheer.<br/>
+<span class="cn">大家欢呼。</span></p>
+<p>STUDENT: You’re our hero, Bart.<br/>
+<span class="cn">学生：你是我们的英雄，巴特。</span></p>
+<p>BART: Look, everybody, I would just as soon not make a big deal out of this. I’m not saying I’m not a hero. I’m just saying that I fear for my safety.<br/>
+<span class="cn">巴特：听着，大家，我也不想把这事搞得太夸张。我并不是说我不是个英雄。我只是说我担心我的安全。</span></p>
+<p>The students mumble as Nelson and the bully make their way through a crowd.<br/>
+<span class="cn">学生们嘟哝着，当尼尔森和那个恶霸穿过人群走来。</span></p>
+<p>STUDENT: Look, out.
+<span class="cn">学生：看，出来。</span></p>
+<p>Everybody runs away from Bart. Bart is now face-to-face with Nelson.<br/>
+<span class="cn">所有人都从巴特身边跑开。巴特现在和尼尔森面对面。</span></p>
+<p>BART: Nelson, it was all a mistake. This is how it happened, man. Listen up. You may get a kick out of it. My sister was making cupcakes this morning and---<br/>
+<span class="cn">巴特：尼尔森，这完全是个误会。事情是这样的，伙计。听我说。你可能会觉得好笑。我妹妹今天早上在做杯形蛋糕，然后——</span></p>
+<p>NELSON: I’ll see you at the flagpole at 3:15.<br/>
+<span class="cn">纳尔逊：下午 3:15 在旗杆见。</span></p>
+<p>BULLY: And you better be prompt.<br/>
+<span class="cn">恶霸：你最好准时。</span></p>
+<p>OTHER BULLY: He has four other beatings scheduled this afternoon.<br/>
+<span class="cn">另一个恶霸：他今天下午还排了另外四场毒打。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解至：</span></p>
+<p>Back in the classroom. Everybody works while Bart dreams away again.<br/>
+<span class="cn">回到教室。大家都在做功课，巴特又在做白日梦。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解为：</span></p>
+<p>Bart’s dream. He lies in a open casket, dead.<br/>
+<span class="cn">巴特的梦。他躺在一口敞开的灵柩里，已经死了。</span></p>
+<p>Otto walks bye, weeping.<br/>
+<span class="cn">奥托走过，哭泣着。</span></p>
+<p>OTTO: Good-bye, little dude. He looks so lifelife, man.<br/>
+<span class="cn">奥托：再见了，小家伙。他看起来多有生气啊，伙计。</span></p>
+<p>SKINNER: Yes. The school nurse did a wonderful job reconstructing his little face after the fight.<br/>
+<span class="cn">斯金纳：是啊。校医在打斗之后把他的小脸修复得很棒。</span></p>
+<p>Otto goes away as he listens to music.<br/>
+<span class="cn">奥托一边听着音乐一边离开。</span></p>
+<p>SKINNER: Good-bye, son. I guess you were right. All that homework was a waste of your time.<br/>
+<span class="cn">斯金纳：再见，儿子。我猜你是对的。那些家庭作业真是浪费你的时间。</span></p>
+<p>Skinner leaves and Milhouse arrives.<br/>
+<span class="cn">斯金纳离开，米尔豪斯走来。</span></p>
+<p>MILHOUSE: Thanks, Bart. We got the day off from school for this.<br/>
+<span class="cn">米尔豪斯：谢谢你，巴特。为这个我们放了学。</span></p>
+<p>Milhouse leaves and Homer and the family arrive.<br/>
+<span class="cn">米尔豪斯离开，荷马和家人走来。</span></p>
+<p>HOMER: Yeah, and I got the day off from work!<br/>
+<span class="cn">荷马：是啊，我也请了一天假！</span></p>
+<p>MARGE: Homer!
+<span class="cn">玛姬：荷马！</span></p>
+<p>She taps him on the shoulder.<br/>
+<span class="cn">她拍了拍他的肩膀。</span></p>
+<p>HOMER: Who wants a day off from work when I’m never gonna see my beloved son again? Oh, Bart! Oh, Bart!<br/>
+<span class="cn">荷马：当我再也见不到我心爱的儿子时，谁还想休假吗？哦，巴特！哦，巴特！</span></p>
+<p>MARGE: That’s better, Homer. Be brave. Bye bye, Bart. You were always my special little guy.<br/>
+<span class="cn">玛姬：好些了，荷马。勇敢点。再见了，巴特。你一直是我特别的小家伙。</span></p>
+<p>LISA: Bart, here’s the cupcake you wanted. I can’t help but think if I had just given it to you in the first place, this whole horrible tragedy could have been avoided. I know you can’t eat it now so I’ll just place it lovingly on your forehead.<br/>
+<span class="cn">丽萨：巴特，这是你要的杯子蛋糕。我忍不住想，如果一开始就把它给你，这场可怕的悲剧或许就能避免。我知道你现在不能吃，所以我就把它充满爱意地放在你额头上。</span></p>
+<p>Lisa cries as she walks away and Nelson comes.<br/>
+<span class="cn">丽萨哭着走开，纳尔逊走了过来。</span></p>
+<p>NELSON: Hey, look. They got food at this thing.<br/>
+<span class="cn">纳尔逊：嘿，快看，这里有人放食物。</span></p>
+<p>He grabs the cupcake.<br/>
+<span class="cn">他抓起了杯子蛋糕。</span></p>
+<p>NELSON: Here’s one for the road, dude.<br/>
+<span class="cn">内尔森：来一杯作别，伙计。</span></p>
+<p>He punches Bart in the stomach.<br/>
+<span class="cn">他朝巴特的胃上一拳。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">场景转换为溶解：</span></p>
+<p>The bell ringing. 3:15. Bart stands near a brick wall. He runs across several playgrounds before he runs right into Nelson.<br/>
+<span class="cn">钟声响起。3:15。巴特站在一面砖墙旁。他穿过几个操场后，正好撞上了内尔森。</span></p>
+<p>BART: Aah!
+<span class="cn">巴特：啊！</span></p>
+<p>NELSON; Put em up!<br/>
+<span class="cn">纳尔逊：举起手来！</span></p>
+<p>Nelson punches Bart about ten times before he falls.<br/>
+<span class="cn">纳尔逊在巴特倒下之前打了他大约十下。</span></p>
+<p>BART: Oh! Boy, you sure taught me a lesson. Whoo. Thanks, guys.<br/>
+<span class="cn">巴特：哦！伙计，你可真给我上了一课。哇。谢谢你们。</span></p>
+<p>The bullies drag him away.<br/>
+<span class="cn">恶霸们把他拖走。</span></p>
+<p>BART: I guess now all that’s left is a hearty handshake. Right, guys?<br/>
+<span class="cn">巴特：我想现在剩下的就只是一记热情的握手了。对吧，伙计们？</span></p>
+<p>They drag him to a garbage can. Nelson opens it up.<br/>
+<span class="cn">他们把他拖到一个垃圾桶旁。尼尔森把盖子掀开。</span></p>
+<p>NELSON: I’m gonna get you again tomorrow, Simpson.<br/>
+<span class="cn">尼尔森：我明天还会再揍你的，辛普森。</span></p>
+<p>They throw him into the can.<br/>
+<span class="cn">他们把他扔进了监狱。</span></p>
+<p>OTHER BULLY: Is 3:15 good for you?<br/>
+<span class="cn">另一个恶霸：下午 3:15 对你合适吗？</span></p>
+<p>BART: Uh, not really.<br/>
+<span class="cn">巴特：呃，不太合适。</span></p>
+<p>OTHER BULLY: Too bad.<br/>
+<span class="cn">另一个恶霸：太可惜了。</span></p>
+<p>The can is rolled down a winding street.<br/>
+<span class="cn">一个罐头沿着蜿蜒的街道滚下。</span></p>
+<p>BART: Oh, no. Oh man, that guy’s tough to love.<br/>
+<span class="cn">巴特：哦，不。哦天哪，那家伙真难以讨好。</span></p>
+<p>FADE TO BLACK
+<span class="cn">淡出至黑</span></p>
+<p>FADE IN:
+<span class="cn">淡入：</span></p>
+<p>A shot of the Simpsons house. The garbage can rolls up to it. Bart crawls out, groaning. He stands up and falls before crawling to the front door.<br/>
+<span class="cn">一张辛普森家的镜头。垃圾桶滚到门前。巴特从里面爬出来，呻吟着。他站起来又摔倒，然后爬向前门。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The living room. Marge knits and Homer reads a newspaper.<br/>
+<span class="cn">客厅。玛琦在织毛衣，荷马在看报纸。</span></p>
+<p>BART: Hi, Mom. Hi, Dad.<br/>
+<span class="cn">巴特：嗨，妈妈。嗨，爸爸。</span></p>
+<p>HOMER: Tough day at school, boy?<br/>
+<span class="cn">霍默：在学校过得辛苦吗，孩子？</span></p>
+<p>MARGE: Bart, what happened to you?<br/>
+<span class="cn">玛姬：巴特，你怎么了？</span></p>
+<p>BART: Let’s just say I paid the inevitable price for helping out my sister.<br/>
+<span class="cn">巴特：就说是我为帮我妹妹付了应有的代价吧。</span></p>
+<p>HOMER: So you had a little scuffle, eh? Heh-heh. Hope you won.<br/>
+<span class="cn">霍默：所以你和人打了一架，是吧？呵呵。希望你赢了。</span></p>
+<p>Bart walks into the bathroom and looks into the mirror.<br/>
+<span class="cn">巴特走进浴室，对着镜子看去。</span></p>
+<p>BART: I’m gonna miss you, big guy.<br/>
+<span class="cn">巴特：我会想你的，大伙儿。</span></p>
+<p>He climbs into the bathtub and groans.<br/>
+<span class="cn">他爬进浴缸里，呻吟着。</span></p>
+<p>HOMER: Bart, your mother has the fool idea that you’re upset about something.<br/>
+<span class="cn">荷马：巴特，你妈妈傻乎乎地以为你在为某事难过。</span></p>
+<p>Homer pokes his head in. Bart starts crying.<br/>
+<span class="cn">荷默探出头来。巴特开始哭泣。</span></p>
+<p>BART: Dad, I need help. Please. Oh.<br/>
+<span class="cn">巴特：爸爸，我需要帮助。求你了。哦。</span></p>
+<p>HOMER: Now, come on, Bart. We don’t want your mother to see you crying. Here, let me help you dry those tears.<br/>
+<span class="cn">荷默：来吧，巴特。我们可不想让你妈妈看到你在哭。来，让我帮你把眼泪擦干。</span></p>
+<p>He picks up a drier and turns it on. Bart’s face is blown back for several seconds.<br/>
+<span class="cn">他拿起一个吹风机并打开。巴特的脸被风吹得向后仰了好几秒。</span></p>
+<p>HOMER: So what’s the problem, son?<br/>
+<span class="cn">霍默：那有什么问题，儿子？</span></p>
+<p>BART: I had a run-in with a bully.<br/>
+<span class="cn">巴特：我和一个恶霸发生了冲突。</span></p>
+<p>MARGE: A bully?
+<span class="cn">玛姬：恶霸？</span></p>
+<p>Marge comes in.
+<span class="cn">玛姬走了进来。</span></p>
+<p>HOMER: Come on, Marge! I don’t bug you when you’re helping Lisa!<br/>
+<span class="cn">荷默：拜托，玛姬！你帮丽莎的时候我都不会烦你！</span></p>
+<p>MARGE: Well, Bart, I hope you’re going straight to the principal about this.<br/>
+<span class="cn">玛姬：嗯，巴特，我希望你就这件事直接去找校长。</span></p>
+<p>BART: I guess I could do that.<br/>
+<span class="cn">巴特：我想我可以那样做。</span></p>
+<p>HOMER: What? And violate the code of the schoolyard? I’d rather Bart died.<br/>
+<span class="cn">荷默：什么？还要违背学校的地规？我宁可巴特死了。</span></p>
+<p>MARGE: What on earth are you talking about, Homer?<br/>
+<span class="cn">玛姬：霍莫，你到底在说什么？</span></p>
+<p>HOMER: The code of the schoolyard, Marge. The rules that teach a boy to be a man. Let’s see. Don’t tattle. Always make fun of those different from you. Never say anything unless you’re sure everyone feels exactly the same way you do. What else?<br/>
+<span class="cn">霍莫：学校操场的守则，玛姬。教男孩如何成为男人的规则。让我想想。别告状。总是嘲笑与众不同的人。除非你确定每个人都和你有完全相同的想法，否则什么都别说。还有什么来着？</span></p>
+<p>MARGE: Oh, Homer, that’s ridiculous. Bart, instead of fighting, why don’t you try a little understanding?<br/>
+<span class="cn">玛姬：哦，霍莫，那太荒谬了。巴特，与其打架，不如试着多一点理解，好吗？</span></p>
+<p>BART: What do you mean, Mom?<br/>
+<span class="cn">巴特：妈妈，你什么意思？</span></p>
+<p>HOMER: Yeah, right, this oughta be good for a laugh.<br/>
+<span class="cn">霍默：是啊，对，这肯定会很好笑。</span></p>
+<p>MARGE: Shh! This bully friend of yours, is he a little on the chunky side?<br/>
+<span class="cn">玛姬：嘘！你那个欺负人的朋友，他是不是有点偏胖？</span></p>
+<p>BART: Yeah, he’s pretty chunkified, all right.<br/>
+<span class="cn">巴特：是啊，他确实有点胖得不行。</span></p>
+<p>MARGE: Mm-hmm. And I’ll bet he doesn’t do well in his studies, either.<br/>
+<span class="cn">玛姬：嗯哼。我敢打赌他学习也不怎么样。</span></p>
+<p>BART: No, he’s pretty dumb. He’s in all the same special classes as I am.<br/>
+<span class="cn">巴特：不，他挺笨的。他和我一样都上那些特殊班。</span></p>
+<p>MARGE: That’s why he lashes out at the world.<br/>
+<span class="cn">玛姬：这就是他对世界出手的原因。</span></p>
+<p>HOMER: Oh, Marge.
+<span class="cn">荷马：哦，玛姬。</span></p>
+<p>MARGE: So tomorrow, instead of bickering with this boy, talk to him. You’ll be surprised how far a little understanding will go.<br/>
+<span class="cn">玛姬：所以明天，与其跟这个男孩争吵，不如跟他谈谈。你会惊讶于一点理解能起多大作用。</span></p>
+<p>HOMER: Well, thank you very much, Mrs. Maharishi Gandhi. Let’s go, boy.<br/>
+<span class="cn">荷马：非常感谢，玛哈里希·甘地太太。走吧，孩子。</span></p>
+<p>Marge growls.
+<span class="cn">玛姬低声咆哮。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The living room, where Homer has put up a boxing bag and drawn a face on it.<br/>
+<span class="cn">客厅，荷马挂起了一个沙袋并在上面画了张脸。</span></p>
+<p>HOMER: Now here’s this bully of yours. Show me your stuff.<br/>
+<span class="cn">荷默：现在这个是你的沙袋。给我秀一秀你的本事。</span></p>
+<p>Bart weakly punches the bg several times.<br/>
+<span class="cn">巴特虚弱地对沙袋连续打了好几拳。</span></p>
+<p>HOMER: No, no. Not like that. Like this!<br/>
+<span class="cn">荷默：不，不是那样。要像这样！</span></p>
+<p>He jumps onto the bag, holding onto it and ripping away with his teeth.<br/>
+<span class="cn">他跳到沙袋上，抱住它，用牙齿撕扯着。</span></p>
+<p>HOMER: See that, boy? You didn’t expect that, did you? And neither will he.<br/>
+<span class="cn">荷马：看到了吗，孩子？你没料到吧？他也不会。</span></p>
+<p>BART: You mean I should fight dirty, Dad?<br/>
+<span class="cn">巴特：你的意思是我应该卑鄙点儿，老爸？</span></p>
+<p>HOMER: Unfortunately, son, we Simpsons sometimes have to bend the rules a little in order to hold our own.<br/>
+<span class="cn">荷马：不幸的是，儿子，我们辛普森家族有时得稍微打破规则，才能自保。</span></p>
+<p>BART: Amen.
+<span class="cn">巴特：阿门。</span></p>
+<p>HOMER: So the next time this bully thinks you’re gonna throw a punch, you throw a glob of mud in his eyes! And then you sock him when he’s staggering around blinded.<br/>
+<span class="cn">荷马：所以下次那个恶霸以为你要出拳时，你就往他眼里掷一把泥巴！等他被弄得眼花缭乱、东倒西歪时再揍他一顿。</span></p>
+<p>BART: Yeah.
+<span class="cn">巴特：嗯。</span></p>
+<p>HOMER: And there’s nothing wrong with hitting someone when his back is turned.<br/>
+<span class="cn">荷马：人在背对你时揍他，没什么不对的。</span></p>
+<p>BART: Gotcha.
+<span class="cn">巴特：明白了。</span></p>
+<p>HOMER: And if you get the chance, get him right in the family jewels. That little doozy’s been a Simpson trademark for generations.<br/>
+<span class="cn">霍默：有机会的话，就打他的要害。那小把戏已经是辛普森家的传家之宝好几代了。</span></p>
+<p>He punches the lower area of the bag.<br/>
+<span class="cn">他朝沙袋下方击去。</span></p>
+<p>BART: Thanks, Pop.
+<span class="cn">巴特：谢谢，老爸。</span></p>
+<p>Homer looks down proudly at his son.<br/>
+<span class="cn">霍默自豪地低头看着他的儿子。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">切换画面到：</span></p>
+<p>Around the school building. Bart runs around when he suddenly skids to a stop.<br/>
+<span class="cn">在校舍周围。巴特跑着，突然猛地停下。</span></p>
+<p>BART: Whoa!
+<span class="cn">巴特：哇！</span></p>
+<p>NELSON: Put ‘em up!<br/>
+<span class="cn">内尔森：举起手来！</span></p>
+<p>Bart picks up a glob of mud and throws it into Nelson’s face.<br/>
+<span class="cn">巴特捏起一把泥巴朝纳尔逊脸上扔去。</span></p>
+<p>BART: Ha! Ohh.
+<span class="cn">巴特：哈！哦。</span></p>
+<p>He punches Nelson. Nelson slowly wipes the mud from his face.<br/>
+<span class="cn">他朝纳尔逊揍去一拳。纳尔逊慢慢地把脸上的泥巴擦掉。</span></p>
+<p>Homer appears near Bart’s ear (Bart is remembering the conversation).<br/>
+<span class="cn">荷马出现在巴特耳边（巴特在回想那段对话）。</span></p>
+<p>HOMER: Remember the family jewels, son.<br/>
+<span class="cn">霍默：记住家族的宝贝，儿子。</span></p>
+<p>Bart tries to punch Nelson but Nelson holds him back. Homer appears again.<br/>
+<span class="cn">巴特想揍尼尔森，但被尼尔森拦住了。霍默再次出现。</span></p>
+<p>HOMER: (not knowing what to do) Hmm?<br/>
+<span class="cn">霍默：（不知道该怎么办）嗯？</span></p>
+<p>Bart is punched several times. Homer groans with each hit.<br/>
+<span class="cn">巴特被打了好几下。每一击霍默都发出痛苦的呻吟。</span></p>
+<p>BART (Off Screen): Oh, no boys, not the can. Please.<br/>
+<span class="cn">巴特（画外音）：哦，不，伙计们，不要往罐子里。求求你们。</span></p>
+<p>There is a crashing sound.<br/>
+<span class="cn">有一声撞击的声音。</span></p>
+<p>HOMER: Doh!
+<span class="cn">霍默：哆！</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解至：</span></p>
+<p>The front of the house. Lisa eats an ice cream cone. Bart rolls up to her in the can.<br/>
+<span class="cn">房子前面。丽莎吃着冰淇淋甜筒。巴特骑着滑板来到她身边。</span></p>
+<p>LISA: Bart, you can’t go on like this.<br/>
+<span class="cn">丽莎：巴特，你不能再这样下去了。</span></p>
+<p>BART: I know.
+<span class="cn">巴特：我知道。</span></p>
+<p>He coughs out his baseball hat.<br/>
+<span class="cn">他咳出他的棒球帽。</span></p>
+<p>LISA: Why don’t you go see Grandpa?<br/>
+<span class="cn">丽萨：你为什么不去看看爷爷？</span></p>
+<p>BART: What can he do?<br/>
+<span class="cn">巴特：他能做什么？</span></p>
+<p>LISA: He’ll give you good advice. He’s the toughest Simpson alive.<br/>
+<span class="cn">丽萨：他会给你好建议。他是辛普森家最强硬的人。</span></p>
+<p>BART: He is?
+<span class="cn">巴特：是吗？</span></p>
+<p>LISA: Yeah, remember the fight he put up when we put him in the home?<br/>
+<span class="cn">丽莎：是啊，还记得把他送进疗养院时他有多抵抗吗？</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解至：</span></p>
+<p>The Springfield Retirement Home. Outside, several people sit in rocking chairs.<br/>
+<span class="cn">斯普林菲尔德养老院。外面，几个人坐在摇椅上。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头到：</span></p>
+<p>The main desk. Bart looks up at a lady.<br/>
+<span class="cn">主接待台。巴特抬头看着一位女士。</span></p>
+<p>BART: I’m here to see Grandpa.<br/>
+<span class="cn">巴特：我是来看爷爷的。</span></p>
+<p>Dozens of heads look out from doors.<br/>
+<span class="cn">许多头从门后探出。</span></p>
+<p>LADY: Half the people here are named Grandpa.<br/>
+<span class="cn">女士：这里半数人都叫爷爷。</span></p>
+<p>BART: Well, Grandpa Simpson then.<br/>
+<span class="cn">巴特：那好吧，辛普森爷爷。</span></p>
+<p>Everybody growls and closes their door.<br/>
+<span class="cn">大家都咕哝着关上了门。</span></p>
+<p>LADY: Second floor, third dank room on the left.<br/>
+<span class="cn">女士：二楼，左边第三间潮湿的房间。</span></p>
+<p>BART: Thanks, lady.
+<span class="cn">巴特：谢谢，女士。</span></p>
+<p>He makes his way up some steps.<br/>
+<span class="cn">他沿着台阶走上去。</span></p>
+<p>CUT TO:
+<span class="cn">切换至：</span></p>
+<p>ABE SIMPSON, Homer’s dad, who types busily on a typewriter.<br/>
+<span class="cn">艾伯·辛普森，荷马的父亲，正在打字机上忙碌地敲打着。</span></p>
+<p>ABE: Dear Advertisers, I am disgusted with the way old people are depicted on television. We are not all vibrant, fun-loving sex maniacs. Many of us are bitter, resentful individuals who remember the good old days when entertainment was bland and inoffensive. The following is a list of words I never want to hear on television again. Number one: bra. Number two: horny. Number three: family jewels.<br/>
+<span class="cn">艾伯：亲爱的广告商们，我对电视上对老年人的描绘感到厌恶。我们并非都是充满活力、爱玩爱乐的性狂热者。我们中许多人是苦涩、心怀怨恨的人，怀念那些娱乐平淡无伤大雅的好旧时光。以下是我再也不想在电视上听到的一些词。第一：文胸。第二：性冲动。第三：家族宝贝。</span></p>
+<p>Bart opens the door and walks in.<br/>
+<span class="cn">巴特开门走了进去。</span></p>
+<p>BART: Hi, Grandpa!
+<span class="cn">巴特：嗨，爷爷！</span></p>
+<p>ABE: Ahh, Bart, what brings you here?<br/>
+<span class="cn">阿贝：啊，巴特，你来这儿干什么？</span></p>
+<p>BART: I need some advice, Grandpa. See, there’s this bully at school who keeps beating me up.<br/>
+<span class="cn">巴特：我需要一些建议，爷爷。你看，学校里有个恶霸一直欺负我，打我。</span></p>
+<p>ABE: Well, let me tell you something, boy. If you don’t stand up for yourself, bullies are gonna be picking on you for the rest of your life.<br/>
+<span class="cn">艾布：听着，孩子。我告诉你，如果你不为自己挺身而出，欺负你的人会缠着你一辈子。</span></p>
+<p>An OLD MAN walks in.<br/>
+<span class="cn">一位老人走了进来。</span></p>
+<p>OLD MAN: Simpson, give me the newspaper.<br/>
+<span class="cn">老人：辛普森，把报纸给我。</span></p>
+<p>ABE: Why should I?<br/>
+<span class="cn">艾布：为什么我要给？</span></p>
+<p>OLD MAN: I wanna do the crossward puzzle.<br/>
+<span class="cn">老人：我想做纵横字谜。</span></p>
+<p>ABE: No, I want to do the crossward puzzle.<br/>
+<span class="cn">艾伯：不，我想做纵横字谜。</span></p>
+<p>OLD MAN: I said give me that puzzle.<br/>
+<span class="cn">老人：我说把那本谜题给我。</span></p>
+<p>ABE: No.
+<span class="cn">艾伯：不。</span></p>
+<p>OLD MAN: Give me.<br/>
+<span class="cn">老人：把它给我。</span></p>
+<p>ABE: No.
+<span class="cn">阿贝：不。</span></p>
+<p>OLD MAN: Give me.<br/>
+<span class="cn">老人：把它给我。</span></p>
+<p>ABE: No.
+<span class="cn">阿贝：不。</span></p>
+<p>They struggle before the old man finally takes it away.<br/>
+<span class="cn">他们挣扎着，直到老人最终把它拿走。</span></p>
+<p>ABE: well, I guess I can’t help you, but I know someone who can.<br/>
+ABE：
+<span class="cn">嗯，我想我帮不了你们，但我认识能帮忙的人。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解至：</span></p>
+<p>Outside Herman’s Military Techniques. Outside the shop, in windows, are various weapons.<br/>
+<span class="cn">赫尔曼的军事技艺店外。店外、窗内陈列着各种武器。</span></p>
+<p>BART: Here?BART：
+<span class="cn">这里？</span></p>
+<p>ABE: Yep, this is it.<br/>
+ABE：
+<span class="cn">对，就是这里。</span></p>
+<p>HERMAN opens the door when they knock.<br/>
+HERMAN
+<span class="cn">在他们敲门时打开了门。</span></p>
+<p>HERMAN: What’s the password?<br/>
+HERMAN：
+<span class="cn">口令是什么？</span></p>
+<p>ABE: Let me in, you idiot.<br/>
+<span class="cn">艾伯：让我进，笨蛋。</span></p>
+<p>HERMAN: Yeah, right you are.<br/>
+<span class="cn">赫尔曼：对，你说得对。</span></p>
+<p>They walk in. The shop is decorated in weapons. Bart looks around interested.<br/>
+<span class="cn">他们走了进去。店里摆满了武器。巴特好奇地四下张望。</span></p>
+<p>ABE: So, Herman, has the large-type edition of this month’s Soldier of Fortune come in yet?<br/>
+<span class="cn">艾伯：对了，赫尔曼，这个月的大开本《军火之运》进货了吗？</span></p>
+<p>HERMAN: No, not yet. Can I interest you in some authentic n*zi underpants?<br/>
+<span class="cn">赫尔曼：不，还没有。要不要买条正宗的纳粹内裤？</span></p>
+<p>ABE: No. Actually we came over because I want you to meet my grandson, Bart.<br/>
+<span class="cn">艾伯：不要。其实我们来是想让你认识我的孙子，巴特。</span></p>
+<p>HERMAN: Ah, hello, young American.<br/>
+<span class="cn">赫尔曼：啊，你好，美国小伙子。</span></p>
+<p>BART: Hello, sir. Uh, Mr. Herman?<br/>
+<span class="cn">巴特：你好，先生。呃，赫尔曼先生？</span></p>
+<p>HERMAN: Yeah?HERMAN：
+<span class="cn">什么事？</span></p>
+<p>BART: Did you lose your arm in the w*r?<br/>
+BART：
+<span class="cn">你是在战争中丢了手臂吗？</span></p>
+<p>He points.
+<span class="cn">他指着。</span></p>
+<p>HERMAN: My arm? Well, let me put it this way. Next time your teacher tells you to keep your arm inside the bus window, you do it.<br/>
+HERMAN：
+<span class="cn">我的手臂？嗯，这么说吧。下次你老师叫你把手臂收回校车窗内的时候，你就照做。</span></p>
+<p>BART: Yes, sir, I will.<br/>
+<span class="cn">巴特：是的，先生，我会的。</span></p>
+<p>ABE: Bart’s got a problem with a local young bully named Nelson. I thought you could help him with some kind of strategy.<br/>
+<span class="cn">艾伯：巴特遇到一个本地小混混，叫尼尔森。我想你能帮他想些策略。</span></p>
+<p>HERMAN: Strategy. Hmm. How many men do you have?<br/>
+<span class="cn">赫尔曼：策略。嗯。你有多少人手？</span></p>
+<p>BART: None.
+<span class="cn">巴特：没有人。</span></p>
+<p>HERMAN: You’ll need more. And you’ll need to train them hard. Now, let’s see. Ah, okay.<br/>
+<span class="cn">赫尔曼：你们需要更多人。你们还必须刻苦训练他们。现在，让我看看。啊，好。</span></p>
+<p>He reaches below his desk and brings out a poster. He rolls it out.<br/>
+<span class="cn">他伸手到桌子下面，拿出一张海报。把它展开。</span></p>
+<p>HERMAN: The key to Springfield has always been Elm Street.<br/>
+<span class="cn">赫尔曼：通往斯普林菲尔德的关键一直是榆树街。</span></p>
+<p>He plants a knife on a spot on the paper.<br/>
+<span class="cn">他在纸上的某个地点插了一把刀。</span></p>
+<p>HERMAN: The Greeks knew it. The Carthaginians knew it. Now you know it. First, you’ll need a declaration of w*r. That way, everything you do will be nice and legal. Okay, I can use this one from the Franco-Prussian w*r. I’ll just change “Otto von Bismarck” to read “Bart Simpson.”<br/>
+<span class="cn">赫尔曼：希腊人知道这一点。迦太基人知道这一点。现在你也知道了。首先，你需要一份宣战书。这样，你所做的一切都会合法合理。好吧，我可以用这份法国—普鲁士战争的宣战书。我只需把“奥托·冯·俾斯麦”改成“巴特·辛普森”。</span></p>
+<p>He begins writing as Bart whispers to Abe.<br/>
+<span class="cn">他开始写字，巴特在一旁低声对艾比说。</span></p>
+<p>BART: Psst. Grandpa, I think this guy’s a little nuts.<br/>
+<span class="cn">巴特：嘘。爷爷，我觉得这家伙有点疯。</span></p>
+<p>ABE: Oh yeah? Well, General George S. Patton was a little nuts. And this guy is completely out of his mind. We can’t fail!<br/>
+<span class="cn">艾比：哦是吗？乔治·S·巴顿将军也有点疯。这个家伙简直疯到家了。我们不能失败！</span></p>
+<p>He taps Bart on the shoulder as the Patton theme mysteriously plays in the background.<br/>
+<span class="cn">他拍了拍巴特的肩膀，帕顿主题曲神秘地在背景中响起。</span></p>
+<p>FADE TO BLACK
+<span class="cn">淡出至黑</span></p>
+<p>FADE IN:
+<span class="cn">淡入：</span></p>
+<p>A shot of the school, with the Patton theme still playing. The flag blows slowly in the wind.<br/>
+<span class="cn">一个学校的镜头，帕顿主题曲仍在播放。国旗在风中缓慢飘动。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>Inside the classroom, a CLASSMATE passes a note along to MILHOUSE.<br/>
+<span class="cn">在教室里，一个同学把一张纸条递给米尔豪斯。</span></p>
+<p>CLASSMATE: Psst! Pass it on!<br/>
+<span class="cn">同学：嘘！传下去！</span></p>
+<p>Milhouse looks at the note. It says:<br/>
+<span class="cn">米尔豪斯看着纸条。纸条上写着：</span></p>
+<p>If you hate and fear Nelson, meet at Bart’s treehouse 1500 HRS (3 PM)<br/>
+<span class="cn">如果你恨也怕尼尔森，下午 1500 在巴特的树屋见（3 点）</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解为：</span></p>
+<p>Discover more
+<span class="cn">探索更多</span></p>
+<p>Inside the filled treehouse. Students talk amongst themselves while Herman and Abe stand in front of them.<br/>
+<span class="cn">在挤满人的树屋里。学生们相互交谈，赫尔曼和艾布站在他们面前。</span></p>
+<p>BOY: So, Mister, what are we doin’ here anyway?<br/>
+<span class="cn">男孩：那么，先生，我们到底在这里干什么？</span></p>
+<p>ABE: I wonder where Bart is.<br/>
+<span class="cn">艾伯：我想知道巴特在哪儿。</span></p>
+<p>HERMAN: Yeah. It’s way past 1500 hours.<br/>
+<span class="cn">赫尔曼：是啊。已经过了 1500 小时好久了。</span></p>
+<p>Bart suddenly walks, fresh bruises on his face. He coughs out his baseball hat, hangs it up, and stands up on a podium.<br/>
+<span class="cn">巴特突然走来，脸上有新淤青。他咳出他的棒球帽，挂好，然后站到讲台上。</span></p>
+<p>BART: OK, we all know why we’re here, right?<br/>
+<span class="cn">巴特：好吧，我们都知道我们为什么在这儿，对吧？</span></p>
+<p>MILHOUSE: No, why?
+<span class="cn">米尔豪斯：不，为什么？</span></p>
+<p>BART: To fight Nelson the bully. That guy has been tormenting all of us for years and I for one am sick of it. I can’t promise you victory. I can’t promise you good times. But the one thing I do know---<br/>
+<span class="cn">巴特：去跟恶霸尼尔森打架。那家伙多年来一直折磨我们所有人，我看着真是受够了。我不能向你保证胜利。我不能向你保证会有好日子。但有一件事我确实知道——</span></p>
+<p>Everybody begins to file out of the treehouse.<br/>
+<span class="cn">大家开始从树屋里走出来。</span></p>
+<p>BART: Whoa! Whoa! All right! Okay! I promise you victory! I promise you good times!<br/>
+<span class="cn">巴特：哇！哇！好吧！好吧！我保证你们胜利！我保证你们会玩得开心！</span></p>
+<p>The students all come back in and cheer on Bart.<br/>
+<span class="cn">学生们全都回到教室，为巴特加油。</span></p>
+<p>DISSOLVE TO:（
+<span class="cn">画面渐变切换：）</span></p>
+<p>A field of grass where Bart and the students, all dressed with an Army hat, march. Bart sings.<br/>
+<span class="cn">一片草地上，巴特和学生们都戴着军帽，列队行进。巴特边走边唱。</span></p>
+<p>BART: I got a “B” in arithmetic.<br/>
+<span class="cn">巴特：我的算术得了个“B”。</span></p>
+<p>STUDENTS: I got a “B” in arithmetic.<br/>
+<span class="cn">学生们：我算术得了个“B”。</span></p>
+<p>BART: Would’ve got an “A” but I was sick.<br/>
+<span class="cn">巴特：本来能得个“A”的，可我生病了。</span></p>
+<p>STUDENTS: Would’ve got an “A” but I was sick.<br/>
+<span class="cn">学生们：本来能得个“A”的，可我生病了。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>A playground, where the students train by hanging/climbing across a set of rings. Milhouse falls and is pushed down several seconds afterward.<br/>
+<span class="cn">一个游乐场，学生们在一组秋千圈上练习悬挂/攀爬。米尔豪斯摔下，几秒钟后又被推倒。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>Another place in the playground, where Bart’s soldiers climb up some sort of structure.<br/>
+<span class="cn">游乐场的另一个地方，巴特的士兵们正在爬某种结构。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>The students run an obstacle course around some garbage cans. A student falls in and his can is knocked over.<br/>
+<span class="cn">学生们绕着一些垃圾桶跑障碍赛。一个学生摔进垃圾桶，他的垃圾桶被撞倒。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>A road, where Bart and his troop return back to their march.<br/>
+<span class="cn">一条路，巴特和他的队伍返回他们的行进队伍。</span></p>
+<p>BART: We are rubber, you are glue…<br/>
+BART：
+<span class="cn">我们是橡皮，你们是胶水……</span></p>
+<p>STUDENTS: We are rubber, you are glue…<br/>
+<span class="cn">学生：我们是橡皮，你是胶水……</span></p>
+<p>BART: It bounces off of us and sticks to you.<br/>
+<span class="cn">巴特：它弹到我们身上，却黏在你身上。</span></p>
+<p>STUDENTS: It bounces off of us and sticks to you.<br/>
+<span class="cn">学生：它弹到我们身上，却黏在你身上。</span></p>
+<p>BART: Sound off!
+<span class="cn">巴特：报数！</span></p>
+<p>STUDENTS: One, two!
+<span class="cn">学生：一，二！</span></p>
+<p>BART: Sound off!
+<span class="cn">巴特：报数！</span></p>
+<p>STUDENTS: Three, four!
+<span class="cn">学生：三，四！</span></p>
+<p>CUT TO:
+<span class="cn">切换到：</span></p>
+<p>A small pond, which Bart’s team jumps over by skillfully landing on a rock and then leaping to the other side.<br/>
+<span class="cn">一个小池塘，巴特的队伍通过巧妙地先落在一块岩石上，然后跳到另一边，从而跃过了它。</span></p>
+<p>Suddenly, it stands up and we realize it’s not a rock but instead one of the soldier’s helmets.<br/>
+<span class="cn">突然，那块“岩石”站起来了，我们这才意识到它不是岩石，而是其中一个士兵的头盔。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>The students go back to marching, but this time there is anger and revenge in their eyes. They stomp through mud as their reflection is cast off in Bart’s sunglasses.<br/>
+<span class="cn">学生们重新开始行进，但这次他们的眼中带着愤怒和复仇。他们踩着泥泞前进，巴特墨镜里的倒影随之晃动。</span></p>
+<p>CUT TO:
+<span class="cn">画面切换：</span></p>
+<p>Back to the playground, where everyone climbs the structure.<br/>
+<span class="cn">回到操场，所有人都爬上了那座结构物。</span></p>
+<p>CUT TO:
+<span class="cn">画面切换：</span></p>
+<p>A group gathering, where Bart describes a water balloon drawn on a poster board. No dialogue is heard. It suddenly pops.<br/>
+<span class="cn">一群人聚在一起，巴特在描述海报板上画的一个水球。没有听到对话。它突然爆裂。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The students stand near a fence. Bart pushes a student forward.<br/>
+<span class="cn">学生们站在栅栏旁。巴特把一个学生推了上去。</span></p>
+<p>BART: Go!
+<span class="cn">巴特：走！</span></p>
+<p>The student runs past a large, scary dog that growls at him.<br/>
+<span class="cn">那个学生跑过一只又大又凶的狗，狗对着他低吼。</span></p>
+<p>BART: Go!
+<span class="cn">巴特：走！</span></p>
+<p>Other people quickly run past.<br/>
+<span class="cn">其他人迅速跑过。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>The sidewalk, where Bart counsels one of his TROOPS.<br/>
+<span class="cn">在人行道上，巴特正在劝说他的一个部下。</span></p>
+<p>BART: What’s the matter with you, soldier?<br/>
+<span class="cn">巴特：你怎么了，士兵？</span></p>
+<p>TROOP: It’s my nerves, sir. I just can’t stand the barking anymore.<br/>
+<span class="cn">士兵：是我神经紧张，长官。我就是再也忍受不了那持续的狗叫声了。</span></p>
+<p>BART: Your nerves? I won’t have cowards in my army.<br/>
+<span class="cn">巴特：你的神经？我军中不能有懦夫。</span></p>
+<p>He slaps the boy. Bart is suddenly slapped on the cheek as well.<br/>
+<span class="cn">他打了那个男孩一巴掌。巴特突然也被人扇了一下脸颊。</span></p>
+<p>BART: Ow.
+<span class="cn">巴特：哎呦。</span></p>
+<p>The hand belongs to Abe Simpson.<br/>
+<span class="cn">那只手是属于艾伯·辛普森的。</span></p>
+<p>ABE: Sorry, Bart. You can push them out of a plane, you can march them off a cliff, you can send ‘em off to die on some godforsaken rock, but for some reason you can’t slap ‘em. Now apologize to that boy right now.<br/>
+<span class="cn">艾伯：抱歉，巴特。你可以把他们推出飞机，可以把他们赶下悬崖，可以把他们派去在某个荒无人烟的岛上送死，但不知为什么你就是不能打他们。现在就向那个男孩道歉。</span></p>
+<p>BART: Sorry, man.
+<span class="cn">巴特：抱歉，先生。</span></p>
+<p>TROOP: It’s cool.TROOP：
+<span class="cn">挺酷的。</span></p>
+<p>CUT TO:
+<span class="cn">切换画面：</span></p>
+<p>Back to marching. Standard procedure.<br/>
+<span class="cn">回到行进。常规程序。</span></p>
+<p>BART: In English class I did the best…<br/>
+BART：
+<span class="cn">在英语课上我做得最好…</span></p>
+<p>STUDENTS: In English class I did the best…<br/>
+<span class="cn">学生们：在英语课上我得了最高分……</span></p>
+<p>BART: Because I cheated on the test.<br/>
+<span class="cn">巴特：因为我在考试中作弊。</span></p>
+<p>STUDENTS: Because I cheated on the test.<br/>
+<span class="cn">学生们：因为我在考试中作弊。</span></p>
+<p>BART: Sound off.
+<span class="cn">巴特：清唱！</span></p>
+<p>STUDENTS: One, two!
+<span class="cn">学生们：一、二！</span></p>
+<p>BART: I can’t hear you!<br/>
+<span class="cn">巴特：我听不见你们！</span></p>
+<p>STUDENTS: Three, four!
+<span class="cn">学生们：三、四！</span></p>
+<p>CUT TO:
+<span class="cn">切换到：</span></p>
+<p>A backyard, where Bart has tied a small pillow filled with flour to a rope. The students rush at it with various weapons, such as a toilet plunger and a pancake flipper.<br/>
+<span class="cn">一个后院，巴特把一个装满面粉的小枕头系在绳子上。学生们拿着各种武器冲上去，比如马桶吸盘和铲煎饼的铲子。</span></p>
+<p>BART: All right, there’s your enemy. Now hit him! Hit him! Let’s go, next group. Martinez! Steinberg! O’Hara! Chang! Olajuwon! Herman!<br/>
+<span class="cn">巴特：好啦，那就是你的敌人。现在打他！打他！快点，下一组。马丁内斯！斯坦伯格！奥哈拉！张！奥拉朱旺！赫尔曼！</span></p>
+<p>Herman suddenly rushes to the bag, stabbing it with a musket. It rips and the flour quickly pours out.<br/>
+<span class="cn">赫尔曼突然冲向袋子，用一把火枪刺它。袋子裂开，面粉迅速洒出。</span></p>
+<p>HERMAN: Die, die!
+<span class="cn">赫尔曼：去死，去死！</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Yet another march.
+<span class="cn">又是一场游行。</span></p>
+<p>BART: We are happy, we are merry.<br/>
+<span class="cn">巴特：我们快乐，我们欢欣。</span></p>
+<p>STUDENTS: We are happy, we are merry.<br/>
+<span class="cn">学生们：我们快乐，我们欢欣。</span></p>
+<p>BART: We got a rhyming dictionary.<br/>
+<span class="cn">巴特：我们有一本押韵词典。</span></p>
+<p>STUDENTS: We got a rhyming dictionary.<br/>
+<span class="cn">学生们：我们有一本押韵词典。</span></p>
+<p>BART: Sound off!
+<span class="cn">巴特：报数！</span></p>
+<p>STUDENTS: One, two!
+<span class="cn">学生们：一，二！</span></p>
+<p>BART: One more time!<br/>
+<span class="cn">巴特：再来一次！</span></p>
+<p>STUDENTS: Three, four!
+<span class="cn">学生们：三、四！</span></p>
+<p>By this time, it has grown noticeably dark.<br/>
+<span class="cn">到这时，天色已经明显暗了下来。</span></p>
+<p>BART: Bring it on home now!<br/>
+<span class="cn">巴特：现在收尾！</span></p>
+<p>STUDENTS + BART: One, two, three, four. One, two…three, four!<br/>
+<span class="cn">学生们 + 巴特：一、二、三、四。一、二……三、四！</span></p>
+<p>CUT TO:
+<span class="cn">切换到：</span></p>
+<p>The treehouse. Herman, Abe, Lisa, and Bart surround a model of Springfield built on a table. Around the treehouse, posters of streets and maps have been hung up.<br/>
+<span class="cn">树屋。赫尔曼、阿布、丽莎和巴特围着摆在桌子上的斯普林菲尔德模型。树屋四周贴满了街道和地图的海报。</span></p>
+<p>Milhouse climbs in.
+<span class="cn">米尔豪斯爬了进来。</span></p>
+<p>MILHOUSE: Nelson’s at the Elm Street Video Arcade.<br/>
+<span class="cn">米尔豪斯：尼尔森在榆街电玩厅。</span></p>
+<p>BART: Intelligence indicates he shakes down kids for quarters at the arcade.<br/>
+<span class="cn">巴特：情报显示他在电玩厅向小孩勒索硬币。</span></p>
+<p>Bart slides a salt-shaker (the model for Nelson) across the map.<br/>
+<span class="cn">巴特把一个盐瓶（作为尼尔森的模型）在地图上滑动。</span></p>
+<p>BART: THen he heads to Quick-E-Mart for a cherry Squishy.<br/>
+<span class="cn">巴特：然后他会去快易购买一杯樱桃味果昔。</span></p>
+<p>HERMAN: Then that’s where we’ll hit him. When he leaves the Quick-E-Mart, we start the saturation bombing. We got the water balloons?<br/>
+HERMAN:
+<span class="cn">那我们就在那里袭击他。他一离开快易捷，我们就开始饱和轰炸。水气球准备好了吗？</span></p>
+<p>BART: Two hundred rounds, sir.<br/>
+BART:
+<span class="cn">两百发，长官。</span></p>
+<p>Behind Bart is a BIG load of ballons. Bart raises a certain balloon.<br/>
+<span class="cn">在巴特身后是一大堆气球。巴特举起一个特定的气球。</span></p>
+<p>BART: Is it okay if they say “Happy Birthday” on the side?<br/>
+BART:
+<span class="cn">如果气球一边写着“生日快乐”可以吗？</span></p>
+<p>HERMAN: Doo…Well, I’d rather they say “Death From Above” but I guess we’re stuck. Okay, our main force will be split into two groups.<br/>
+<span class="cn">赫尔曼：咚……嗯，我宁可他们说“天降死亡”，但我想我们只能用这个了。好吧，我们的主力将分成两队。</span></p>
+<p>Herman moves figures around.<br/>
+<span class="cn">赫尔曼摆动着棋子。</span></p>
+<p>HERMAN: One will circle around this way to cut off the enemy’s retreat. The other will drive in this way, closing the trap. It’s a classic pincers movement. It can’t fail against a ten year old.<br/>
+<span class="cn">赫尔曼：一队从这边绕过去，截断敌人的撤退；另一队从这边进攻，合上包围圈。这是经典的钳形攻势。对付一个十岁的小鬼不可能失败。</span></p>
+<p>ABE: Heh-heh-heh.
+<span class="cn">亚伯：呵呵呵。</span></p>
+<p>A student pops up.<br/>
+<span class="cn">一个学生跳出来。</span></p>
+<p>STUDENT: Nelson’s at the arcade, General.<br/>
+<span class="cn">学生：尼尔森在游戏厅，长官。</span></p>
+<p>BART: Battle stations!
+<span class="cn">巴特：进入战斗位置！</span></p>
+<p>HERMAN: I feel so alive!<br/>
+<span class="cn">赫尔曼：我感觉太有活力了！</span></p>
+<p>ABE: You know, I thought I was too old. I thought my time had passed. I thought I’d never hear the screams of pain or see the look of terror in a young man’s eyes. Thank heaven for children.<br/>
+<span class="cn">艾布：你知道吗，我以为我太老了。我以为我的时代已经过去。我以为我再也听不到痛苦的尖叫，也看不到年轻人眼中的恐惧。谢天谢地还有孩子们。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解至：</span></p>
+<p>Bart hides behind a bush and watches Nelson and his g*ons turn a corner and make their way up a street.<br/>
+<span class="cn">巴特躲在一丛灌木后，观察纳尔逊和他的打手拐过街角，沿街往上走。</span></p>
+<p>OTHER BULLY: Hey, good Squishies.<br/>
+<span class="cn">另一个恶霸：嘿，好好压扁他们吧。</span></p>
+<p>BULLY: What flavor did you get?<br/>
+<span class="cn">恶霸：你选了什么口味？</span></p>
+<p>OTHER BULLY: Blue.
+<span class="cn">另一个恶霸：蓝色。</span></p>
+<p>NELSON: Hey, you two birds. You’re gonna be suckin’ all your meals through straws if you don’t shut your traps.<br/>
+<span class="cn">纳尔森：嘿，你们这两只鸟。要是你们不闭嘴，以后所有饭都得用吸管吃。</span></p>
+<p>Bart marches out and stands firm. He stares Nelson in the eye.<br/>
+<span class="cn">巴特大步走上前，站得笔直。他直视着纳尔森的眼睛。</span></p>
+<p>NELSON: Well, looky here. Little Bart Simpson.<br/>
+NELSON：
+<span class="cn">好啊，瞧瞧这是谁。小巴特·辛普森。</span></p>
+<p>BART: Nelson, I’m afraid I’m gonna have to teach you a lesson.<br/>
+BART：
+<span class="cn">纳尔逊，我恐怕得给你上一课。</span></p>
+<p>NELSON: Ha. Oh, yeah. You and what army?<br/>
+NELSON：
+<span class="cn">哈。哦，是吗。你带着哪支军队？</span></p>
+<p>BART: This one.BART：
+<span class="cn">这支。</span></p>
+<p>Students pop up from behind windows, doors, and trees. They are armed with water balloons.<br/>
+<span class="cn">学生们从窗户、门后和树后跳出来。他们手里拿着水球。</span></p>
+<p>BART: a*tillery, commence saturation bombing!<br/>
+<span class="cn">巴特：炮兵，开始饱和轰炸！</span></p>
+<p>Everybody lobs their balloons at the bullies. They are all hit in the face and scream. Balloons are shown passed from hand to hand. The bullies quickly run away. The students run after them throwing balloons.<br/>
+<span class="cn">大家把水球都扔向恶霸。水球都砸在他们脸上，他们尖叫起来。水球在手中传来传去。恶霸们迅速逃跑。学生们追着他们扔水球。</span></p>
+<p>The bullies come to a halt when they see a new group coming in front of them.<br/>
+<span class="cn">恶霸们看到前面出现了一群新来的人，停了下来。</span></p>
+<p>NELSON: Hey!
+<span class="cn">纳尔逊：嘿！</span></p>
+<p>They run away in another direction and pass by the Simpson house. Homer opens the door.<br/>
+<span class="cn">他们朝另一个方向跑去，经过辛普森家。荷马开门。</span></p>
+<p>HOMER: All right, you kids! Keep it down! Am I making myself---<br/>
+<span class="cn">荷马：好吧，你们这些小鬼！别那么吵！我说清楚了吧——</span></p>
+<p>A balloon explodes on his head. From the treehouse, Abe laughs while Herman looks through binoculars.<br/>
+<span class="cn">一个气球在他头上爆炸。阿伯在树屋里笑着，赫尔曼用望远镜看着。</span></p>
+<p>ABE: Heh-heh-heh. Got him.<br/>
+<span class="cn">艾比：呵呵呵。抓到你了。</span></p>
+<p>HOMER: You, up in the tree. The tall gray-haired kid. Get your butt down here right now.<br/>
+<span class="cn">荷马：你，树上的。那个又高又白发的孩子。现在就给我滚下来。</span></p>
+<p>Another balloon hits him.<br/>
+<span class="cn">另一个气球击中他。</span></p>
+<p>HOMER: Doh!
+<span class="cn">荷马：哎哟！</span></p>
+<p>He runs back into the house and closes the door.<br/>
+<span class="cn">他跑回屋里并关上了门。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Nelson and the bullies are trapped, their backs to a fence with the army of students approaching.<br/>
+<span class="cn">尼尔森和那些恶霸被困着，背靠栅栏，成群的学生正逼近。</span></p>
+<p>BULLY: No! Please! Don’t hurt us!<br/>
+<span class="cn">恶霸：不！求你们！不要伤害我们！</span></p>
+<p>OTHER BULLY: Oh, we surrender!<br/>
+<span class="cn">另一个恶霸：哦，我们投降！</span></p>
+<p>BULLY: W-W-We were only followin’ orders!<br/>
+<span class="cn">恶霸：我—我—我们只是执行命令！</span></p>
+<p>Everybody runs past them and smashes Nelson with the balloons.<br/>
+<span class="cn">大家跑过他们，用气球把纳尔逊砸倒。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶解到：</span></p>
+<p>Nelson is tied up in a cart. Milhouse leads it past a group of cheering students.<br/>
+<span class="cn">纳尔逊被绑在一辆推车上。米尔豪斯把推车推过一群欢呼的学生身边。</span></p>
+<p>A random student kisses Lisa and suddenly, there is a photograph of them snapped.<br/>
+<span class="cn">一个路过的学生亲了莉莎，突然有人拍下了他们的合影。</span></p>
+<p>Lisa slaps him.
+<span class="cn">莉莎给了他一巴掌。</span></p>
+<p>LISA: Eww! Knock it off!<br/>
+<span class="cn">莉莎：呸！住手！</span></p>
+<p>The students cheer as we—<br/>
+<span class="cn">学生们欢呼，我们——</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解为：</span></p>
+<p>In front of the Simpsons household. Nelson is still in the same position.<br/>
+<span class="cn">在辛普森家门前。纳尔逊仍保持着同样的姿势。</span></p>
+<p>BART: I guess you learned your lesson, so now I’ll untie you.<br/>
+<span class="cn">巴特：我想你已经吸取教训了，所以我现在要把你绑着的绳子解开。</span></p>
+<p>NELSON: The second you untie me, I’m gonna beat you to death, man.<br/>
+<span class="cn">尼尔森：你一把我解开绳子，我就把你打死，伙计。</span></p>
+<p>BART: Well, if that’s gonna be your attitude, I’m not gonna untie you.<br/>
+<span class="cn">巴特：好吧，如果你都这样，那我就不把你解开。</span></p>
+<p>NELSON: Ha, you’re gonna have to sometime.<br/>
+<span class="cn">尼尔森：哈，总得有一次吧。</span></p>
+<p>BART: Uh-oh. He’s right.<br/>
+<span class="cn">巴特：哦哦，他说得对。</span></p>
+<p>Herman comes in.
+<span class="cn">赫尔曼进来了。</span></p>
+<p>HERMAN: Don’t you worry, I was ready for this little eventuality.<br/>
+<span class="cn">赫尔曼：别担心，我早已为这种小意外做好准备。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解至：</span></p>
+<p>Homer, Lisa, and Maggie watch <a href="https://transcripts.foreverdreaming.org/?t=21865&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">TV<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> in the living room. Nelson sits tied up on the couch near them.<br/>
+<span class="cn">霍默、莉莎和玛姬在客厅看电视。尼尔森被绑着坐在他们附近的沙发上。</span></p>
+<p>Nearby on a table, Herman, Abe, and Bart look over a paper.<br/>
+<span class="cn">在旁边的一张桌子上，赫尔曼、艾伯和巴特在看一份文件。</span></p>
+<p>HERMAN: Armistice treaty, article four. “Nelson is never again to raise his fists in anger.” Article five. “Nelson recognizes Bart’s right to exist.” Article six. “Although Nelson shall have no official power, he shall remain a figurehead of menace in the neighborhood.”<br/>
+<span class="cn">赫尔曼：停战条约，第四条。“纳尔逊不得再以愤怒扬起拳头。”第五条。“纳尔逊承认巴特的生存权。”第六条。“尽管纳尔逊将不再具有正式权力，但他应继续作为街区的威慑象征存在。”</span></p>
+<p>BART: Wow, sounds good to me. Okay, I’ll sign.<br/>
+<span class="cn">巴特：哇，听起来不错。我签。</span></p>
+<p>HOMER: What about you, boy?<br/>
+<span class="cn">荷马：你呢，孩子？</span></p>
+<p>NELSON: All right, I’ll sign.<br/>
+<span class="cn">纳尔逊：好吧，我签字。</span></p>
+<p>MARGE: Are boys through playing w*r?<br/>
+<span class="cn">玛姬：男孩子们都不再打架了吗？</span></p>
+<p>BART: Yeah.
+<span class="cn">巴特：是的。</span></p>
+<p>NELSON: Yes, Mrs. Simpson.<br/>
+<span class="cn">纳尔逊：是的，辛普森太太。</span></p>
+<p>MARGE: Good! Then here’s some cupcakes.<br/>
+<span class="cn">玛姬：好！那这些纸杯蛋糕给你们。</span></p>
+<p>BART: Oh, boy!
+<span class="cn">巴特：哦，太棒了！</span></p>
+<p>The entire family (plus Herman) all snatch one.<br/>
+<span class="cn">全家（外加赫尔曼）都抢了一个。</span></p>
+<p>HOMER: Cupcakes!
+<span class="cn">荷马：纸杯蛋糕！</span></p>
+<p>They eat in good cheer…<br/>
+<span class="cn">他们兴高采烈地吃着……</span></p>
+<p>DISSOLVE TO:
+<span class="cn">溶灭切换至：</span></p>
+<p>A library, with several shelves loaded with books. Bart sits on a table, a pile of books around him as well.<br/>
+<span class="cn">一个图书馆，几排书架上摆满了书。巴特坐在一张桌子上，周围堆着一摞摞书。</span></p>
+<p>He speaks to us.<br/>
+<span class="cn">他对着我们说话。</span></p>
+<p>BART: Ladies and gentlemen, boys and girls, contrary to what you’ve just seen, w*r is neither glamorous nor fun. There are no winners, only losers. There are no good wars, with the following exceptions: The American Revolution, World w*r II, and the Star Wars trilogy. If you’d like to learn more about w*r, there’s lots of books in your local library --- many of them with cool, gory pictures. Well, good night, everybody. Peace, man.<br/>
+<span class="cn">巴特：女士们、先生们，男孩们、女孩们，与刚才你们所见相反，战*争既不光鲜也不好玩。没有赢家，只有输家。没有“正义的”战争，但有以下例外：美国独立战争、第二次世界大战，以及《星球大战》三部曲。如果你想了解更多关于战*争的知识，你当地图书馆有很多书——许多书里都有酷炫、血腥的图片。好了，大家晚安。和平，兄弟。</span></p>
+<p>FADE OUT [Patton theme plays once again]<br/>
+<span class="cn">画面淡出（《巴顿将军》主题曲再次响起）</span></p>
+<p>A random night shot of the Simpsons house as credits begin.<br/>
+<span class="cn">随着片尾字幕开始，辛普森一家房子的一个随机夜景镜头。</span></p>
+<p>FADE OUT
+<span class="cn">画面淡出</span></p>
+<p>THE END
+<span class="cn">结束</span></p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/Ousinki/my-digital-garden">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>

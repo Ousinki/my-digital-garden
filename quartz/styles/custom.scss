@@ -1,3 +1,89 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// 自定义字体：方正屏显雅宋
+@font-face {
+  font-family: "方正屏显雅宋";
+  src: url("./static/fonts/方正屏显雅宋.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+// ========== 灰色字体功能 ==========
+// 当在 frontmatter 中使用 cssclasses: [gray] 时，
+// 标记为 .cn 的中文内容会变为灰色并使用方正屏显雅宋字体
+// 使用方法：在 Markdown 中使用 <span class="cn">中文内容</span>
+
+// 灰色字体样式 - 亮色模式
+// 使用最高优先级，确保覆盖所有其他规则
+// 直接针对 .cn 类，不依赖父元素
+article.gray .cn,
+article.gray p .cn,
+article.gray span.cn,
+article.gray li .cn,
+article.gray ul .cn,
+article.gray ol .cn,
+article.gray td .cn,
+article.gray tr .cn,
+article.gray div .cn,
+article.gray h1 .cn,
+article.gray h2 .cn,
+article.gray h3 .cn,
+article.gray h4 .cn,
+article.gray h5 .cn,
+article.gray h6 .cn,
+article.gray blockquote .cn,
+article.gray * .cn {
+  color: #9ca3af !important;
+  font-family: "方正屏显雅宋", serif !important;
+}
+
+// 灰色字体样式 - 暗色模式
+// 使用 html 选择器而不是 :root，因为实际 HTML 中 saved-theme 在 html 标签上
+// 同时支持 :root 选择器作为备用
+html[saved-theme="dark"] article.gray .cn,
+html[saved-theme="dark"] article.gray p .cn,
+html[saved-theme="dark"] article.gray span.cn,
+html[saved-theme="dark"] article.gray li .cn,
+html[saved-theme="dark"] article.gray ul .cn,
+html[saved-theme="dark"] article.gray ol .cn,
+html[saved-theme="dark"] article.gray td .cn,
+html[saved-theme="dark"] article.gray tr .cn,
+html[saved-theme="dark"] article.gray div .cn,
+html[saved-theme="dark"] article.gray h1 .cn,
+html[saved-theme="dark"] article.gray h2 .cn,
+html[saved-theme="dark"] article.gray h3 .cn,
+html[saved-theme="dark"] article.gray h4 .cn,
+html[saved-theme="dark"] article.gray h5 .cn,
+html[saved-theme="dark"] article.gray h6 .cn,
+html[saved-theme="dark"] article.gray blockquote .cn,
+html[saved-theme="dark"] article.gray * .cn,
+:root[saved-theme="dark"] article.gray .cn,
+:root[saved-theme="dark"] article.gray p .cn,
+:root[saved-theme="dark"] article.gray span.cn,
+:root[saved-theme="dark"] article.gray li .cn,
+:root[saved-theme="dark"] article.gray ul .cn,
+:root[saved-theme="dark"] article.gray ol .cn,
+:root[saved-theme="dark"] article.gray td .cn,
+:root[saved-theme="dark"] article.gray tr .cn,
+:root[saved-theme="dark"] article.gray div .cn,
+:root[saved-theme="dark"] article.gray h1 .cn,
+:root[saved-theme="dark"] article.gray h2 .cn,
+:root[saved-theme="dark"] article.gray h3 .cn,
+:root[saved-theme="dark"] article.gray h4 .cn,
+:root[saved-theme="dark"] article.gray h5 .cn,
+:root[saved-theme="dark"] article.gray h6 .cn,
+:root[saved-theme="dark"] article.gray blockquote .cn,
+:root[saved-theme="dark"] article.gray * .cn {
+  color: #6b7280 !important; // 暗色模式下稍亮一点的灰色
+  font-family: "方正屏显雅宋", serif !important;
+}
+
+// 让 .cn 内的 font 标签保持原色但变暗
+article.gray .cn font,
+article.gray p .cn font,
+article.gray span.cn font,
+article.gray li .cn font,
+article.gray * .cn font {
+  opacity: 0.6 !important;
+}

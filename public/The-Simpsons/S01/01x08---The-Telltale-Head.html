@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head><title>01x08 - The Telltale Head</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="My Digital Garden"/><meta property="og:title" content="01x08 - The Telltale Head"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="01x08 - The Telltale Head"/><meta name="twitter:description" content="FADE IN: HOMER and BART walk along a dark street at night. Bart carries some object in his hands. HOMER: You know, Bart, when I was your age, I pulled a few bon"/><meta property="og:description" content="FADE IN: HOMER and BART walk along a dark street at night. Bart carries some object in his hands. HOMER: You know, Bart, when I was your age, I pulled a few bon"/><meta property="og:image:alt" content="FADE IN: HOMER and BART walk along a dark street at night. Bart carries some object in his hands. HOMER: You know, Bart, when I was your age, I pulled a few bon"/><meta property="twitter:domain" content="https://ousinki.github.io/my-digital-garden"/><meta property="og:url" content="https://https//ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head"/><meta property="twitter:url" content="https://https//ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head"/><link rel="icon" href="../../static/icon.png"/><meta name="description" content="FADE IN: HOMER and BART walk along a dark street at night. Bart carries some object in his hands. HOMER: You know, Bart, when I was your age, I pulled a few bon"/><meta name="generator" content="Quartz"/><link href="../../index.css" rel="stylesheet" type="text/css" spa-preserve/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  padding: 2rem;
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL291c2luL0xpYnJhcnkvQ2xvdWRTdG9yYWdlL0Ryb3Bib3gvQXV0b3N5bmMvU3luY1ZhdWx0L3F1YXJ0ei9jb21wb25lbnRzL3N0eWxlcyIsInNvdXJjZXMiOlsibWVybWFpZC5pbmxpbmUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTs7QUFHRjtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTs7O0FBS0Y7RUFDRTtFQUNBOzs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBOztBQUdGO0VBQ0U7RUFDQTs7QUFJSjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTs7QUFJRjtFQUNFO0VBQ0E7RUFDQSIsInNvdXJjZXNDb250ZW50IjpbIi5leHBhbmQtYnV0dG9uIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBmbG9hdDogcmlnaHQ7XG4gIHBhZGRpbmc6IDAuNHJlbTtcbiAgbWFyZ2luOiAwLjNyZW07XG4gIHJpZ2h0OiAwOyAvLyBOT1RFOiByaWdodCB3aWxsIGJlIHNldCBpbiBtZXJtYWlkLmlubGluZS50c1xuICBjb2xvcjogdmFyKC0tZ3JheSk7XG4gIGJvcmRlci1jb2xvcjogdmFyKC0tZGFyayk7XG4gIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgYm9yZGVyOiAxcHggc29saWQ7XG4gIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgb3BhY2l0eTogMDtcbiAgdHJhbnNpdGlvbjogMC4ycztcblxuICAmID4gc3ZnIHtcbiAgICBmaWxsOiB2YXIoLS1saWdodCk7XG4gICAgZmlsdGVyOiBjb250cmFzdCgwLjMpO1xuICB9XG5cbiAgJjpob3ZlciB7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIGJvcmRlci1jb2xvcjogdmFyKC0tc2Vjb25kYXJ5KTtcbiAgfVxuXG4gICY6Zm9jdXMge1xuICAgIG91dGxpbmU6IDA7XG4gIH1cbn1cblxucHJlIHtcbiAgJjpob3ZlciA+IC5leHBhbmQtYnV0dG9uIHtcbiAgICBvcGFjaXR5OiAxO1xuICAgIHRyYW5zaXRpb246IDAuMnM7XG4gIH1cbn1cblxuI21lcm1haWQtY29udGFpbmVyIHtcbiAgcG9zaXRpb246IGZpeGVkO1xuICBjb250YWluOiBsYXlvdXQ7XG4gIHotaW5kZXg6IDk5OTtcbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwdnc7XG4gIGhlaWdodDogMTAwdmg7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGRpc3BsYXk6IG5vbmU7XG4gIGJhY2tkcm9wLWZpbHRlcjogYmx1cig0cHgpO1xuICBiYWNrZ3JvdW5kOiByZ2JhKDAsIDAsIDAsIDAuNSk7XG5cbiAgJi5hY3RpdmUge1xuICAgIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgfVxuXG4gICYgPiAjbWVybWFpZC1zcGFjZSB7XG4gICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB2YXIoLS1saWdodCk7XG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgIHBvc2l0aW9uOiBmaXhlZDtcbiAgICB0b3A6IDUwJTtcbiAgICBsZWZ0OiA1MCU7XG4gICAgdHJhbnNmb3JtOiB0cmFuc2xhdGUoLTUwJSwgLTUwJSk7XG4gICAgaGVpZ2h0OiA4MHZoO1xuICAgIHdpZHRoOiA4MHZ3O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG5cbiAgICAmID4gLm1lcm1haWQtY29udGVudCB7XG4gICAgICBwYWRkaW5nOiAycmVtO1xuICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgdHJhbnNmb3JtLW9yaWdpbjogMCAwO1xuICAgICAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMXMgZWFzZTtcbiAgICAgIG92ZXJmbG93OiB2aXNpYmxlO1xuICAgICAgbWluLWhlaWdodDogMjAwcHg7XG4gICAgICBtaW4td2lkdGg6IDIwMHB4O1xuXG4gICAgICBwcmUge1xuICAgICAgICBtYXJnaW46IDA7XG4gICAgICAgIGJvcmRlcjogbm9uZTtcbiAgICAgIH1cblxuICAgICAgc3ZnIHtcbiAgICAgICAgbWF4LXdpZHRoOiBub25lO1xuICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICB9XG4gICAgfVxuXG4gICAgJiA+IC5tZXJtYWlkLWNvbnRyb2xzIHtcbiAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgIGJvdHRvbTogMjBweDtcbiAgICAgIHJpZ2h0OiAyMHB4O1xuICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgIGdhcDogOHB4O1xuICAgICAgcGFkZGluZzogOHB4O1xuICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgIGJvcmRlci1yYWRpdXM6IDZweDtcbiAgICAgIGJveC1zaGFkb3c6IDAgMnB4IDRweCByZ2JhKDAsIDAsIDAsIDAuMSk7XG4gICAgICB6LWluZGV4OiAyO1xuXG4gICAgICAubWVybWFpZC1jb250cm9sLWJ1dHRvbiB7XG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICB3aWR0aDogMzJweDtcbiAgICAgICAgaGVpZ2h0OiAzMnB4O1xuICAgICAgICBwYWRkaW5nOiAwO1xuICAgICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodCk7XG4gICAgICAgIGNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgICAgICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgICAgIGZvbnQtc2l6ZTogMTZweDtcbiAgICAgICAgZm9udC1mYW1pbHk6IHZhcigtLWJvZHlGb250KTtcbiAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMnMgZWFzZTtcblxuICAgICAgICAmOmhvdmVyIHtcbiAgICAgICAgICBiYWNrZ3JvdW5kOiB2YXIoLS1saWdodGdyYXkpO1xuICAgICAgICB9XG5cbiAgICAgICAgJjphY3RpdmUge1xuICAgICAgICAgIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgxcHgpO1xuICAgICAgICB9XG5cbiAgICAgICAgLy8gU3R5bGUgdGhlIHJlc2V0IGJ1dHRvbiBkaWZmZXJlbnRseVxuICAgICAgICAmOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgd2lkdGg6IGF1dG87XG4gICAgICAgICAgcGFkZGluZzogMCAxMnB4O1xuICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcbiAgICAgICAgfVxuICAgICAgfVxuICAgIH1cbiAgfVxufVxuIl19 */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><script src="../../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch("../../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://https://ousinki.github.io/my-digital-garden/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head-og-image.webp"/><meta property="og:image:url" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head-og-image.webp"/><meta name="twitter:image" content="https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="The-Simpsons/S01/01x08---The-Telltale-Head"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="../..">My Digital Garden</a></h2><div class="spacer mobile-only"></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>Search</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div class="search-layout" data-preview="true"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="Dark mode"><title>Dark mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="Light mode"><title>Light mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="Reader mode"><title>Reader mode</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="font-size-toggle" aria-label="切换字号"><span>A</span></button></div><div style="flex-grow: 0; flex-shrink: 0; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="font-family-toggle" aria-label="切换字体"><span>Aa</span></button></div></div><div class="explorer desktop-only" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a,b)=>!a.isFolder&amp;&amp;!b.isFolder||a.isFolder&amp;&amp;b.isFolder?a.displayName.localeCompare(b.displayName,void 0,{numeric:!0,sensitivity:\&quot;base\&quot;}):!a.isFolder&amp;&amp;b.isFolder?1:-1&quot;,&quot;filterFn&quot;:&quot;node=>node.slugSegment!==\&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;node=>node&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-9"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>Explorer</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-9" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#"></a></li></template><template id="template-folder"><li><div class="folder-container"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../The-Simpsons/">The Simpsons</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../../The-Simpsons/S01/">S01</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>01x08   The Telltale Head</a></div></nav><h1 class="article-title">01x08 - The Telltale Head</h1><p show-comma="true" class="content-meta"><time datetime="2025-09-21T16:00:00.000Z">Sep 22, 2025</time><span>60 min read</span></p><ul class="tags"><li><a href="../../tags/clippings" class="internal tag-link">clippings</a></li></ul></div></div><article class="popover-hint gray"><p><span class="cn">泄露真相的头颅</span></p>
+<p>FADE IN:
+<span class="cn">淡入：</span></p>
+<p>HOMER and BART walk along a dark street at night. Bart carries some object in his hands.<br/>
+<span class="cn">霍默和巴特在夜里沿着一条黑暗的街道走着。巴特手里抱着某个物品。</span></p>
+<p>HOMER: You know, Bart, when I was your age, I pulled a few boners. But I think you’ll find that people are pretty decent if you give them half—<br/>
+<span class="cn">霍默：你知道，巴特，我在你这个年纪的时候，也干过几桩蠢事。但我想你会发现，只要你给别人一半——</span></p>
+<p>They walk around a corner and Homer gasps. A wild crowd of people with torches and posterboards yell at Homer and Bart.<br/>
+<span class="cn">他们转过一个街角，霍默倒吸一口气。一群手持火把和标语牌的暴民冲着霍默和巴特喊叫。</span></p>
+<p>BURNS: Look, there it is, the head!<br/>
+<span class="cn">伯恩斯：看，那就是，那个头！</span></p>
+<p>KRUSTY: k*ll him!
+<span class="cn">克鲁斯蒂：k*ll 他！</span></p>
+<p>Homer and Bart set off on a run and we get a clear shot of the head. It’s the head of Jebediah Springfield. The crowd chases them around several corners before they find themselves trapped.<br/>
+<span class="cn">荷马和巴特开始逃跑，我们清楚地看到那颗头。是杰贝迪亚·斯普林菲尔德的头。人群追着他们转了好几个街角，终于把他们逼入绝境。</span></p>
+<p>Desperately, they run into an alley and emerge into the center of Springfield (a park).<br/>
+<span class="cn">他们拼命跑进一条小巷，随后出现在斯普林菲尔德的中心（一个公园）中。</span></p>
+<p>They stand under the statue of Jebediah Springfield, minus the head.<br/>
+<span class="cn">他们站在杰贝迪亚·斯普林菲尔德的雕像下，雕像缺了头。</span></p>
+<p>HOMER: They got us cornered, boy. We’ll never get away. Give me the head.<br/>
+<span class="cn">霍默：他们把我们逼入绝境了，孩子。我们永远逃不掉了。把那颗头给我。</span></p>
+<p>BART: No, Dad. This whole thing was my fault. You run along.<br/>
+<span class="cn">巴特：不，爸。这全是我的错。你快走吧。</span></p>
+<p>HOMER: Son, we’re in this mess together. No matter how tempting it might be, I can’t let my only boy get ripped limb from limb by a bloodthirsty mob.<br/>
+<span class="cn">霍默：儿子，我们是一同陷入这麻烦的。不管多么诱人，我也不能让我唯一的儿子被一群嗜血的暴民撕成碎片。</span></p>
+<p>BART: Aw, Dad.
+<span class="cn">巴特：唉，爸。</span></p>
+<p>HOMER: We’ll die together, like a father and son should.<br/>
+<span class="cn">霍默：我们会一起死去，就像父与子应有的样子。</span></p>
+<p>REVEREND LOVEJOY: Look, now we’ve got ‘em!<br/>
+<span class="cn">洛夫乔伊牧师：看，现在我们抓到他们了！</span></p>
+<p>BARNEY: Hey, that’s Homer Simpson.<br/>
+<span class="cn">巴尼：嘿，那是霍默·辛普森。</span></p>
+<p>PRINCIPAL SKINNER: And his kid, Bart.<br/>
+<span class="cn">斯金纳校长：还有他的孩子，巴特。</span></p>
+<p>BURNS: Let’s k*ll them! Bring them out!<br/>
+<span class="cn">伯恩斯：把他们干掉！把他们带出来！</span></p>
+<p>OTTO: Off the kid, man! Off him!<br/>
+<span class="cn">奥托：放开孩子，伙计！放开他！</span></p>
+<p>The crowd chants “k*ll Bart” and “k*ll Homer”.<br/>
+<span class="cn">人群高呼“杀巴特”和“杀荷马”。</span></p>
+<p>BARNEY: Let’s k*ll this guy!<br/>
+<span class="cn">巴尼：把这家伙灭了！</span></p>
+<p>Bart suddenly climbs up the statue and turns to face the crowd.<br/>
+<span class="cn">巴特突然爬上雕像，转身面向人群。</span></p>
+<p>BART: Murderous mob, I beg you to spare our lives. At least until you’ve heard the story of how we ended up with the head of our beloved town founder.<br/>
+<span class="cn">巴特：暴怒的人群啊，我恳求你们放过我们的性命。至少在听完我们是如何得到我们敬爱的镇创始人头像的故事之前，先饶了我们吧。</span></p>
+<p>BARNEY: How long will this story take?<br/>
+<span class="cn">巴尼：这个故事要多久？</span></p>
+<p>BART: Uh, about 23 minutes and 5 seconds.<br/>
+<span class="cn">巴特：呃，大约 23 分钟 5 秒。</span></p>
+<p>RANDOM PEOPLE: It’s too long! 23:05?<br/>
+<span class="cn">随便的人：太长了！23:05？</span></p>
+<p>KRUSTY: Well, all right. Go ahead.<br/>
+<span class="cn">克拉斯特：好吧。那就开始吧。</span></p>
+<p>BART: Okay. It all started Sunday morning.<br/>
+<span class="cn">巴特：好。事情是从周日早晨开始的。</span></p>
+<p>DISSOLVE TO (FLASHBACK):<br/>
+<span class="cn">画面溶解（回闪）：</span></p>
+<p>At the Simpson house, MARGE stands at the bottom of the stairs dressed for church.<br/>
+<span class="cn">在辛普森家，玛姬站在楼梯底下，穿着去教堂的衣服。</span></p>
+<p>MARGE: Kids! We’re late for church. Get your butts down here right now!<br/>
+<span class="cn">玛姬：孩子们！我们去教堂要迟到了。现在马上给我下来！</span></p>
+<p>LISA and MAGGIE slowly walk down while Bart slides quickly.<br/>
+<span class="cn">丽莎和玛吉慢慢走下楼，而巴特迅速滑下楼梯。</span></p>
+<p>LISA: Ready for inspection, Mom.<br/>
+<span class="cn">丽莎：准备接受检查了，妈妈。</span></p>
+<p>MARGE: Very nice, Maggie. And Lisa, you look lovely. Bart, assume the position.<br/>
+<span class="cn">玛姬：很好，玛姬。丽莎，你看起来很可爱。巴特，摆好姿势。</span></p>
+<p>Bart puts his hands against the wall. Marge searches his pockets and brings out a slingshot, some dice, a comic book.<br/>
+<span class="cn">巴特把手按在墙上。玛姬搜他的口袋，拿出一把弹弓、几颗骰子和一本漫画书。</span></p>
+<p>MARGE: Oh, Bart. Now where’s your father?<br/>
+<span class="cn">玛姬：哦，巴特。你爸爸在哪儿？</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Homer stands on the couch in the living room, dressed in a blue seat. He watches the <a href="https://transcripts.foreverdreaming.org/?t=21868&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">TV<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> intensely.<br/>
+<span class="cn">荷马站在客厅的沙发上，穿着一件蓝色的座位（seat）。他专注地看着电视。</span></p>
+<p>ANNOUNCER: Phillips has broken free.<br/>
+<span class="cn">播报员：菲利普斯冲出重围了。</span></p>
+<p>HOMER: Get ‘em. Get ‘em.<br/>
+<span class="cn">荷马：追上他。追上他。</span></p>
+<p>ANNOUNCER: The 50, the 40, the 30, the 20, the 10.<br/>
+<span class="cn">播报员：五十码线，四十，三十，二十，十。</span></p>
+<p>HOMER: Oh, no!
+<span class="cn">荷马：哦，不！</span></p>
+<p>ANNOUNCER: Touchdown!
+<span class="cn">播报员：达阵！</span></p>
+<p>MARGE: Homer?
+<span class="cn">玛姬：霍默？</span></p>
+<p>HOMER: D’oh!
+<span class="cn">荷马：哎呀！</span></p>
+<p>ANNOUNCER: A 64 yard run! We’ve got an upset in the making.<br/>
+<span class="cn">播报员：一次 64 码的冲刺！我们看到了一个爆冷。</span></p>
+<p>HOMER: No, we don’t. Try being objective for once in your -ooh?<br/>
+<span class="cn">荷马：没有，我们没看到。你能不能这次客观一点——哦？</span></p>
+<p>MARGE: Let’s go, Homer.<br/>
+<span class="cn">玛奇：走吧，霍默。</span></p>
+<p>HOMER: But you don’t understand, Marge. I have 50 bucks riding on this game.<br/>
+<span class="cn">霍默：可是你不懂，玛奇。我押了五十块在这场比赛上。</span></p>
+<p>MARGE: Oh, Homer, you promised me.<br/>
+<span class="cn">玛奇：哦，霍默，你答应过我的。</span></p>
+<p>HOMER: This isn’t gambling, Marge. It’s a lead-pipe cinch.<br/>
+<span class="cn">霍默：这不是赌博，玛奇。这是铁定的胜算。</span></p>
+<p>Marge groans.
+<span class="cn">玛姬呻吟。</span></p>
+<p>ANNOUNCER: Here’s the kickoff. Wolodarsky takes it at the five. And oh, my. He fumbles!<br/>
+<span class="cn">播报员：开球来了。沃洛达斯基在五码线接球。哦，天哪。他把球掉了！</span></p>
+<p>HOMER: Oh, no!
+<span class="cn">荷马：哦，不！</span></p>
+<p>ANNOUNCER: In the endzone! Another touchdown!<br/>
+<span class="cn">播报员：在端区里！又一个达阵！</span></p>
+<p>HOMER: D’oh!
+<span class="cn">荷马：哎呀！</span></p>
+<p>MARGE: Come on.
+<span class="cn">玛姬：快点。</span></p>
+<p>Homer screams into his arms.<br/>
+<span class="cn">霍默抱着他大声尖叫。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Homer drives the car. An angry look is on his face.<br/>
+<span class="cn">霍默开车。他脸上带着愤怒的表情。</span></p>
+<p>MARGE: Why should I feel like a traffic cop every Sunday morning? I’m just trying to get a little goodness into the family.<br/>
+<span class="cn">玛姬：为什么每个周日早晨我都得像个交通警察似的？我只是想让家里多一点善意。</span></p>
+<p>Homer flips the dial on the radio.<br/>
+<span class="cn">霍默扭动收音机的旋钮。</span></p>
+<p>HOMER: Where is it? The game! Where is it? Ahh!<br/>
+<span class="cn">霍默：在哪儿？比赛！在哪儿？啊！</span></p>
+<p>RADIO ANNOUNCER:…got Wolodarsky open in the end zone. He throws it.<br/>
+<span class="cn">广播员：……在端区把沃洛达尔斯基放开了。他传球了。</span></p>
+<p>HOMER: Catch it. Catch it.<br/>
+<span class="cn">霍默：接住。接住。</span></p>
+<p>RADIO ANNOUNCER: It’s complete. Touchdown!<br/>
+<span class="cn">电台播音员：完成了。着陆成功！</span></p>
+<p>HOMER: All right!
+<span class="cn">霍默：好极了！</span></p>
+<p>He honks his horn.<br/>
+<span class="cn">他按响了喇叭。</span></p>
+<p>RADIO ANNOUNCER: Oh, Doctor, we’ve got a barn burner here. This could be the most remarkable comeback since Lazarus rose from the dead.<br/>
+<span class="cn">电台播音员：哦，博士，我们这里有场激动人心的比赛。这可能是自拉撒路出墓以来最了不起的反败为胜。</span></p>
+<p>HOMER: Laza who?
+<span class="cn">荷马：拉扎谁？</span></p>
+<p>The car drives up to the front of the church and stops. The whole family steps out.<br/>
+<span class="cn">汽车开到教堂前停下。全家人都下了车。</span></p>
+<p>MARGE: Come on, everybody. We’re late. Bart, I want you to promise me you’ll pay attention in Sunday school. Bart. Bart?<br/>
+<span class="cn">玛吉：快点，大家。我们迟到了。巴特，我要你答应我在主日学校里认真听讲。巴特。巴特？</span></p>
+<p>He’s too busy listening to music to hear her.<br/>
+<span class="cn">他正忙着听音乐，没听见她。</span></p>
+<p>MARGE: Bart!MARGE：
+<span class="cn">巴特！</span></p>
+<p>BART: Whoa! Are you talking to me?<br/>
+BART：
+<span class="cn">哇！你在跟我说话吗？</span></p>
+<p>MARGE: What’s this?MARGE：
+<span class="cn">这是什么？</span></p>
+<p>She reaches into his jacket.<br/>
+<span class="cn">她伸手到他的夹克里。</span></p>
+<p>MARGE (gasps): A personal stereo. Were you going to listen to rock music in Sunday school?<br/>
+<span class="cn">玛姬（倒吸一口气）：一个随身听。你打算在主日学听摇滚乐吗？</span></p>
+<p>BART: Maybe.
+<span class="cn">巴特：也许吧。</span></p>
+<p>She yanks it away and Bart yells a bit in pain.<br/>
+<span class="cn">她一把扯开，巴特疼得大叫了一声。</span></p>
+<p>MARGE: Can you believe this, Homer? Homer? Homer?<br/>
+<span class="cn">玛姬：你能相信这个吗，霍默？霍默？霍默？</span></p>
+<p>She hears the horn honking. Homer is banging his head against the steering wheel.<br/>
+<span class="cn">她听到喇叭声响。霍默正用头撞方向盘。</span></p>
+<p>HOMER: No, no, no! We stink! We stink.<br/>
+<span class="cn">霍默：不，不，不！我们太糟糕了！我们糟透了。</span></p>
+<p>RADIO ANNOUNCER:…the 40, the 30, the 20, the 10. Touchdown!<br/>
+<span class="cn">广播员：……四十分、三十分、二十分、十分。达阵！</span></p>
+<p>MARGE: Homer, were you planning on sitting in the car till the game was over?<br/>
+<span class="cn">玛吉：霍默，你打算一直坐在车里等比赛结束吗？</span></p>
+<p>HOMER: Maybe.
+<span class="cn">霍默：也许吧。</span></p>
+<p>MARGE: It’s because of your irreverent attitude that Bart thinks he can sneak headphones into Sunday school. Now move it!<br/>
+<span class="cn">玛姬：就因为你那副不敬的态度，巴特才以为可以偷偷把耳机带进主日学。现在给我动起来！</span></p>
+<p>She throws the stereo into the car.<br/>
+<span class="cn">她把立体声音响扔进车里。</span></p>
+<p>RADIO ANNOUNCER: Now here’s the kickoff. Wolodarsky takes it at the five. And oh my. He fumbles!<br/>
+<span class="cn">广播员：现在开球。沃洛达尔斯基在五码线接球。天哪。他掉球了！</span></p>
+<p>Homer slowly picks up the stereo.<br/>
+<span class="cn">霍默慢慢地拿起立体声设备。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart sits along other students (such as Milhouse) in their class. Their teacher stands in front of them.<br/>
+<span class="cn">巴特和其他学生（比如米尔豪斯）一起坐在教室里。他们的老师站在他们面前。</span></p>
+<p>GIRL: Will my dog Pepper be there?<br/>
+<span class="cn">女孩：我的狗佩珀会在那儿吗？</span></p>
+<p>TEACHER: I’m sorry, but the answer is no.<br/>
+<span class="cn">老师：对不起，答案是否定的。</span></p>
+<p>GIRL: Why not?
+<span class="cn">女孩：为什么不行？</span></p>
+<p>TEACHER: Because heaven is for people.<br/>
+<span class="cn">老师：因为天堂是给人的。</span></p>
+<p>LISA: What about my cat, Snowball?<br/>
+<span class="cn">丽萨：那我的猫雪球呢？</span></p>
+<p>TEACHER: I’m sorry, but the answer is no.<br/>
+<span class="cn">老师：对不起，但答案是否定的。</span></p>
+<p>MILHOUSE: Will there be cavemen in heaven?<br/>
+<span class="cn">米尔豪斯：天堂里会有穴居人吗？</span></p>
+<p>TEACHER: Certainly not.
+<span class="cn">老师：当然不会。</span></p>
+<p>BART: Uh, ma’am, what if you’re a really good person, but you’re in a really, really bad fight and your leg gets gangrene, and it has to be amputated. Will it be waiting for you in heaven?<br/>
+<span class="cn">巴特：呃，女士，如果你是个非常好的人，但你正在打一场非常非常凶的架，你的腿得了坏疽，不得不截肢。那它会在天堂等着你吗？</span></p>
+<p>TEACHER: For the last time, Bart, yes!<br/>
+<span class="cn">老师：最后再说一次，巴特，会的！</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The main service. Reverend Lovejoy stands on his podium, speaking to the crowd as an organ plays.<br/>
+<span class="cn">主礼仪式。洛夫乔伊牧师站在讲坛上，对众人讲话，管风琴在伴奏。</span></p>
+<p>REV. LOVEJOY: Now, I’d like to begin today’s sermon, which I have entitled “Gambling, the Eighth Deadly Sin”. Today is Sunday, the Lord’s day and yet, at this very moment, millions of Americans are not in the Lord’s house. They’re in their own house, worshipping a false idol — professional football.<br/>
+<span class="cn">洛夫乔伊牧师：现在，我要开始今天的讲道，题为《赌博，第八宗致命的罪》。今天是星期天，主的日子，可就在此刻，数以百万计的美国人并不在主的殿里。他们待在自己的家中，崇拜一个虚假的偶像——职业橄榄球。</span></p>
+<p>Homer sits in the crowd, Bart’s earphones in his ear.<br/>
+<span class="cn">荷马坐在会众中，巴特的耳机塞在他耳朵里。</span></p>
+<p>REV. LOVEJOY: Oh, Lord---<br/>
+<span class="cn">洛夫乔伊牧师：哦，主啊——</span></p>
+<p>RADIO ANNOUNCER: It’s a beautiful Sunday. Perfect football weather for this incredible game. And by the way, this game is being brought to you by the good people at Duff beer.<br/>
+<span class="cn">广播员：这是一个美好的星期天。完美的橄榄球天气，适合这场精彩的比赛。顺便说一句，本场比赛由达夫啤酒的好人们赞助播出。</span></p>
+<p>A single word of Lovejoy’s cannot be heard.<br/>
+<span class="cn">洛夫乔伊的一句话也听不见。</span></p>
+<p>RADIO ANNOUNCER: You can’t get enough…of that wonderful Duff. Now, they’re lining up for this crucial kick. One final tick of the clock remains.<br/>
+<span class="cn">广播员：你永远也喝不够……那美妙的达夫。现在，他们正在为这关键的一踢列队。时钟上只剩最后一秒钟。</span></p>
+<p>The crowd goes into a praying position under command of Reverend Lovejoy.<br/>
+<span class="cn">在洛夫乔伊牧师的指挥下，人群双手合十祈祷。</span></p>
+<p>RADIO ANNOUNCER: If they win, it will cap an amazing comeback.<br/>
+<span class="cn">播音员：如果他们赢了，这将成为一次惊人的逆转的顶点。</span></p>
+<p>It appears as if Lovejoy is now mouthing the words of the announcer (even though he isn’t).<br/>
+<span class="cn">看起来拉夫乔伊现在在对着播音员的台词“张口念”——尽管他并没有真的说出来。</span></p>
+<p>RADIO ANNOUNCER: But it’s a 49 yard field goal into the wind.<br/>
+<span class="cn">播音员：但这是迎风的 49 码射门。</span></p>
+<p>HOMER: Make it! Make it! Make it! Make it!<br/>
+<span class="cn">霍默：进！进！进！进！</span></p>
+<p>RADIO ANNOUNCER: The kick is up…<br/>
+<span class="cn">广播员：球踢上了……</span></p>
+<p>HOMER: Oh, please, please, please, please!<br/>
+<span class="cn">荷马：哦，拜托，拜托，拜托，拜托！</span></p>
+<p>RADIO ANNOUNCER: Holy Toledo, it’s good!<br/>
+<span class="cn">广播员：哇塞，太棒了！</span></p>
+<p>Homer stands up, raises his fists into the air, and yells.<br/>
+<span class="cn">荷马站起来，举起拳头向空中，喊了起来。</span></p>
+<p>HOMER: It’s good! It’s good! It’s good!<br/>
+<span class="cn">霍默：好极了！好极了！好极了！</span></p>
+<p>Everybody looks at him strangely.<br/>
+<span class="cn">大家都奇怪地看着他。</span></p>
+<p>HOMER: It’s good…to see you all at church.<br/>
+<span class="cn">霍默：真好……在教堂见到你们大家。</span></p>
+<p>REV. LOVEJOY: Please, be seated, Homer.<br/>
+<span class="cn">洛夫乔伊牧师：请坐，霍默。</span></p>
+<p>MARGE: Yeah, sit down, Homer.<br/>
+<span class="cn">玛姬：好，坐下，荷马。</span></p>
+<p>She pulls him down.<br/>
+<span class="cn">她把他拉了下来。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Back to Bart’s class, where the teacher has sat down and is rubbing her head in pain.<br/>
+<span class="cn">回到巴特的课堂，老师已经坐下，捂着脑袋疼得皱眉。</span></p>
+<p>TEACHER: The ventriloquist goes to heaven, but the dummy doesn’t.<br/>
+<span class="cn">老师：腹语师上天堂，但假人不会。</span></p>
+<p>BART: Oh, oh, oh! Me!<br/>
+<span class="cn">巴特：哦，哦，哦！我！</span></p>
+<p>He raises his hand.<br/>
+<span class="cn">他举起了手。</span></p>
+<p>TEACHER: Bart?
+<span class="cn">老师：巴特？</span></p>
+<p>BART: What about a robot with a human brain?<br/>
+<span class="cn">巴特：那配有人类大脑的机器人怎么样？</span></p>
+<p>TEACHER: I don’t know! All these questions! Is a little blind faith too much to ask?<br/>
+<span class="cn">老师：我不知道！这么多问题！要我稍微有点盲目信仰，难道要求太多了吗？</span></p>
+<p>A bell tolls and the children all rush away in enjoyment.<br/>
+<span class="cn">一声钟响，孩子们都高高兴兴地跑开了。</span></p>
+<p>TEACHER: Don’t forget next week. Remember to read--- (sighs).<br/>
+<span class="cn">老师：别忘了下周。记得读——（叹气）。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The front entrance, where Lovejoy talks with people.<br/>
+<span class="cn">前门口，洛夫乔伊正在和人们交谈。</span></p>
+<p>WOMAN: That was very nice, Father.<br/>
+<span class="cn">女人：那真是太好了，牧师。</span></p>
+<p>REV. LOVEJOY: I was pleased you enjoyed it.<br/>
+<span class="cn">洛夫乔伊牧师：我很高兴你喜欢。</span></p>
+<p>The Simpsons march up.<br/>
+<span class="cn">辛普森一家走上前。</span></p>
+<p>REV. LOVEJOY: I seemed to have struck a chord with you today, Homer.<br/>
+<span class="cn">洛夫乔伊牧师：今天好像有打动到你，荷马。</span></p>
+<p>HOMER: What? Oh, yeah, you were great.<br/>
+<span class="cn">霍默：什么？哦，是的，你太棒了。</span></p>
+<p>MARGE: Homer!
+<span class="cn">玛姬：霍默！</span></p>
+<p>She pushes him through the door.<br/>
+<span class="cn">她把他推过门去。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The family is driving back in the car. Marge is furious.<br/>
+<span class="cn">家人们正在车里开回家。玛姬气得要命。</span></p>
+<p>MARGE: Homer, you embarrassed us in front of the whole congregation. And today’s sermon was one you really should have listened to.<br/>
+<span class="cn">玛姬：霍默，你在全体会众面前让我们丢脸了。今天的讲道你本应该好好听的。</span></p>
+<p>HOMER: What was it about?<br/>
+<span class="cn">霍默：讲的是什么？</span></p>
+<p>MARGE: Gambling.
+<span class="cn">玛姬：赌博。</span></p>
+<p>HOMER: Oh. He didn’t by any chance say that under certain circumstances it was all right, did he?<br/>
+<span class="cn">霍默：哦。他有没有可能说过在某些情况下这样做是可以的？</span></p>
+<p>MARGE: No! Look, I don’t want to talk about this anymore in front of the kids. Lisa, Bart. What did you two learn in Sunday school today?<br/>
+<span class="cn">玛姬：没有！听着，我不想在孩子们面前再讨论这事了。丽莎，巴特。你们今天主日学学到了什么？</span></p>
+<p>LISA: The answers to deep theological questions.<br/>
+<span class="cn">丽莎：关于深奥神学问题的答案。</span></p>
+<p>BART: Yeah. Among other things, apes can’t get into heaven.<br/>
+<span class="cn">巴特：是啊。除了别的，猴子不能上天堂。</span></p>
+<p>HOMER: What? Those cute little monkeys? That’s terrible. Who told you that?<br/>
+<span class="cn">荷默：什么？那些可爱的小猴子？太糟糕了。谁告诉你的？</span></p>
+<p>BART: Our teacher.
+<span class="cn">巴特：我们的老师。</span></p>
+<p>HOMER: I can understand how they wouldn’t let in those wild jungle apes, but what about those really smart ones who live among us, who roller-skate and smoke cigars?<br/>
+<span class="cn">荷默：我能理解他们不让那些野生丛林里的猿进来，但那些真正聪明、和我们一起生活、会溜冰还抽雪茄的呢？</span></p>
+<p>The car suddenly stops and Bart looks out at a movie theater.<br/>
+<span class="cn">汽车忽然停下，巴特望向一家电影院。</span></p>
+<p>BART: Oh, cool, man. Space Mutants 4. Drop me off! Drop me off!<br/>
+<span class="cn">巴特：哦，酷啊，老兄。《太空突变体 4》。在这儿放我下！在这儿放我下！</span></p>
+<p>MARGE: No way, Jose.<br/>
+<span class="cn">玛姬：才不行，何塞。</span></p>
+<p>HOMER: Marge, they’re only space mutants.<br/>
+<span class="cn">荷马：玛姬，他们只是太空突变体而已。</span></p>
+<p>MARGE: Uh-uh, I know what those movies are like. k*lling innocent people eating human flesh. You’ll just get a lot of bad ideas.<br/>
+<span class="cn">玛姬：不行不行，我知道那类电影是怎样的。杀害无辜、吃人肉。你会学到很多坏主意。</span></p>
+<p>Bart is disappointed and he sulks a bit.<br/>
+<span class="cn">巴特很失望，有点闷闷不乐。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>The living room, later. Homer lies on the couch when Bart walks in.<br/>
+<span class="cn">客厅，稍后。巴特走进来时荷马正躺在沙发上。</span></p>
+<p>BART: Hey, Dad, can I have five bucks?<br/>
+<span class="cn">巴特：嘿，爸，我能要五块钱吗？</span></p>
+<p>HOMER: I hope you’re not planning to see a certain movie starring certain space mutants that a certain mother didn’t want you to see (chuckles).<br/>
+<span class="cn">荷马：我希望你不是打算去看那部由某些太空变种人主演、某位妈妈不让你看的电影（嘿嘿）。</span></p>
+<p>BART: (laughs): Perish the thought.<br/>
+<span class="cn">巴特：（笑）别开这种玩笑。</span></p>
+<p>HOMER: Here you go, son. Share the wealth. That’s what I always say.<br/>
+<span class="cn">霍默：给你，儿子。大家一起分享。我常说的就是这一句。</span></p>
+<p>Bart walks up the stairs and undresses as he makes his way into his bedroom. He puts on his standard shorts and orange shirt. He picks up his skateboard, swings out his window, and skates off.<br/>
+<span class="cn">巴特走上楼梯，一边走一边脱衣服，走进他的卧室。他穿上标志性的短裤和橙色衬衫。拿起滑板，推开窗户，从窗外荡出，滑走了。</span></p>
+<p>BART: Da da da da da! Whoa! Whoa! Ooh, cowabunga.<br/>
+<span class="cn">巴特：达达达达达！哇！哇！哦，牛哇邦加。</span></p>
+<p>Bart arrives at the theater and skates by two bullies (Kearny and Jimbo).<br/>
+<span class="cn">巴特来到剧院，滑冰时从两个恶霸（柯尼和吉姆博）身边掠过。</span></p>
+<p>JIMBO: Hey, hot dog!<br/>
+<span class="cn">吉姆博：嘿，帅哥！</span></p>
+<p>BART: What?
+<span class="cn">巴特：什么？</span></p>
+<p>He turns his head to look and smashes into a light post.<br/>
+<span class="cn">他转头看去，却撞上了路灯杆。</span></p>
+<p>JIMBO: Nice dismount, man.<br/>
+<span class="cn">吉姆博：不错的下场，伙计。</span></p>
+<p>The two bullies laugh.<br/>
+<span class="cn">两个恶霸大笑。</span></p>
+<p>BART: Didn’t hurt.
+<span class="cn">巴特：没事儿。</span></p>
+<p>KEARNY: Oh, yeah? Well, do it again.<br/>
+<span class="cn">柯尼：哦，是吗？那再来一次。</span></p>
+<p>BART: Nah. Might land on my face and end up looking like you.<br/>
+<span class="cn">巴特：不。可能会落到我脸上，最后看起来像你。</span></p>
+<p>Jimbo laughs.
+<span class="cn">吉姆博笑了。</span></p>
+<p>KEARNY: You little punk!<br/>
+<span class="cn">基尔尼：你这个小混蛋！</span></p>
+<p>JIMBO: Hey, man, leave the kid alone. I like him.<br/>
+<span class="cn">吉姆博：嘿，伙计，别欺负孩子。我挺喜欢他的。</span></p>
+<p>BART: You do?
+<span class="cn">巴特：你喜欢他？</span></p>
+<p>JIMBO: Yeah, you’re witty. So what’s your name, man?<br/>
+<span class="cn">吉姆博：是啊，你很机智。那你叫什么名字，伙计？</span></p>
+<p>BART: I’m Bart Simpson.<br/>
+<span class="cn">巴特：我是巴特·辛普森。</span></p>
+<p>JIMBO: This here’s Kearny, and I’m Jimbo.<br/>
+<span class="cn">吉姆博：这是科尼，我是吉姆博。</span></p>
+<p>BART: You don’t need an introduction. You’re the worst kid in school.<br/>
+<span class="cn">巴特：你不需要自我介绍。你是学校里最差劲的孩子。</span></p>
+<p>JIMBO: Thanks.
+<span class="cn">吉姆博：谢谢。</span></p>
+<p>A door opens behind them.<br/>
+<span class="cn">身后有扇门打开了。</span></p>
+<p>VOICE: Psst. Coast is clear.<br/>
+<span class="cn">声音：嘘。已经安全了。</span></p>
+<p>BART: You guys are sneakin’ in?<br/>
+<span class="cn">巴特：你们偷偷溜进来？</span></p>
+<p>KEARNY: Yeah, only saps pay to see movies.<br/>
+KEARNY:
+<span class="cn">是啊，只有傻瓜才花钱看电影。</span></p>
+<p>JIMBO: Hey, Bart, come on.<br/>
+JIMBO:
+<span class="cn">嘿，巴特，快走吧。</span></p>
+<p>BART: But sneaking into a movie is practically stealing, man.<br/>
+BART:
+<span class="cn">可是溜进电影院几乎等于偷窃啊，伙计。</span></p>
+<p>KEARNY: Practically?KEARNY: “
+<span class="cn">几乎”？</span></p>
+<p>JIMBO: It is stealing.<br/>
+JIMBO：
+<span class="cn">这是偷窃。</span></p>
+<p>BART: Well, okay, I just wanted to make sure we weren’t deluding ourselves.<br/>
+BART：
+<span class="cn">好吧，我只是想确定我们没有自欺欺人。</span></p>
+<p>Bart is yanked in. A large line stands at the main entrance.<br/>
+<span class="cn">巴特被拉了进去。主入口处排着很长的队。</span></p>
+<p>FADE OUT
+<span class="cn">画面淡出</span></p>
+<p>FADE IN:
+<span class="cn">画面淡入：</span></p>
+<p>The movie. A COUPLE sits in a convertible, making out.<br/>
+<span class="cn">电影。 一对情侣坐在敞篷车里，正在接吻。</span></p>
+<p>GIRL: Wait, I think I hear something.<br/>
+<span class="cn">女孩：等一下，我好像听到什么声音。</span></p>
+<p>BOY: Oh, come on, loosen up, babe. There’s nobody here but you and me.<br/>
+<span class="cn">男孩：哦，拜托，放松点，宝贝。这里只有你和我。</span></p>
+<p>Bart sits between Kearny and Jimbo, who watch in complete interest.<br/>
+<span class="cn">巴特坐在科尼和吉姆博中间，他们满怀兴趣地观看着。</span></p>
+<p>GIRL: No. Stop it! I think I hear something…not human.<br/>
+<span class="cn">女孩：不，停下！我好像听到什么……不是人的声音。</span></p>
+<p>Bart makes a farting noise and the entire g*ng laughs.<br/>
+<span class="cn">巴特放了个放屁声音，整群人都笑了。</span></p>
+<p>BOY: Let’s get romantic.<br/>
+<span class="cn">男孩：让我们来点浪漫的。</span></p>
+<p>The boy starts kissing the girl.<br/>
+<span class="cn">男孩开始亲吻女孩。</span></p>
+<p>GIRL: Well, okay.
+<span class="cn">女孩：好吧。</span></p>
+<p>They both scream as a three-eyed mutant yanks them up from the car.<br/>
+<span class="cn">他们两个尖叫着，一个长着三只眼睛的变异人把他们从车上拽了起来。</span></p>
+<p>Bart and Jimbo scream as, in the same fashion, the MANAGER picks them up from their seats.<br/>
+<span class="cn">巴特和吉姆博尖叫着，同样地，经理把他们从座位上揪了起来。</span></p>
+<p>MANAGER: You little sneaks, you’re coming with me.<br/>
+<span class="cn">经理：你们这些小滑头，跟我走一趟。</span></p>
+<p>He throws them out of the theater.<br/>
+<span class="cn">他把他们扔出了剧院。</span></p>
+<p>MANAGER: Next time you hoodlums try this, I’m calling your parents!<br/>
+<span class="cn">经理：下次你们这些小混混要是再干这种事，我就叫你们家长来！</span></p>
+<p>KEARNY: Oh, yeah? Well, we don’t wanna see your crummy movie anyway.<br/>
+<span class="cn">基尔尼：哦，是吗？好吧，我们根本也不想看你那破电影。</span></p>
+<p>OTHER BULLY: Yeah, we’ll take our business elsewhere.<br/>
+<span class="cn">另一个恶霸：对，我们会把生意带到别处去。</span></p>
+<p>JIMBO: You know, Bart, I’ve been kicked out of all four Space Mutant movies.<br/>
+<span class="cn">吉姆博：你知道吗，巴特，我已经被四部太空变种人电影都赶出来了。</span></p>
+<p>BART: Wow, man.
+<span class="cn">巴特：哇，老兄。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart and the boys stare through a convenience store door. They walk in. Turns out its the Quick-E Mart. APU waits at the counter.<br/>
+<span class="cn">巴特和几个男孩透过便利店门盯着看。他们走了进去。原来是快速便利店。阿普在柜台等着。</span></p>
+<p>BART: Three jumbo cherry squishies and one double jumbo original flavor, sir.<br/>
+<span class="cn">巴特：三杯大号樱桃味果泥和一杯双倍大号原味，先生。</span></p>
+<p>APU: Okay. Don’t you kids take anything. I’m watching you. I’ve got eyes in the back of my head.<br/>
+<span class="cn">阿普：好吧。你们这些孩子别拿东西。我在看着你们。我后脑勺上也有眼睛。</span></p>
+<p>Jimbo, Kearny, and the other bully stuff goodies into their pocket as Apu makes the squishies.<br/>
+<span class="cn">吉姆博、科尔尼和其他那些欺凌者把好东西装进口袋里，阿普在做软糖时。</span></p>
+<p>APU: Four fifty-two.
+<span class="cn">阿普：四点五二。</span></p>
+<p>BART: Don’t worry, guys. It’s on me. Share the wealth, that’s what I always say.<br/>
+<span class="cn">巴特：别担心，伙计们。今天我请。分享财富，这就是我一直说的。</span></p>
+<p>Bart laughs. Silence.
+<span class="cn">巴特笑。寂静。</span></p>
+<p>BART: Guys?
+<span class="cn">巴特：大家？</span></p>
+<p>Bart looks outside.
+<span class="cn">巴特向外看。</span></p>
+<p>BART: Guys?
+<span class="cn">巴特：大家？</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The parking lot. Bart eventually finds them. They’re eating <a href="https://transcripts.foreverdreaming.org/?t=21868&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">snacks<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> and reading magazines.<br/>
+<span class="cn">停车场。巴特最终找到了他们。他们正在吃零食，看杂志。</span></p>
+<p>BART: Hey, guys. Where’d you get all that great stuff?<br/>
+<span class="cn">巴特：嘿，伙计们。你们这些好东西是从哪儿弄的？</span></p>
+<p>OTHER BULLY: Five-finger discount, man.<br/>
+<span class="cn">另一个恶霸：五指优惠，老兄。</span></p>
+<p>BART: You ripped it off?<br/>
+<span class="cn">巴特：你们偷来的吗？</span></p>
+<p>JIMBO: Yeah, thanks for covering for us, man.<br/>
+<span class="cn">吉姆博：是啊，多亏你帮我们顶着，兄弟。</span></p>
+<p>They snatch the squishies away.<br/>
+<span class="cn">他们把软绵绵的东西抢走了。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart and the boys arrive at the small park, where they spot the Jebediah Springfield statue.<br/>
+<span class="cn">巴特和男孩们来到小公园，看到杰贝戴亚·辛普森的雕像。</span></p>
+<p>Jimbo, Kearny, and the other bully throw rocks at the statue. It ricochets and bounces to the ground.<br/>
+<span class="cn">吉姆博、柯尼和其他恶霸向雕像扔石头。石头弹起又落到地上。</span></p>
+<p>JIMBO: Go on, Bart.<br/>
+<span class="cn">吉姆博：来吧，巴特。</span></p>
+<p>BART: But that guy founded Springfield. He built our first hospital out of logs and mud. If it weren’t for him all the settlers would have died in the great blizzard of ‘48.<br/>
+<span class="cn">巴特：但是那家伙是斯普林菲尔德的创建者。他用原木和泥土建了我们的第一家医院。要不是他，所有定居者都会在’48 年的那场大暴风雪中丧命。</span></p>
+<p>BULLIES: So?
+<span class="cn">恶霸们：所以呢？</span></p>
+<p>Jimbo sticks out a rock.<br/>
+<span class="cn">吉姆博伸出一块石头。</span></p>
+<p>BART: So…watch me hit him right between the eyes.<br/>
+<span class="cn">巴特：所以……看我把他正中眼睛。</span></p>
+<p>He grabs the rock and throws it. It bounces off the head.<br/>
+<span class="cn">他抓起石头并把它扔了出去。石头从头上弹开。</span></p>
+<p>A SHOP OWNER steps out of his store.<br/>
+<span class="cn">一家店主走出他的店铺。</span></p>
+<p>SHOP OWNER: Hey, what are you doing? Show a little respect, you insolent little thugs.<br/>
+<span class="cn">店主：嘿，你们在干什么？要有点尊重，别这么无礼的小流氓。</span></p>
+<p>He heads towards them.<br/>
+<span class="cn">他朝他们走去。</span></p>
+<p>JIMBO: Oooh, we’re really scared.<br/>
+<span class="cn">吉姆博：哼，我们真怕你似的。</span></p>
+<p>They walk off as he runs towards them,<br/>
+<span class="cn">他们一边走一边跑向他们，</span></p>
+<p>SHOP OWNER: Hey! Hey, you! Hey! Hey, hey you!<br/>
+<span class="cn">店主：喂！喂，你！喂！喂！喂你！</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>The four of them lying in a field of grass, slurping Squishies.<br/>
+<span class="cn">四个人躺在一片草地上，喝着 Squishies。</span></p>
+<p>KEARNY: You know, when you look up at clouds in the sky, they start looking like stuff.<br/>
+<span class="cn">基尔尼：你知道吗，当你抬头看天上的云，它们会开始看起来像一些东西。</span></p>
+<p>OTHER BULLY: No, they don’t.<br/>
+<span class="cn">另一个恶霸：不会的。</span></p>
+<p>KEARNY: Yeah, they do. Like that one over there looks just like a cherry b*mb.<br/>
+<span class="cn">基尔尼：会的。就像那边那朵看起来简直像个樱桃炸弹。</span></p>
+<p>It’s true; perhaps a bit too true. The cloud looks EXACTLY like a cherry b*mb.<br/>
+<span class="cn">这是真的；也许太真实了。那朵云看起来完全就是一个樱桃炸弹。</span></p>
+<p>OTHER BULLY: Hey, you’re right. And look at that one. It looks like a guy with a switchblade stuck in his back.<br/>
+<span class="cn">其他恶霸：嘿，你说得对。看那朵。看起来像一个人背上插着弹簧刀。</span></p>
+<p>Same thing as the first cloud.<br/>
+<span class="cn">和第一朵云一样。</span></p>
+<p>JIMBO: Yeah, that one looks like a school bus going over a cliff in flames, with kids inside screaming.<br/>
+<span class="cn">吉姆博：是啊，那朵看起来像一辆校车冲下悬崖着火，里面的孩子们在尖叫。</span></p>
+<p>BART: That one looks just like the statue of our town founder, Jebediah Springfield.<br/>
+<span class="cn">巴特：那朵看起来就像我们镇镇创始人杰贝迪亚·辛普森的雕像。</span></p>
+<p>OTHER BULLY: Does not.<br/>
+<span class="cn">另一个恶霸：不是的。</span></p>
+<p>BART: Does too. I mean, without the head of course.<br/>
+<span class="cn">巴特：是的。我的意思是，当然不是连脑袋一起。</span></p>
+<p>Sure enough, the cloud shows the explorer kneeling on his stand, minus the head.<br/>
+<span class="cn">果然，云朵显现出那名探险家跪在底座上的影像，只是没有脑袋。</span></p>
+<p>JIMBO: Oh, yeah. I wish someone really would cut his ugly old head off.<br/>
+<span class="cn">吉姆博：哦，对。我真希望有人真的把他那丑陋的老脑袋砍掉。</span></p>
+<p>BART: You do?
+<span class="cn">巴特：你会吗？</span></p>
+<p>KEARNY: Yeah, that’d be cool.<br/>
+<span class="cn">基尔尼：是啊，那会很酷。</span></p>
+<p>OTHER BULLY: Sure would cheese everybody off.<br/>
+<span class="cn">另一个霸凌者：肯定会把大家都惹毛。</span></p>
+<p>BART: But guys, come on. Don’t you remember history class? Jebediah once k*lled a bear with his bare hands.<br/>
+<span class="cn">巴特：可是，伙计们，别这样。你们难道不记得历史课吗？杰贝迪亚曾经徒手干掉过一头熊。</span></p>
+<p>OTHER BULLY: Oh, sorry.<br/>
+<span class="cn">其他恶霸：哦，抱歉。</span></p>
+<p>KEARNY: We forgot how much you love Jebediah Springfield.<br/>
+<span class="cn">柯尼：我们忘了你多么爱耶贝代亚·斯普林菲尔德。</span></p>
+<p>JIMBO: Yeah, he’s your boyfriend.<br/>
+<span class="cn">吉姆博：是啊，他是你男朋友。</span></p>
+<p>KEARNY: Yeah.
+<span class="cn">柯尼：对。</span></p>
+<p>BART: Come on, guys. Knock it off.<br/>
+<span class="cn">巴特：拜托，大家，别闹了。</span></p>
+<p>JIMBO: Beat it, Simpson. Man, I thought you were cool.<br/>
+<span class="cn">吉姆博：走开，辛普森。天哪，我还以为你很酷呢。</span></p>
+<p>They laugh as Bart slowly walks away.<br/>
+<span class="cn">他们笑着，巴特慢慢走开。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart walks with head down in shame. He arrives at the park, where he stares up at the statue. Voices replay in his head.<br/>
+<span class="cn">巴特低着头羞愧地走着。他来到公园，仰望着那座雕像。声音在他脑中回响。</span></p>
+<p>JIMBO: Beat it, Simpson. Man, I thought you were cool.<br/>
+<span class="cn">吉姆博：滚开，辛普森。天哪，我还以为你很酷呢。</span></p>
+<p>Bart looks up at the head once more.<br/>
+<span class="cn">巴特再一次抬头看着那颗头。</span></p>
+<p>BART: Aha!
+<span class="cn">巴特：哈！</span></p>
+<p>He runs off.
+<span class="cn">他跑开了。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Homer sits alongside Maggie, looking through a bowling magazine.<br/>
+<span class="cn">霍默和玛吉并排坐着，看着一本保龄球杂志。</span></p>
+<p>HOMER: Wow! Look at these bowling ba*ls, Maggie. Can you think of a better way for Daddy to spend his hard-won 50 bucks?<br/>
+<span class="cn">霍默：哇！看看这些保龄球，玛吉。你能想到还有比爸爸用他辛苦挣来的 50 块钱更好的去处吗？</span></p>
+<p>Maggie sucks her pacifier. Homer turns the page and gasps.<br/>
+<span class="cn">玛吉含着安抚奶嘴。霍默翻页，倒吸一口气。</span></p>
+<p>HOMER: Now I’ve seen everything. Black marbleized with a liquid center.<br/>
+<span class="cn">霍默：现在我什么都见过了。黑色大理石纹，带液体内芯。</span></p>
+<p>He shows her the book.<br/>
+<span class="cn">他把书给她看。</span></p>
+<p>HOMER: The Stealth Bowler. The pins don’t know what hit them.<br/>
+<span class="cn">荷马：潜行球手。瓶柱都不知道被什么打到了。</span></p>
+<p>BART: Dad, can I talk to you about something?<br/>
+<span class="cn">巴特：爸爸，我能和你谈点事吗？</span></p>
+<p>Homer brings the magazine done, revealing Bart’s face.<br/>
+<span class="cn">荷马把杂志合上，露出巴特的脸。</span></p>
+<p>HOMER: Sure, boy, what’s on your mind?<br/>
+<span class="cn">荷默：当然，孩子，怎么了？</span></p>
+<p>He puts Bart on his lap.<br/>
+<span class="cn">他把巴特抱到膝上。</span></p>
+<p>BART: Well, I was wondering. How important is it to be popular?<br/>
+<span class="cn">巴特：嗯，我想知道。受欢迎有多重要？</span></p>
+<p>HOMER: I’m glad you asked, son. Being popular is the most important thing in the world.<br/>
+<span class="cn">荷默：我很高兴你问这个，儿子。受欢迎是世界上最重要的事。</span></p>
+<p>BART: So, like, sometimes you could do stuff you think is pretty bad so other kids will like you better?<br/>
+<span class="cn">巴特：所以，比如说，有时候你可以做一些你觉得挺过分的事，这样别的孩子就会更喜欢你？</span></p>
+<p>HOMER: You’re not talking about k*lling anyone, are you?<br/>
+<span class="cn">荷马：你不是在说要杀谁吧？</span></p>
+<p>BART: No.
+<span class="cn">巴特：没有。</span></p>
+<p>HOMER: Are you?
+<span class="cn">荷马：真的没有？</span></p>
+<p>Discover more
+<span class="cn">探索更多</span></p>
+<p>BART: No!
+<span class="cn">巴特：不！</span></p>
+<p>HOMER: Then run along you little scamp. A boy without mischief is like a bowling ball without a liquid center.<br/>
+<span class="cn">霍默：那就快去吧，小淘气。没有调皮的男孩就像没有液态内核的保龄球。</span></p>
+<p>Bart walks out of the kitchen as we:<br/>
+<span class="cn">巴特离开厨房，我们看到：</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart’s bedroom. The alarm clock rings and a hand stealthily stops it. A shadow moves across the house. They peek into Homer’s room. The magazine is on top of Homer, he is sleeping and drooling.<br/>
+<span class="cn">巴特的卧室。闹钟响了，一只手悄然把它按停。一个影子在房子里移动。他们偷看霍默的房间。杂志盖在霍默身上，他在睡觉并流着口水。</span></p>
+<p>The door shuts. Bart (the shadow) slides down the staircase. He is dressed in a black suit which makes him close to unrecognizable. He jumps around like a ninja.<br/>
+<span class="cn">门关上了。巴特（影子）沿着楼梯滑下来。他穿着一套黑色西装，几乎认不出来。他像忍者一样四处跳跃。</span></p>
+<p>He steps on the cat, but then claps his hand over its mouth. He proceeds to open a window, throw the cat out, and climb out himself. He moves across the front yard.<br/>
+<span class="cn">他踩到猫，但随即用手捂住了猫的嘴。他接着打开一扇窗，把猫扔出去，然后自己爬了出去。他穿过前院。</span></p>
+<p>He’s seen running through Springfield, past a traffic light, past the movie theater (now closed). He arrives and looks down to see a large shadow. It is Jebediah Springfield, looming over him.<br/>
+<span class="cn">他被看到奔跑穿过斯普林菲尔德，经过一个红绿灯，经过（现在关门的）电影院。他到达并低头看到一个巨大的影子。那是杰贝迪亚·斯普林菲尔德，正俯视着他。</span></p>
+<p>He takes out a saw from his back and climbs the statue. At the top, he begins cutting and cutting as we move back to show a lot of Springfield. There is a loud clank and the head falls against the ground.<br/>
+<span class="cn">他从背后拿出一把锯，爬上雕像。在顶部，他开始锯啊锯，镜头后退，展示出大片斯普林菲尔德。伴随着一声沉重的铿锵，头颅碰撞着落到地上。</span></p>
+<p>BART: What have I done?<br/>
+<span class="cn">巴特：我做了什么？</span></p>
+<p>FADE TO BLACK
+<span class="cn">淡出至黑</span></p>
+<p>FADE IN;
+<span class="cn">淡入；</span></p>
+<p>A shot of the Simpsons house before we find Bart asleep in his bed. He yawns, opens his eyes --- and finds himself staring straight at the head! He screams.<br/>
+<span class="cn">镜头对准辛普森家的房子，然后我们发现巴特睡在床上。他打了个哈欠，睁开眼——发现自己正盯着那颗脑袋！他尖叫。</span></p>
+<p>MARGE: Bart, are you all right?<br/>
+<span class="cn">玛吉：巴特，你还好吗？</span></p>
+<p>BART: Uh, yeah. Top of the world, ma.<br/>
+<span class="cn">巴特：呃，嗯。感觉棒极了，妈。</span></p>
+<p>MARGE: Well, then come down for breakfast.<br/>
+<span class="cn">玛姬：那就下来吃早餐。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Homer and Lisa eat at the table as Marge paces around the kitchen. Homer continues reading the book.<br/>
+<span class="cn">荷马和莉萨在餐桌上吃着，玛姬在厨房里来回踱步。荷马继续看着那本书。</span></p>
+<p>HOMER: Ooh! Look at this one. “The Hammer of Thor: it will send your pins to Val-halla.” Lisa?<br/>
+<span class="cn">荷马：哦！看看这个。“索尔之锤：它会把你的钉子送到瓦尔哈拉。”莉萨？</span></p>
+<p>LISA: Valhalla is where Vikings go when they die.<br/>
+<span class="cn">丽萨：瓦尔哈拉是维京人死后去的地方。</span></p>
+<p>HOMER: Ooh, that’s some ball.<br/>
+<span class="cn">荷马：哦，那可真是个球。</span></p>
+<p>Bart arrives. He carries a large sack over his back.<br/>
+<span class="cn">巴特到来了。他背着一个大麻袋。</span></p>
+<p>BART: Good morning, everybody.<br/>
+<span class="cn">巴特：大家早上好。</span></p>
+<p>He sets the sack down and it clanks on the floor. Everybody looks over suspiciously.<br/>
+<span class="cn">他把袋子放下，袋子在地上发出叮当声。大家都可疑地看了过来。</span></p>
+<p>RADIO ANNOUNCER: We interrupt “Mambo in the Morning” to bring you this special news bulletin. The statue of Jebediah Springfield, our illustrious town founder, was brutally decapitated last night in an act of senseless vandalism.<br/>
+<span class="cn">广播员：我们打断《早晨曼波》节目，带来这一则特别新闻简报。我们光荣的小镇奠基人杰贝迪亚·斯普林菲尔德的雕像昨晚被残忍地斩首，这是一起毫无意义的破坏行为。</span></p>
+<p>The entire family gasps. Bart looks over at the bag.<br/>
+<span class="cn">全家人一起倒吸一口气。巴特看向那个袋子。</span></p>
+<p>RADIO ANNOUNCER: We now go to Police Chief Wiggum at City Hall.<br/>
+<span class="cn">广播员：我们现在连线市政厅的警长维格姆。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>City Hall, where a large group of reporters gather around WIGGUM.<br/>
+<span class="cn">市政厅，一大群记者围着威格姆。</span></p>
+<p>WIGGUM: Well, we have no witnesses, no suspects, no leads. If anyone has any information, please dial “O” and ask for the police. That number again. “O”.<br/>
+<span class="cn">威格姆：嗯，我们没有目击者，没有嫌疑人，也没有线索。如果有人有任何信息，请拨“O”并要求接警。号码再说一遍。“O”。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Back to kitchen, where the entire family has gathered.<br/>
+<span class="cn">回到厨房，全家人都聚在一起。</span></p>
+<p>RADIO ANNOUNCER: Stay tuned to this station for further developments as they break (sobbing).<br/>
+<span class="cn">广播员：请继续收听本台以获取最新进展（哭泣）。</span></p>
+<p>BART: It’s just a statue.<br/>
+<span class="cn">巴特：那只不过是一座雕像。</span></p>
+<p>MARGE: The statue of the trailblazing founder of our town.<br/>
+<span class="cn">玛姬：我们小镇先驱创始人的雕像。</span></p>
+<p>LISA: It’s a symbol of what we can all do if we put our minds to it.<br/>
+<span class="cn">丽莎：那象征着只要我们用心，就能做到的事情。</span></p>
+<p>HOMER: Just a statue? is the Statue of Liberty just a statue? Is the Leaning Tower of Pizza just a statue?<br/>
+<span class="cn">荷马：就只是一座雕像？自由女神像就只是座雕像？比萨斜塔就只是座雕像？</span></p>
+<p>A horn honks.
+<span class="cn">一声喇叭响起。</span></p>
+<p>BART: Uh-oh. School bus. Come on, Lis. School bus.<br/>
+<span class="cn">巴特：糟了。校车。快点，莉斯。校车来了。</span></p>
+<p>He picks up the backpack. Lisa looks down sadly at the table.<br/>
+<span class="cn">他拿起背包。莉萨伤心地低头看着桌子。</span></p>
+<p>MARGE: Go on, Lisa. We’ve all got to be brave, just like Jebediah when he k*lled that bear.<br/>
+<span class="cn">玛姬：去吧，莉萨。我们都得勇敢，就像杰贝迪亚杀那只熊时一样。</span></p>
+<p>LISA: It’s so awful.<br/>
+<span class="cn">丽莎：太糟糕了。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Moe’s bar. MOE speaks to his daily group of customers, all of whom have bowed their heads in disappointment.<br/>
+<span class="cn">莫吧。莫对着他每天那群顾客说话，所有人都低着头，满是失望。</span></p>
+<p>MOE: Okay, come on. Come on, everybody. We gotta get on with our lives. Let’s try and put this tragedy behind us.<br/>
+<span class="cn">莫：好啦，来吧。大家都振作点。我们得继续生活。试着把这场悲剧抛在脑后。</span></p>
+<p>BARNEY: You’re right, Moe. A beer, please, and make sure there’s a head on it.<br/>
+<span class="cn">巴尼：你说得对，莫。来瓶啤酒，记得要有泡头。</span></p>
+<p>Moe starts sobbing.
+<span class="cn">莫开始抽泣。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The Springfield Retirement Home, where ABE SIMPSON sits on a bench along with other seniors.<br/>
+<span class="cn">斯普林菲尔德养老院，阿贝·辛普森和其他老人一起坐在长椅上。</span></p>
+<p>ABE: I said it before, and I’ll say it again. “Hell in a handbasket!” I hope they find the punk who did this, and I hope they cut his head off.<br/>
+<span class="cn">阿贝：我以前说过，现在再说一遍。“天要塌下来了！”我希望他们能抓到干这事的小子，我希望他们把他的头砍下来。</span></p>
+<p>SENIORS: Yeah!
+<span class="cn">老人们：是啊！</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Bart, who spies Jimbo, Kearny, and the other bully lying on a field of grass. Nearby, a sign says “Keep off the Grass”<br/>
+<span class="cn">巴特看到吉姆博、柯尼和其他恶霸躺在一片草地上。附近有一个牌子写着“勿践踏草坪”</span></p>
+<p>BART: Hi, guys. What’s up?<br/>
+<span class="cn">巴特：嗨，伙计们。怎么了？</span></p>
+<p>JIMBO: We were just saying we’d love to meet the guy who cut off the head of that statue.<br/>
+<span class="cn">吉姆博：我们刚在说真想见到把那座雕像头砍掉的家伙。</span></p>
+<p>OTHER BULLY: Yeah, we wish he were here right now.<br/>
+<span class="cn">另一个恶霸：是啊，我们希望他现在就在这里。</span></p>
+<p>BART: Oh, really?
+<span class="cn">巴特：哦，真的吗？</span></p>
+<p>Bart zips open his bag.<br/>
+<span class="cn">巴特拉开他的包。</span></p>
+<p>KEARNY: Yeah, we’d break every bone in his stupid little body.<br/>
+<span class="cn">柯尼：是啊，我们会把他那愚蠢小小身体的每根骨头都弄断。</span></p>
+<p>Bart zips the bag back up.<br/>
+<span class="cn">巴特又把包拉上。</span></p>
+<p>JIMBO: Yeah, that’s right, man. Limb by limb.<br/>
+JIMBO：
+<span class="cn">对，没错，伙计。肢解，寸步不让。</span></p>
+<p>ALL: Yeah!
+<span class="cn">众人：耶！</span></p>
+<p>BART: What? But—but yesterday didn’t you say it would be cool to cut off the head, and really cheese everybody off?<br/>
+BART：
+<span class="cn">什么？可是——可是你昨天不是说砍下头会很酷，会把大家气个半死吗？</span></p>
+<p>KEARNY: Yeah, that was just cloud talk, man.<br/>
+KEARNY：
+<span class="cn">是啊，那只是酒吧里的胡扯，老兄。</span></p>
+<p>JIMBO: Yeah. I mean, throwing rocks is one thing but I would never cut the head off of a guy who iced a bear with his bare hands. So what’s in the bag, Bart?<br/>
+<span class="cn">吉姆博：是啊。我是说，扔石头是一回事，但我绝不会割下一个用赤手空拳打死熊的人的头。所以包里装的是什么，巴特？</span></p>
+<p>Jebediah starts speaking. Only Bart can hear him. I suppose it’s part of his guilt.<br/>
+<span class="cn">杰比戴亚开始说话。只有巴特能听见。我想这是他内疚的一部分。</span></p>
+<p>JEBEDIAH: My head.
+<span class="cn">杰比戴亚：我的头。</span></p>
+<p>JIMBO: I said, what’s in the bag, Bart?<br/>
+<span class="cn">吉姆博：我问过了，包里装的是什么，巴特？</span></p>
+<p>JEBEDIAH: Go ahead, Bart. Tell them. It’s the head of Jebediah Springfield.<br/>
+<span class="cn">杰贝迪亚：说吧，巴特。告诉他们。那是杰贝迪亚·斯普林菲尔德的头。</span></p>
+<p>BART: I gotta go.<br/>
+<span class="cn">巴特：我要走了。</span></p>
+<p>He runs off with the bag and finds himself at the park. A gigantic group of people stare at the incomplete statue.<br/>
+<span class="cn">他提着袋子跑到公园，发现一大群人盯着那座残缺的雕像。</span></p>
+<p>JEBEDIAH: Look what you’ve done. You wanted to be popular. Now you’re the most hated boy in town.<br/>
+<span class="cn">杰贝迪亚：看看你干的好事。你想要受欢迎。现在你成了镇上最被憎恨的男孩。</span></p>
+<p>BART: You’re not really talking to me. You’re just my overactive imagination.<br/>
+<span class="cn">巴特：你其实并不是在跟我说话。你只是我过度活跃的想象。</span></p>
+<p>JEBEDIAH: Oh, I am, am I?<br/>
+<span class="cn">杰贝戴亚：哦，是吗？</span></p>
+<p>BART: Shut up. I wanted them to like me.<br/>
+<span class="cn">巴特：闭嘴。我只是想要他们喜欢我。</span></p>
+<p>Bart walks past Burns and Moe.<br/>
+<span class="cn">巴特走过伯恩斯和莫伊。</span></p>
+<p>BURNS: Hmm. That child seems rattled.<br/>
+<span class="cn">伯恩斯：嗯。那个孩子看起来很慌张。</span></p>
+<p>MOE: Can you blame him?<br/>
+<span class="cn">莫：你能责怪他吗？</span></p>
+<p>BURNS: No. No, I can’t.<br/>
+<span class="cn">伯恩斯：不。不，我不能。</span></p>
+<p>Burns cries into his arms. SMITHERS taps him on the back.<br/>
+<span class="cn">伯恩斯把脸埋进手臂里哭。史密瑟斯拍了拍他的背。</span></p>
+<p>SMITHERS: There, there, Mr. Burns. Blow, sir.<br/>
+<span class="cn">史密瑟斯：好啦好啦，伯恩斯先生。用力，先生。</span></p>
+<p>Burns blows his nose on a tissue.<br/>
+<span class="cn">伯恩斯用纸巾擤鼻涕。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Bart, who walks into his house. Maggie and Lisa sit on the couch, watching <a href="https://transcripts.foreverdreaming.org/?t=21868&amp;sid=0b92264ca05afe8005122e5eb1b064a6#" class="external">TV<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. Bart starts making his way into the kitchen when---<br/>
+<span class="cn">巴特走进他的房子。玛吉和莉萨坐在沙发上看电视。巴特正往厨房走去——</span></p>
+<p>LISA: Hey, Bart, where are you going?<br/>
+<span class="cn">莉萨：嘿，巴特，你要去哪儿？</span></p>
+<p>BART: Uh, to my room.<br/>
+<span class="cn">巴特：呃，回我的房间。</span></p>
+<p>LISA: Why don’t you watch Krusty the Clown?<br/>
+<span class="cn">丽莎：你为什么不看看小丑克鲁斯蒂的节目？</span></p>
+<p>KRUSTY (on TV): There’s someone out there in Krustyland who has committed an atrocity. If you know who cut off Jebediah’s head --- I don’t care if it’s your brother, your sister, your daddy, or your mommy --- turn them in and Krusty will send you a free slide whistle just like Sideshow Bob’s.<br/>
+<span class="cn">克鲁斯蒂（电视上）：克鲁斯蒂乐园里有人犯下了滔天大罪。如果你知道谁砍下了杰比迪亚的头——我才不管是你哥哥、你姐姐、你爸爸还是你妈妈——把他们举报了，克鲁斯蒂就会寄给你一个免费的滑音哨，就像配角鲍勃那样的。</span></p>
+<p>Bob whistles on the television.<br/>
+<span class="cn">鲍勃在电视上吹哨子。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The yard, where Bart digs a hole with his shovel. The head rests on the ground, talking to him.<br/>
+<span class="cn">院子里，巴特用铲子挖了一个洞。头颅躺在地上，和他说话。</span></p>
+<p>JEBEDIAH: Wait a minute. I hope you’re not planning to do what I think you’re doing.<br/>
+<span class="cn">杰比迪亚：等一下。我希望你不要打算做我认为你要做的事。</span></p>
+<p>BART: Sorry, man, it’s either you or me.<br/>
+<span class="cn">巴特：抱歉，伙计，不是你就是我。</span></p>
+<p>JEBEDIAH: You know, Bart, you don’t have to found a town to be a hero. Sometimes a hero can be a young boy with the courage to stand up and admit he’s made a mistake.<br/>
+<span class="cn">杰比迪亚：你知道吗，巴特，你不必创建一个城镇才能成为英雄。有时，英雄可以是一个勇于站出来承认自己错误的年轻男孩。</span></p>
+<p>BART: Yeah, well, I’m running a little short on courage right now.<br/>
+<span class="cn">巴特：嗯，我现在有点缺乏勇气。</span></p>
+<p>Bart throws him into the hole.<br/>
+<span class="cn">巴特把他扔进洞里。</span></p>
+<p>JEBEDIAH: Aah! Anyway, think about it, will you, son?<br/>
+<span class="cn">杰比戴：啊！不管怎样，好好想想，好吗，儿子？</span></p>
+<p>Bart looks down meaningfully at the head and groans.<br/>
+<span class="cn">巴特意味深长地低头看着那颗头，轻声呻吟。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>Back inside the house where Homer, Marge, Lisa, and Maggie watch TV.<br/>
+<span class="cn">屋内，荷马、玛姬、丽莎和玛吉在看电视。</span></p>
+<p>TV REPORTER: Jebediah Obediah Zachariah Jebediah Springfield came West in 1838.<br/>
+<span class="cn">电视播报员：杰贝迪亚·奥贝迪亚·扎卡赖亚·杰贝迪亚·斯普林菲尔德于 1838 年来到西部。</span></p>
+<p>The title on the TV reads: Springfield A City Held Hostage Day One.<br/>
+<span class="cn">电视上的标题写着：斯普林菲尔德一座被挟持的城市 第一天。</span></p>
+<p>Jebediah is shown chopping a log. A bear emerges out of the tree and Jebediah throws his axe away.<br/>
+<span class="cn">画面显示杰贝迪亚在劈木头。一只熊从树丛中出现，杰贝迪亚把他的斧头扔掉。</span></p>
+<p>TV REPORTER: Along the way he met a ferocious bear and k*lled him with his bare hands. That’s “B-A-R-E” hands.<br/>
+<span class="cn">电视记者：一路上他遇到一只凶猛的熊，并用赤手空拳把它打死。那是“B-A-R-E”（赤手）手。</span></p>
+<p>Jebediah wrestles the bear to the ground.<br/>
+<span class="cn">杰贝迪亚把熊摔倒在地。</span></p>
+<p>TV REPORTER: Although modern historians recently uncovered evidence that the bear, in fact, probably k*lled him. But whether bear k*lled man---<br/>
+<span class="cn">电视记者：不过现代历史学家最近发现证据表明，那只熊实际上可能把他给咬死了。但不管是熊咬死了人——</span></p>
+<p>BART: Mom. Dad.
+<span class="cn">巴特：妈妈。爸爸。</span></p>
+<p>Bart holds up the head in front of the family.<br/>
+<span class="cn">巴特把那个头举到家人面前。</span></p>
+<p>HOMER: I knew it all along!<br/>
+<span class="cn">荷马：我早就知道了！</span></p>
+<p>MARGE: Why, Bart? Why?<br/>
+<span class="cn">玛姬：为什么，巴特？为什么？</span></p>
+<p>HOMER: Yeah, why? You little---.<br/>
+<span class="cn">荷马：是啊，为什么？你这个小——。</span></p>
+<p>Homer st*lks menacingly towards Bart.<br/>
+<span class="cn">霍默威胁性地朝巴特走去。</span></p>
+<p>BART: Because I wanted some really bad kids to like me. Somehow I got the idea of being popular was the most important thing in the world.<br/>
+<span class="cn">巴特：因为我真想让那些很酷的孩子喜欢我。不知怎么的，我竟以为受欢迎是世界上最重要的事。</span></p>
+<p>MARGE: Where did you get a ridiculous idea like that?<br/>
+<span class="cn">玛姬：你哪儿冒出这种荒谬的想法的？</span></p>
+<p>Homer cringes between his teeth.<br/>
+<span class="cn">霍默在牙缝间皱着脸。</span></p>
+<p>HOMER: Uhh --- lay off the boy, Marge. He’s a good kid. Quit giving him the third degree.<br/>
+<span class="cn">霍默：呃——别欺负那个男孩了，玛姬。他是个好孩子。别再刨根问底了。</span></p>
+<p>MARGE: Homer, did you have something to do with this?<br/>
+<span class="cn">玛姬：霍默，这事儿跟你有关系吗？</span></p>
+<p>HOMER: Well, maybe I am a little responsible.<br/>
+<span class="cn">霍默：唔，也许我有点责任。</span></p>
+<p>MARGE: A little?
+<span class="cn">玛姬：有点？</span></p>
+<p>HOMER: Come on, son. Let’s take the head thing back to the authorities.<br/>
+<span class="cn">霍默：来吧，儿子。我们把那颗头的事交给当局吧。</span></p>
+<p>CUT TO:
+<span class="cn">切换镜头：</span></p>
+<p>The same sequence as in the beginning of the episode. Homer and Bart walk along the dark street.<br/>
+<span class="cn">与剧集开头相同的场景。霍默和巴特沿着漆黑的街道走着。</span></p>
+<p>HOMER: You know, Bart, when I was your age, I pulled a few boners. But I think you’ll find that people are pretty decent if you give them half—<br/>
+<span class="cn">霍默：你知道吗，巴特，我你这个年纪的时候也犯过几次错。但我想你会发现，如果你至少给人们一半的——</span></p>
+<p>Once again, they turn the corner and they find themselves facing the bloodthirsty crowd.<br/>
+<span class="cn">他们再次拐弯，发现自己面对着那群嗜血的民众。</span></p>
+<p>BURNS: Look, there it is, the head!<br/>
+<span class="cn">伯恩斯：看，那里，那个头！</span></p>
+<p>KRUSTY: k*ll him!
+<span class="cn">克拉斯蒂：把他干掉！</span></p>
+<p>Homer and Bart set off on a run.<br/>
+<span class="cn">霍默和巴特开始跑起来。</span></p>
+<p>BARNEY (present): All right. All right.<br/>
+<span class="cn">巴尼（现在）：好吧。好吧。</span></p>
+<p>KRUSTY (present): We know this part.<br/>
+KRUSTY（
+<span class="cn">现在）：我们知道这一段。</span></p>
+<p>BART (present): Oh, yeah, right.<br/>
+BART（
+<span class="cn">现在）：哦，对，没错。</span></p>
+<p>DISSOLVE TO:
+<span class="cn">画面溶解到：</span></p>
+<p>Bart and Homer around the statue the crowd still gathering around them.<br/>
+<span class="cn">巴特和霍默在雕像周围，人群还在聚拢他们。</span></p>
+<p>BART: Well, that’s my story. And if you still wanna tear apart this young Sunday school student as he stands on the brink of salvation, I await your wrath.<br/>
+BART：
+<span class="cn">好吧，这就是我的故事。如果你们还想在这位正站在救赎边缘的年轻主日学学生身上撕裂开来，我等着你们的愤怒。</span></p>
+<p>CROWD: Aw!
+<span class="cn">人群：哎！</span></p>
+<p>KRUSTY: Somehow I don’t feel like k*lling anymore.<br/>
+<span class="cn">小丑克拉斯蒂：不知怎么的，我现在没那么想杀人了。</span></p>
+<p>EDNA KRABAPPEL: Neither do I.<br/>
+<span class="cn">埃德娜·克拉巴佩尔：我也不想了。</span></p>
+<p>BART: Dad.
+<span class="cn">巴特：爸爸。</span></p>
+<p>Homer hands the head to Bart. The crowd watches in excitement. Even Kearny and Jimbo are there.<br/>
+<span class="cn">霍默把那颗头交给巴特。人群兴奋地观望。连科尼和吉姆博也在场。</span></p>
+<p>BART (thinking): Forgive me, sir.<br/>
+<span class="cn">巴特（心想）：请原谅我，先生。</span></p>
+<p>JEBEDIAH: No problem, Bart.<br/>
+<span class="cn">杰贝迪亚：没关系，巴特。</span></p>
+<p>Bart places the head on top.<br/>
+<span class="cn">巴特把那颗头放在上面。</span></p>
+<p>DR. MARVIN: Look! It’s glorious.<br/>
+<span class="cn">马文博士：看！多壮观啊。</span></p>
+<p>OTTO: It’s beautiful, man.<br/>
+<span class="cn">奥托：太美了，伙计。</span></p>
+<p>BURNS: I love you, Smithers.<br/>
+<span class="cn">伯恩斯：我爱你，史密瑟斯。</span></p>
+<p>SMITHERS: The feeling is more than mutual, sir.<br/>
+<span class="cn">史密瑟斯：这份感情比您更温厚，长官。</span></p>
+<p>The crowd cheers and applauds as Bart jumps into Homer’s arms.<br/>
+<span class="cn">人群欢呼鼓掌，巴特跳进荷马的怀里。</span></p>
+<p>HOMER: Whoo!
+<span class="cn">荷马：呼！</span></p>
+<p>DISSOLVE TO;
+<span class="cn">画面溶解至；</span></p>
+<p>Homer and Bart walking away from the scene. The crowd continues to stare at the statue.<br/>
+<span class="cn">荷马和巴特走离现场。人群仍然盯着那座雕像。</span></p>
+<p>HOMER: Good going, son. But remember --- most lynch mobs aren’t this nice.<br/>
+<span class="cn">霍默：干得好，儿子。但记住——大多数私刑暴徒可没有这么客气。</span></p>
+<p>FADE OUT
+<span class="cn">画面淡出</span></p>
+<p>CREDITS BEGIN
+<span class="cn">片头字幕开始</span></p>
+<p>THE END.
+<span class="cn">结束。</span></p></article><hr/><div class="page-footer"></div></div><div class="right sidebar"></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a> © 2025</p><ul><li><a href="https://github.com/Ousinki/my-digital-garden">GitHub</a></li></ul></footer></div></div></body><script type="application/javascript">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module">function f(i,e){if(!i)return;function r(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function t(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}i?.addEventListener("click",r),window.addCleanup(()=>i?.removeEventListener("click",r)),document.addEventListener("keydown",t),window.addCleanup(()=>document.removeEventListener("keydown",t))}function y(i){for(;i.firstChild;)i.removeChild(i.firstChild)}var h=class{constructor(e,r){this.container=e;this.content=r;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),r=this.onMouseMove.bind(this),t=this.onMouseUp.bind(this),o=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",r),document.addEventListener("mouseup",t),window.addEventListener("resize",o),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",r),()=>document.removeEventListener("mouseup",t),()=>window.removeEventListener("resize",o))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let r=this.createButton("+",()=>this.zoom(.1)),t=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(t),e.appendChild(o),e.appendChild(r),this.container.appendChild(e)}createButton(e,r){let t=document.createElement("button");return t.textContent=e,t.className="mermaid-control-button",t.addEventListener("click",r),window.addCleanup(()=>t.removeEventListener("click",r)),t}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}zoom(e){let r=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),t=this.content.getBoundingClientRect(),o=t.width/2,n=t.height/2,c=r-this.scale;this.currentPan.x-=o*c,this.currentPan.y-=n*c,this.scale=r,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){this.scale=1;let e=this.content.querySelector("svg");this.currentPan={x:e.getBoundingClientRect().width/2,y:e.getBoundingClientRect().height/2},this.updateTransform()}},C=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],E;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;E||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let r=E.default,t=new WeakMap;for(let n of e)t.set(n,n.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let a=t.get(s);a&&(s.innerHTML=a)}let n=C.reduce((s,a)=>(s[a]=window.getComputedStyle(document.documentElement).getPropertyValue(a),s),{}),c=document.documentElement.getAttribute("saved-theme")==="dark";r.initialize({startOnLoad:!1,securityLevel:"loose",theme:c?"dark":"base",themeVariables:{fontFamily:n["--codeFont"],primaryColor:n["--light"],primaryTextColor:n["--darkgray"],primaryBorderColor:n["--tertiary"],lineColor:n["--darkgray"],secondaryColor:n["--secondary"],tertiaryColor:n["--tertiary"],clusterBkg:n["--light"],edgeLabelBackground:n["--highlight"]}}),await r.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let n=0;n<e.length;n++){let v=function(){let g=l.querySelector("#mermaid-space"),m=l.querySelector(".mermaid-content");if(!m)return;y(m);let w=c.querySelector("svg").cloneNode(!0);m.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new h(g,m)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},c=e[n],s=c.parentElement,a=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(a),L=a.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),f(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script type="application/javascript">
+        const socket = new WebSocket('ws://localhost:3001')
+        // reload(true) ensures resources like images and scripts are fetched again in firefox
+        socket.addEventListener('message', () => document.location.reload(true))
+      </script><script src="../../postscript.js" type="module"></script></html>
