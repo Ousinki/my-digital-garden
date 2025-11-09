@@ -11,16 +11,21 @@ const unixStubPath = path.join(binDir, "quartz");
 const windowsStubPath = path.join(binDir, "quartz.cmd");
 
 const unixStubContent = `#!/usr/bin/env node
+import { spawn } from "child_process";
 import { fileURLToPath } from "url";
 import path from "path";
-import { spawn } from "child_process";
 
+// Use local Quartz bootstrap CLI
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const cli = path.resolve(__dirname, "..", "..", "quartz", "bootstrap-cli.mjs");
+// __dirname is node_modules/.bin, so go up two levels to project root
+const projectRoot = path.resolve(__dirname, "../..");
+const bootstrapCli = path.join(projectRoot, "quartz", "bootstrap-cli.mjs");
 
-const child = spawn(process.execPath, [cli, ...process.argv.slice(2)], {
+const args = process.argv.slice(2);
+const child = spawn("node", [bootstrapCli, ...args], {
   stdio: "inherit",
+  cwd: projectRoot,
 });
 child.on("close", (code) => {
   process.exit(code ?? 0);
@@ -31,7 +36,7 @@ child.on("error", (error) => {
 });
 `;
 
-const windowsStubContent = `@ECHO OFF\r\nIF EXIST "%~dp0\\node.exe" (\r\n  "%~dp0\\node.exe" "%~dp0\\..\\..\\quartz\\bootstrap-cli.mjs" %*\r\n) ELSE (\r\n  node "%~dp0\\..\\..\\quartz\\bootstrap-cli.mjs" %*\r\n)\r\n`;
+const windowsStubContent = `@ECHO OFF\r\nnode quartz\\bootstrap-cli.mjs %*\r\n`;
 
 async function ensureDirectory(dir) {
   await fs.mkdir(dir, { recursive: true });

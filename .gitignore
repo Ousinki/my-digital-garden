@@ -1,15 +1,19 @@
 # 1. Default to ignoring everything in the vault
 *
 
-# 2. But, DO NOT ignore the Public folder or its contents
-!/Public/
-!/Public/**
+# 2. DO NOT ignore the content folder (source markdown files)
+!/content/
+!/content/**
 
-# 3. (THE FIX) DO NOT ignore the .github folder or its contents
+# 3. DO NOT ignore the public folder and ALL its contents (content to publish)
+!/public/
+!/public/**
+
+# 4. DO NOT ignore the .github folder or its contents (for GitHub Actions)
 !/.github/
 !/.github/**
 
-# 4. DO NOT ignore the Quartz config files
+# 5. DO NOT ignore the Quartz config files
 !/quartz/
 !/quartz/**
 !/scripts/
@@ -19,8 +23,7 @@
 !/quartz.config.ts
 !/quartz.layout.ts
 !/tsconfig.json
-!/scripts/
-!/scripts/**
+!/.gitignore
 
-# 5. DO ignore the heavy node_modules folder
+# 6. DO ignore the heavy node_modules folder and build output
 /node_modules

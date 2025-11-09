@@ -14,7 +14,7 @@ import { toHtml } from "hast-util-to-html";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, "..");
-const inputDir = path.join(projectRoot, "Public");
+const inputDir = path.join(projectRoot, "public");
 const outputDir = path.join(projectRoot, "public");
 
 const processor = unified()

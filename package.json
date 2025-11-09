@@ -13,9 +13,9 @@
   },
   "scripts": {
     "prepare": "node scripts/link-quartz-cli.mjs",
-    "start": "node quartz/bootstrap-cli.mjs build --serve",
-    "docs": "node quartz/bootstrap-cli.mjs build --serve -d docs",
-    "build": "node quartz/bootstrap-cli.mjs build"
+    "start": "npx quartz build --serve -d content",
+    "docs": "npx quartz build --serve -d docs",
+    "build": "npx quartz build -d content"
   },
   "engines": {
     "npm": ">=10.9.2",

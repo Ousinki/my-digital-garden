@@ -18,10 +18,30 @@ const config: QuartzConfig = {
     baseUrl: "https://ousinki.github.io/my-digital-garden", // <-- 5. (关键) 你的 GitHub 仓库名
     
     // ⬇️ 6. (最关键的修改) ⬇️
-    // 告诉 Quartz 你的笔记在 "Public" 文件夹
-    content: path.join(process.cwd(), "Public"), 
-    // 告诉 Quartz 在 "Public" 文件夹里要忽略什么
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    // Quartz 默认使用 "content" 目录，但我们可以通过命令行参数指定
+    // 告诉 Quartz 要忽略什么（使用 glob 模式）
+    ignorePatterns: [
+      "private/**",
+      "templates/**", 
+      ".obsidian/**",
+      "node_modules/**",
+      "public/**", // build output directory (lowercase)
+      ".git/**",
+      "attachment/**",
+      "BOOKs/**",
+      "Clippings/**",
+      "Dict/**",
+      "English/**",
+      "HUmuif/**",
+      "kkyj/**",
+      "Politics/**",
+      "Templates/**",
+      "_resources/**",
+      "quartz/**",
+      "scripts/**"
+      // content/** - DO NOT ignore content directory, it's the source of markdown files
+      // public directory (lowercase) is our content source - don't ignore it
+    ],
     // ⬆️ -------------------- ⬆️
 
     defaultDateType: "modified",
