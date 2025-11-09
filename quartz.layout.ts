@@ -33,14 +33,22 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.Flex({
+      direction: "row",
+      gap: "0.5rem",
+      components: [
+        { Component: Component.Search(), grow: true, align: "center" },
+        { Component: Component.Darkmode(), shrink: false, align: "center" },
+        { Component: Component.ReaderMode(), shrink: false, align: "center" },
+      ],
+    }),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [
-    Component.Graph(),
+    // Component.Graph(),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
+    // Component.RecentNotes(),
   ],
 }
 
@@ -54,8 +62,15 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
+    Component.Flex({
+      direction: "row",
+      gap: "0.5rem",
+      components: [
+        { Component: Component.Search(), grow: true, align: "center" },
+        { Component: Component.Darkmode(), shrink: false, align: "center" },
+        { Component: Component.ReaderMode(), shrink: false, align: "center" },
+      ],
+    }),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],

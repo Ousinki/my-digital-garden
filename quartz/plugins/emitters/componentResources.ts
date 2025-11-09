@@ -263,6 +263,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.dispatchEvent(event)
     `)
   }
+
 }
 
 // This emitter should not update the `resources` parameter. If it does, partial

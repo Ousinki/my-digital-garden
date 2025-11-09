@@ -1,6 +1,5 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import path from "path" // <-- 1. (重要) 导入 'path' 模块
 
 /**
  * Quartz 4 Configuration
@@ -9,12 +8,12 @@ import path from "path" // <-- 1. (重要) 导入 'path' 模块
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "我的数字花园", // <-- 2. 修改了网站标题
+    pageTitle: "My Digital Garden", // <-- 2. 修改了网站标题
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: null, // <-- 3. 关闭了默认的分析
-    locale: "zh-CN", // <-- 4. 设置为中文
+    locale: "en-US", // <-- 4. 设置为英文
     baseUrl: "https://ousinki.github.io/my-digital-garden", // <-- 5. (关键) 你的 GitHub 仓库名
     
     // ⬇️ 6. (最关键的修改) ⬇️
@@ -98,6 +97,10 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      // Plugin.Citations() - Uncomment when you have a bibliography.bib file with entries
+      // Plugin.Citations({
+      //   bibliographyFile: "./content/bibliography.bib",
+      // }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -114,8 +117,7 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      // Plugin.CustomOgImages(),
+      Plugin.CustomOgImages(),
     ],
   },
 }
