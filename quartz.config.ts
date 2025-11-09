@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "My Digital Garden", // <-- 2. 修改了网站标题
+    pageTitle: "OU's WebLibrary", // <-- 2. 修改了网站标题
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

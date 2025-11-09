@@ -159,12 +159,54 @@
 
   // columns callout - multi-column layout
   &[data-callout="columns"] {
+    padding: 15px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    
+    // Hide title
+    & > .callout-title {
+      display: none;
+    }
+    
     & > .callout-content {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start; // 确保两列从同一基线开始
       
-      & > blockquote,
+      // Handle separator (---)
+      & > hr {
+        display: none;
+      }
+      
+      // Blockquote as column container
+      & > blockquote {
+        flex-basis: 0;
+        flex-grow: 1;
+        min-width: 150px;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        border: none;
+        background: transparent;
+        color: inherit;
+        font-style: normal;
+      }
+      
+      // Left column blockquote
+      & > blockquote:first-of-type {
+        border-right: 1px solid var(--border);
+        padding-right: 10px; // 左列到分隔线的距离
+      }
+      
+      // Right column blockquote
+      & > blockquote:last-of-type {
+        padding-left: 10px; // 右列到分隔线的距离
+      }
+      
+      // Other elements
       & > p,
       & > * {
         margin: 0;
@@ -172,29 +214,60 @@
         border: none;
         background: transparent;
       }
-      
-      // Handle separator (---)
-      & > hr {
-        display: none;
-      }
-      
-      // Split content by hr separator
-      & > :not(hr) {
-        break-inside: avoid;
-      }
     }
   }
 
-  // col callout - similar to columns but simpler
+  // col callout - grid layout with odd/even columns
   &[data-callout="col"] {
+    padding: 15px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    
+    // Hide title
+    & > .callout-title {
+      display: none;
+    }
+    
     & > .callout-content {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 1.5rem;
+      position: relative;
+      display: grid !important;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      column-gap: 0 !important; // 移除列间距，使用padding控制
+      row-gap: 0 !important; // 移除行间距
+      align-items: start !important; // 确保两列从同一基线开始
+      padding: 0;
+      margin: 0;
       
+      // Continuous vertical line in the middle
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 1px;
+        background: var(--border);
+      }
+      
+      // All children
       & > * {
-        margin: 0;
+        margin: 0 0 1em 0; // 恢复段落间距
         padding: 0;
+      }
+      
+      // Odd children (left column)
+      & > *:nth-child(odd) {
+        grid-column: 1;
+        padding-right: 10px;
+        text-align: left;
+      }
+      
+      // Even children (right column)
+      & > *:nth-child(even) {
+        grid-column: 2;
+        padding-left: 10px;
+        text-align: left;
       }
     }
   }
@@ -265,4 +338,37 @@
   .callout-title-inner {
     font-weight: $semiBoldWeight;
   }
+}
+
+// Force alignment fixes for columns and col callouts
+.callout[data-callout="columns"] > .callout-content,
+.callout[data-callout="columns"] .callout-content {
+  align-items: flex-start !important;
+  vertical-align: top !important;
+}
+
+.callout[data-callout="col"] > .callout-content,
+.callout[data-callout="col"] .callout-content {
+  align-items: start !important;
+  vertical-align: top !important;
+}
+
+// Ensure all child elements start from top
+.callout[data-callout="columns"] > .callout-content > *,
+.callout[data-callout="columns"] .callout-content > *,
+.callout[data-callout="col"] > .callout-content > *,
+.callout[data-callout="col"] .callout-content > * {
+  vertical-align: top !important;
+  align-self: start !important;
+}
+
+// Special alignment fix for [!col]
+.callout[data-callout="col"] .callout-content > *:nth-child(odd),
+.callout[data-callout="col"] .callout-content > *:nth-child(even) {
+  margin-top: 0 !important;
+  margin-bottom: 1em !important; // 保持段落间距
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  vertical-align: top !important;
+  align-self: start !important;
 }
