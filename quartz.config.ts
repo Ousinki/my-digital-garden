@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "OU's WebLibrary", // <-- 2. 修改了网站标题
+    pageTitle: "Digital Library", // <-- 2. 修改了网站标题
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -97,6 +97,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.HoverReveal(),
       // Plugin.Citations() - Uncomment when you have a bibliography.bib file with entries
       // Plugin.Citations({
       //   bibliographyFile: "./content/bibliography.bib",
