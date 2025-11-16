@@ -31,3 +31,8 @@
 # 7. DO ignore macOS system files
 .DS_Store
 **/.DS_Store
+
+# 8. DO ignore editor temporary files
+*.swp
+*.swo
+*~

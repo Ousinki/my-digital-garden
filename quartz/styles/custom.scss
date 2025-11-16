@@ -87,3 +87,23 @@ article.gray li .cn font,
 article.gray * .cn font {
   opacity: 0.6 !important;
 }
+
+// ========== 增强宋体和楷体的粗体显示 ==========
+// 当使用宋体或楷体时，增强粗体的显示效果
+// 使用更高的字重和文字阴影来增强视觉效果
+html[font-family="songti"] strong,
+html[font-family="songti"] p > strong,
+html[font-family="songti"] article strong,
+html[font-family="songti"] li strong,
+html[font-family="songti"] td strong,
+html[font-family="songti"] th strong,
+html[font-family="kaiti"] strong,
+html[font-family="kaiti"] p > strong,
+html[font-family="kaiti"] article strong,
+html[font-family="kaiti"] li strong,
+html[font-family="kaiti"] td strong,
+html[font-family="kaiti"] th strong {
+  font-weight: 700 !important;
+  // 使用文字阴影增强粗体效果，对中文字体特别有效
+  text-shadow: 0.35px 0 0 currentColor, -0.35px 0 0 currentColor;
+}
