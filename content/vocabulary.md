@@ -50,16 +50,20 @@ tilde (~)
 
 ### 2
 Hover over the image to zoom in.  
+Zoom in to see more details.  
+Zoom out to see the whole page.  
+The company plans to enlarge the office.  
+My shirt shrank in the wash.  
 Hover your mouse over the icon to see the tooltip.  
 target language = 目标语言（想翻译成的语言）  
 source language（源语言）  
 Don't omit any details.  
 The twins look identical.  
-Press the Esc key to exit.
-Release the Ctrl key.
-Hold the left-ctrl key  while clicking.
+Press the Esc key to exit.  
+Release the Ctrl key.  
+Hold the left-ctrl key while clicking.  
 Your pronunciation is very clear.  
-look up the pronunciation of the word
+look up the pronunciation of the word  
 Her pronunciation sounds native.  
 tooltip  
 highlighted text = 鼠标选中的文字  
@@ -67,7 +71,7 @@ in the input box = 输入框
 input field = 输入栏 / 输入区域  
 text box = 文本框  
 search bar = 搜索框  
-If needed, ... = If it is needed, … (这里的 needed 不是动词过去式，而是过去分词作「形容词」) 
+If needed, ... = If it is needed, … (这里的 needed 不是动词过去式，而是过去分词作「形容词」)   
 undo the action = 撤销操作  
 Ensure that your phone is fully charged.  
 hangul swap = 韩文输入法切换键  
@@ -82,23 +86,38 @@ The app requires additional permissions to run.
 You must grant permission to read local files.  
 Chrome will ask for permission before accessing your camera.  
 The app needs permission to access your microphone.  
-see exception (请查看例外情况说明)
+see exception (请查看例外情况说明)  
 Netflix（网飞）  
-This video supports dual subtitles in English and Japanese.
+This video supports dual subtitles in English and Japanese.  
 CC = Closed Captions  可开关的字幕  
 mouse over on an image  
 Japanese manga  
 I read the book all the way. (从头到尾)  
-I support you all the way. = 我完全支持你。
+I support you all the way. = 我完全支持你。  
 double press = 连续按键盘  
 double click = 连续点击鼠标  
 activate the environment  
 speech recognition = 语音识别  
 The accuracy of speech recognition has improved a lot.  
 cursive = 草书、连笔字（英文中的“手写体”）  
+Viet  
+Vietnam  
+Vietnamese  
+yogurt（美式） yoghurt（英式）  
+China Military Bugle = 中国军号  
+PLA Daily = People’s Liberation Army Daily = 《解放军报》  
+Hawaii’s volcano  
+big ass sunspot = 巨大的太阳黑子  
+sarge = 中士  
+an uncontacted tribe = 与世隔绝的部落  
+I’ll contact you later.  
+contact lenses 或简写为 contacts = 隐形眼镜  
+contact lens solution → 隐形眼镜护理液  
 
 
 
 
+
+### 3
 
 
