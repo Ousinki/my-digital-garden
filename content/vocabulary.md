@@ -1,4 +1,4 @@
-### 1
+### 1  
 No good deed goes unpunished.  
 at the P.O.(post office)   
 overtime pay   
@@ -8,6 +8,9 @@ leave a slip / leave a note（最自然）/ leave a message（也可以）
 He's an a-hole.   
 asshole   
 rural areas  
+That guy's completely wacko.  
+form a union  
+Am I too nice?  
 Curiosity killed the cat.  
 dragon fruit / pitahaya  
 in NYC(New York City)  
@@ -48,7 +51,7 @@ Bourne Again SHell (bash)
 tilde (~)  
 
 
-### 2
+### 2  
 Hover over the image to zoom in.  
 Zoom in to see more details.  
 Zoom out to see the whole page.  
@@ -110,14 +113,90 @@ Hawaii’s volcano
 big ass sunspot = 巨大的太阳黑子  
 sarge = 中士  
 an uncontacted tribe = 与世隔绝的部落  
+lose contact  
 I’ll contact you later.  
 contact lenses 或简写为 contacts = 隐形眼镜  
 contact lens solution → 隐形眼镜护理液  
+Cats are the most beautiful animals on the planet.  
+pick up the package/parcel    
+food delivery    
+order food  
+He took a 20-minute nap.  
+apply for a visa = 申请签证  
+apply for a Ghanaian passport  
+30% reduction：减少 30%  
+application fee = 申请费  
+service fee = 服务费  
+delivery fee = 配送费  
+coffee shops  
+
+
+
+### 3  
+tortoise & turtle  
+take the metro  
+I’m on the metro.  
+New York subway  
+London Underground（伦敦地铁的正式名称）在英国，“subway” 反而通常指 地下过道/行人隧道，不是地铁。  
+She was a wheelchair user with no legs.  
+wheelchair ramp  
+forum admin（论坛管理员）= administrator   
+Log in to the admin panel.  
+solar panel   
+He admitted his mistake.  
+Children are not admitted.  
+He admitted to breaking the window. (admit to doing sth 承认做了某事)  
+"No Admittance" 禁止入内  
+grant permission  
+a government grant 政府补助  
+May God grant you peace.（愿上帝赐你平安）  
+God grant us wisdom.（求上帝赐予我们智慧）  
+The school granted her a scholarship.  
+a famous Latin scholar  
+internship  
+This job requires experience.  
+Let’s make a voice call.  
+He snores at night.😴  
+drag and drop = 🖱️拖放  
+The temperature dropped to 5°C. (✅ degrees Celsius / degrees C)  
+A drop of water fell on my hand.  
+eye drops  
+He dropped out of school.  
+She dropped out of college.  
+He dropped out of the race.  
+She dropped out of the program.  
+a coal mine 煤矿  
+a shop selling handicrafts  
+mineral water  
+mineral resources  
+world seed  
+a good deed / a bad deed  
+The courier delivered the package.  
+Call the courier to pick up the parcel.  
+alphabet = alpha + beta (α + β)  
+I scheduled a pickup for the package.  
+The Decline of the Simpsons 《辛普森一家》的衰落  
+Anyway, You’re absolutely right!  
+"it's getting frustrating and rather depressing"  
+sample mug = 样品马克杯  
+blood sample → 血液样本  
+a simple question → 一个简单的问题  
+He got mugged last night.  
+Mugging is on the increase.  
+I’m so frustrated. I just really don’t know what to do.  
+gain weight（增重）  
+You will gain a lot of experience from this job.  
+the giants in mythology  
+He’s as strong as a giant.  
+
+
+
+
+### 4  
 
 
 
 
 
-### 3
 
 
