@@ -19,17 +19,30 @@
 `git log`  点击 `q` key 退出  
 
 
+⚠️ Important: How to Exit ? `git log` opens a viewer (called a "pager"). If the history is long, your terminal will show a `:` at the bottom.
+
+- Press `q` to quit and return to the command prompt.
+- Press `Space` to scroll down.
+- Press `b` to scroll back up.
 
 
 
 
+ls -l       # 以详细列表显示
+ls -a       # 显示所有文件(包括隐藏文件)
+ls -lh      # 详细信息+人类可读格式
 
+```zsh
+curl https://example.com  # 访问网页
+```
 
+```zsh
+curl -O https://example.com/file.zip  # -O = 保留原文件名下载
+```
 
-
-
-
-
+```zsh
+curl https://example.com -o mypage.html  # 保存到指定的文件
+```
 
 
 

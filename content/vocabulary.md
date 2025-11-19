@@ -194,6 +194,19 @@ He’s as strong as a giant.
 
 ### 4  
 Thinks through complex topics with 3 Pro
+The system saves files to this folder by default.  
+The app blocks notifications by default.  
+Comparison: 1... 2...  
+Every student has a unique ID.  
+Take a snapshot before installing new software.  
+Type the command in the Command Prompt. (命令提示符)   
+This project took up all my weekend.  
+The sofa takes up too much space.  
+The default output is very detailed and takes up a lot of screen space.  
+Please upload a clear, scannable copy.  
+clean the plates  
+license plate → 车牌  
+
 
 
 
