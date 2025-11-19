@@ -206,28 +206,55 @@ The default output is very detailed and takes up a lot of screen space.
 Please upload a clear, scannable copy.  
 clean the plates  
 license plate → 车牌  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+you’ve influenced generations with your work  
+"oh this is going to be a runaway hit"  
+Her song turned into a runaway hit overnight.  
+Do you have a favourite episode?  
+He forgot his lines on stage.  
+What do you think is Bart's funniest line?  
+He's a New Zealander. / She's a Kiwi.(口语)   
+Let me be blunt: you need to study more. = 恕我直言  
+The country is facing an economic crisis.  
+He had a midlife crisis at forty.  
+Cantonese songs   
+A: The Earth is flat.  B: You make no sense.  
+“Adam cheng is very good indeed” = 郑少秋  
+The Godfather of Cantopop -- Sam Hui = 许冠杰  
+No way! I'm not doing that.  
+Can you lend me $500?  No way, that's too much.  
+The people who really wanted to go to Japan won't give a shit. (= care about)  
+China Issues Travel Alert. Airlines Offer Free Cancellations for Japan Flights.  
+I’ll finish this later.  
+I dunno why. = don’t know（口语）  
+Don’t be so grumpy, it’s not a big deal.  
+Roast my handwriting.  
+Honestly, it looks fine.  
+Damn I always write slanted lol  
+I kind of understand the grammar, but not fully.  
+She kind of likes him.  
+How to even learn Esperanto?  (even 不是“甚至”，而是口语加强语气用法。)  
+Taiwanese tourists are being ridiculed by an Italian pizza shop owner  
+The pizza owner just want to be racist to Chinese.  
+I don’t discount that.  
+Chinese and Japanese diplomats met today.  
+Q: Was the meeting satisfactory? A: Very unsatisfactory   
+Stop being delusional.  
+Her name is so unique  
+the Communist party & Kuomintang  
+Bolshevik  
+Peking U and Tsinghua U
+‘I Regret Going to Uni’  
 
 
 
 
 
 ### 5  
+
+
+
+
+
 
 
 

@@ -6,17 +6,23 @@
       <description>Last 10 notes on Digital Library</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Linux</title>
+    <link>https://https://ousinki.github.io/my-digital-garden/Linux</link>
+    <guid>https://https://ousinki.github.io/my-digital-garden/Linux</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Wed, 19 Nov 2025 05:54:25 GMT</pubDate>
+  </item><item>
     <title>git</title>
     <link>https://https://ousinki.github.io/my-digital-garden/git</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/git</guid>
     <description><![CDATA[ git status -sb 是 git status -s -b 的简写。 -s 代表 Short（简短模式） -b 代表 Branch（分支信息） U (Untracked) 未追踪：This file is new to your project. ]]></description>
-    <pubDate>Wed, 19 Nov 2025 01:51:50 GMT</pubDate>
+    <pubDate>Wed, 19 Nov 2025 05:04:34 GMT</pubDate>
   </item><item>
     <title>vocabulary</title>
     <link>https://https://ousinki.github.io/my-digital-garden/vocabulary</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/vocabulary</guid>
     <description><![CDATA[ 1 No good deed goes unpunished. ]]></description>
-    <pubDate>Wed, 19 Nov 2025 01:51:50 GMT</pubDate>
+    <pubDate>Wed, 19 Nov 2025 05:04:34 GMT</pubDate>
   </item><item>
     <title>cet4</title>
     <link>https://https://ousinki.github.io/my-digital-garden/cet4</link>
@@ -33,7 +39,7 @@
     <title>index</title>
     <link>https://https://ousinki.github.io/my-digital-garden/</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/</guid>
-    <description><![CDATA[ 欢迎来到我的数字花园 这是我的首页！. ]]></description>
+    <description><![CDATA[ 欢迎来到我的数字花园 这是我的首页！ github网址. ]]></description>
     <pubDate>Sun, 09 Nov 2025 00:49:41 GMT</pubDate>
   </item><item>
     <title>01x03 - Homer&#039;s Odyssey</title>
@@ -58,12 +64,6 @@
     <link>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x06---Moaning-Lisa</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x06---Moaning-Lisa</guid>
     <description><![CDATA[ FADE IN: We open on a sad shot of LISA's face. She is standing on a stool staring into the mirror in her bathroom as a faucet drips nearby. The door is banged o ]]></description>
-    <pubDate>Sun, 21 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>01x07 - The Call of the Simpsons</title>
-    <link>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons</link>
-    <guid>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons</guid>
-    <description><![CDATA[ FADE IN: We begin outside the Simpsons house, where HOMER hums as he waters flowers. To the left of him, BART guides a lawnmower across the yard. BART: Man! Rus ]]></description>
     <pubDate>Sun, 21 Sep 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>
