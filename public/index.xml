@@ -6,11 +6,17 @@
       <description>Last 10 notes on Digital Library</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>git</title>
+    <link>https://https://ousinki.github.io/my-digital-garden/git</link>
+    <guid>https://https://ousinki.github.io/my-digital-garden/git</guid>
+    <description><![CDATA[ git status -sb 是 git status -s -b 的简写。 -s 代表 Short（简短模式） -b 代表 Branch（分支信息） U (Untracked) 未追踪：This file is new to your project. ]]></description>
+    <pubDate>Wed, 19 Nov 2025 01:26:53 GMT</pubDate>
+  </item><item>
     <title>vocabulary</title>
     <link>https://https://ousinki.github.io/my-digital-garden/vocabulary</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/vocabulary</guid>
     <description><![CDATA[ 1 No good deed goes unpunished. ]]></description>
-    <pubDate>Mon, 17 Nov 2025 08:19:35 GMT</pubDate>
+    <pubDate>Tue, 18 Nov 2025 13:57:50 GMT</pubDate>
   </item><item>
     <title>cet4</title>
     <link>https://https://ousinki.github.io/my-digital-garden/cet4</link>
@@ -58,12 +64,6 @@
     <link>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x07---The-Call-of-the-Simpsons</guid>
     <description><![CDATA[ FADE IN: We begin outside the Simpsons house, where HOMER hums as he waters flowers. To the left of him, BART guides a lawnmower across the yard. BART: Man! Rus ]]></description>
-    <pubDate>Sun, 21 Sep 2025 16:00:00 GMT</pubDate>
-  </item><item>
-    <title>01x08 - The Telltale Head</title>
-    <link>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head</link>
-    <guid>https://https://ousinki.github.io/my-digital-garden/The-Simpsons/S01/01x08---The-Telltale-Head</guid>
-    <description><![CDATA[ FADE IN: HOMER and BART walk along a dark street at night. Bart carries some object in his hands. HOMER: You know, Bart, when I was your age, I pulled a few bon ]]></description>
     <pubDate>Sun, 21 Sep 2025 16:00:00 GMT</pubDate>
   </item>
     </channel>

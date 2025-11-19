@@ -193,10 +193,28 @@ He’s as strong as a giant.
 
 
 ### 4  
+Thinks through complex topics with 3 Pro
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 5  
 
 
 
