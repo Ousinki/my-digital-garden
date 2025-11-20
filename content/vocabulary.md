@@ -244,12 +244,89 @@ the Communist party & Kuomintang
 Bolshevik  
 Peking U and Tsinghua U
 ‘I Regret Going to Uni’  
-
-
+Gemini 3 is our next step on the path toward AGI   
+We’re extending our offer of a free year of our Google AI Pro plan. 
+2 TB storage
 
 
 
 ### 5  
+Fullstack  
+Google Antigravity has a lot of features, both familiar and new.   
+Let me walk you through the setup.  
+walks through the basics   
+Link in 🧵  (thread emoji 提示“继续往下看”)  
+unfortunately  
+it's built on VScode which has pretty lousy ruby support.   
+sticking with rubymine for now  
+Antigravity is awesome.  
+Please, take off quota limit  
+Choose your primary language to find your IDE  
+experience liftoff = (产品上线，邀请大家)体验一飞冲天  
+Experience liftoff with Google Antigravity.  
+The plane took off at 7 p.m.  
+East Java, Indonesia.  
+Live stream link 👇  
+Thats what destroyed Pompeii  
+This is insane = 这太疯狂了  
+That workload is insane.  
+My first thought = 我的第一反应  
+When I saw the message, my first thought was “spam.”  
+My first thought was that the photo was fake.  
+TIL = Today I Learned  
+Modern aircraft carriers have a crew of ~5000. Bigger than many rural towns around the country.  
+~20 years = 大约 20 年  (波浪线 ~ 表示 approximately / about)
+My teacher brought a box of donuts.  
+I’m allergic to nuts.  
+This chocolate bar contains nuts.  
+It’s a plot aboot porn.  (aboot = about 的加拿大口音写法)  
+porn = pornography  
+Shut up Canuck  (= Canadian 加拿大佬)  
+Teacher’s pet  老师的宠儿  
+Admit it, you bought it yourself  
+That jacket looks retro.  
+it's not retro it's just practically e-waste  
+Don’t smoke in my presence.  
+Don’t fight in my presence, please. 吵架  
+The food was poisoned.  
+It’s poisoned.  
+I saw him a couple days back. (省略 of)  
+Geopolitics joke（地缘政治笑话）  
+Homer's ‘of course’ is hilarious.  
+Instead of _chewing gum_, chew bacon.  
+You can brush your teeth with milkshakes!  
+The food smelled disgusting.  
+Her story really hit hard for me. (hit的原形、过去式、过去分词都是hit)  
+you ruined my lifffffee  
+"I want to help you George Washington?"  "Even your dreams are square."   
+What I wouldn’t give to hear Lisa play one of her jazzy tunes  
+What I wouldn’t give to have one more day off.  
+What I wouldn’t give to + 动词原形 = “There is nothing I wouldn’t give to…”（为了……我什么都愿意给）
+Trampoline（蹦床）  
+Millennial Generation (千禧一代)  
+PAGE 631??  massive, massive newspaper 😱  
+He has a massive collection of books.  
+Lisa is written as vegetarian, not vegan.  
+Her talent blows my mind.   
+Could you elaborate  您能详细说明一下吗？  
+
+
+
+
+### 6  
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
