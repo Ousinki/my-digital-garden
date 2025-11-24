@@ -1,17 +1,17 @@
-type FontFamily = "default" | "songti" | "kaiti"
+type FontFamily = "default" | "ya" | "zhuan"
 
 const FONT_FAMILY_KEY = "font-family"
 const DEFAULT_FONT_FAMILY: FontFamily = "default"
 
 const fontFamilies: Record<FontFamily, string> = {
-  default: "", // 使用默认字体（--bodyFont）
-  songti: "STSong, SimSun, 宋体, Songti SC, serif", // 宋体（支持 macOS 和 Windows）
-  kaiti: "KaiTi, 楷体, KaiTi_GB2312, STKaiti, serif", // 楷体（支持 macOS 和 Windows）
+  default: "var(--bodyFont), system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif", // 默认模式使用系统字体和 Google Fonts
+  ya: "方正屏显雅宋, var(--bodyFont), system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, serif", // 中文用方正屏显雅宋，英文用系统字体
+  zhuan: "方正小篆体, var(--bodyFont), system-ui, -apple-system, \"Segoe UI\", Roboto, \"Helvetica Neue\", Arial, sans-serif, serif", // 中文用方正小篆体，英文用系统字体
 }
 
 function getFontFamily(): FontFamily {
   const saved = localStorage.getItem(FONT_FAMILY_KEY)
-  if (saved === "default" || saved === "songti" || saved === "kaiti") {
+  if (saved === "default" || saved === "ya" || saved === "zhuan") {
     return saved as FontFamily
   }
   return DEFAULT_FONT_FAMILY
@@ -19,25 +19,40 @@ function getFontFamily(): FontFamily {
 
 function setFontFamily(family: FontFamily) {
   const fontFamily = fontFamilies[family]
-  if (fontFamily) {
-    // 设置自定义字体变量
-    document.documentElement.style.setProperty("--custom-body-font", fontFamily)
-  } else {
-    // 移除自定义字体，使用默认字体
-    document.documentElement.style.removeProperty("--custom-body-font")
-  }
+  // 设置自定义字体变量（包括 default 模式）
+  document.documentElement.style.setProperty("--custom-body-font", fontFamily)
   document.documentElement.setAttribute("font-family", family)
   localStorage.setItem(FONT_FAMILY_KEY, family)
+  
+  // Update button text
+  const familyLabels: Record<FontFamily, string> = {
+    default: "Aa",
+    ya: "雅",
+    zhuan: "篆",
+  }
+  const buttons = document.querySelectorAll(".font-family-toggle span")
+  buttons.forEach((span) => {
+    span.textContent = familyLabels[family]
+  })
 }
 
 function cycleFontFamily() {
-  const currentFamily = (document.documentElement.getAttribute("font-family") || DEFAULT_FONT_FAMILY) as FontFamily
-  const families: FontFamily[] = ["default", "songti", "kaiti"]
+  // Get current family from attribute or localStorage
+  let currentFamily = document.documentElement.getAttribute("font-family") as FontFamily | null
+  if (!currentFamily || (currentFamily !== "default" && currentFamily !== "ya" && currentFamily !== "zhuan")) {
+    currentFamily = getFontFamily()
+  }
+  
+  const families: FontFamily[] = ["default", "ya", "zhuan"]
   const currentIndex = families.indexOf(currentFamily)
-  const nextIndex = (currentIndex + 1) % families.length
+  const nextIndex = currentIndex === -1 ? 0 : (currentIndex + 1) % families.length
   const nextFamily = families[nextIndex]
+  
   setFontFamily(nextFamily)
 }
+
+// Store handlers to prevent duplicate listeners
+const buttonHandlers = new WeakMap<Element, () => void>()
 
 function setupFontFamily() {
   // Apply saved font family
@@ -47,12 +62,26 @@ function setupFontFamily() {
   // Setup button listeners
   const buttons = document.querySelectorAll(".font-family-toggle")
   buttons.forEach((button) => {
-    const handler = () => cycleFontFamily()
+    // Remove old handler if exists
+    const oldHandler = buttonHandlers.get(button)
+    if (oldHandler) {
+      button.removeEventListener("click", oldHandler)
+    }
+    
+    // Create and add new handler
+    const handler = () => {
+      cycleFontFamily()
+    }
     button.addEventListener("click", handler)
+    buttonHandlers.set(button, handler)
+    
     // @ts-ignore
     if (window.addCleanup) {
       // @ts-ignore
-      window.addCleanup(() => button.removeEventListener("click", handler))
+      window.addCleanup(() => {
+        button.removeEventListener("click", handler)
+        buttonHandlers.delete(button)
+      })
     }
   })
 }

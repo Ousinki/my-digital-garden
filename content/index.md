@@ -4,10 +4,11 @@
 
 
 
+
 [github网址](https://github.com/Ousinki/my-digital-garden/actions)
 
 
-
+[github pages web](https://ousinki.github.io/my-digital-garden/)
 
 
 

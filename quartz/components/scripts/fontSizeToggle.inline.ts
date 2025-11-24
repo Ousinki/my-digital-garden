@@ -28,6 +28,17 @@ function setFontSize(size: FontSize) {
   if (article) {
     article.style.fontSize = `${fontSize}px`
   }
+  
+  // Update button text
+  const sizeLabels: Record<FontSize, string> = {
+    small: "小",
+    medium: "中",
+    large: "大",
+  }
+  const buttons = document.querySelectorAll(".font-size-toggle span")
+  buttons.forEach((span) => {
+    span.textContent = sizeLabels[size]
+  })
 }
 
 function cycleFontSize() {
@@ -40,7 +51,7 @@ function cycleFontSize() {
 }
 
 function setupFontSize() {
-  // Apply saved font size
+  // Apply saved font size (this will also update button text)
   const savedSize = getFontSize()
   setFontSize(savedSize)
 

@@ -1,6 +1,6 @@
 ### 1  
 No good deed goes unpunished.  
-at the P.O.(post office)   
+at the P.O.(post office)  
 overtime pay   
 wage   
 Big liar!   
@@ -221,7 +221,7 @@ A: The Earth is flat.  B: You make no sense.
 “Adam cheng is very good indeed” = 郑少秋  
 The Godfather of Cantopop -- Sam Hui = 许冠杰  
 No way! I'm not doing that.  
-Can you lend me $500?  No way, that's too much.  
+Can you lend me \$500?  No way, that's too much.  
 The people who really wanted to go to Japan won't give a shit. (= care about)  
 China Issues Travel Alert. Airlines Offer Free Cancellations for Japan Flights.  
 I’ll finish this later.  
@@ -314,18 +314,128 @@ Could you elaborate  您能详细说明一下吗？
 
 
 ### 6  
+Seems like you've requested a password reset for your Obsidian account.  
+Proof that people are sheep!  
+Hey Gemini, what’s playing at The Sphere tonight?  
+Beautiful coffee shop in Prague. . .  Who was the design Architect? (捷克首都布拉格)  
+Nice architectural design  
+Seems impractical.  
+That’s a dumb idea.  
+Its been working like that for years now. Dont worry. (Its been = It’s been = It has been)  
+It’s been great talking to you.  
+It’s been a long day.  
+Meanwhile in Japan  
+imagine the draft 🥶  
+draft beer = 生啤酒  
+He was drafted into the army.  
+Is it accessible for wheelchair users?  
+Baby elephants get embarrassed 😭   
+Road tax 😂  
+Mama Anteater crossing the road with her baby on her back 🥹😍  
+Sequoia National Park, California  
+I can hear the silence.😍 = 我能听到寂静。  
+Mother nature and  it's architecture 💛💛💛  
+Volcanic éruption from Space station  
+This is Mars! 140 million miles away from us!  
+where were these photos taken?  
+He switched the channel with the remote control.  
+The drone is operated by remote control.  
+The rescue team followed the radio signal to locate the missing hikers.  
+Let’s head out early to avoid traffic.  
+We should head out before it gets dark.  
+Whatever, I don’t care.  
+Whatever happens, happens.  
+The restaurant looks fancy, _yet_ the food is terrible. (yet 类似 but / however，但语气更强)  
+I can’t get any phone signal in the basement.  
+The phone signal is really weak out here.  
+My phone loses signal whenever I go into the woods.  
+Whatever.. you can get a remote control radio signal 140 million miles away yet if I head out to the woods I can't get a fucking phone signal.  
+She is a genius!💯🔥  
+Rowan Atkinson is best known for his iconic character Mr. Bean.  
+The chase in Johnny English Reborn is hilarious  
+This guy shares his “one way visibility” tent and it’s insane （“单向透视”帐篷）  
+RAISED THE BAR  
+WORKED AT A BAR  
+FAILED THE BAR (👉 bar = 律师资格考试)   
+SHOULD BE BEHIND BARS (👉 behind bars = 在监狱里) 
+Reunion ❤️  
+The movie is about a couple who reunite after many years.  
+They were reunited after months apart.  
+Their reunion after ten years was very emotional.  
+You’re thanking someone who you said is in the Epstein files?  
+Money cancels morals  
+The match is starting — let’s ride!  
+Thanks to the both of you.  
+I need your help — caption this photo! (给图片配文)   
+She was ahead of her time. Do you think she's still holding?  
+Silly ai  
+Bitcoin released January 3, 2009  
+A flight attendant taught me this! 😱👇😳 This is genius!  
+“Good Sir, could you spare a drop of context?” —— “先生，能不能赏我一点上下文？”   
+Cork, Ireland, covered by a fresh blanket of snow  
+How to piss off everyone in one video, 101  
+You’re pissing me off.  
+Psychology 101 → 心理学入门  
+When I'm in Japan and can't find a trash can.
+Have you seen Stephen Chow movie call King Of Beggars?  
+Yup! Highly underrated.  
+What's a gag in movies that never fails to get a chuckle from you?  
+You hang up. No, you hang up.  
+One of the coolest selfies ever.  
 
 
 
 
+### 7  
+I made french fries in the air fryer.  
+Air fryers are great for cooking chicken wings.  
+A school of Koi fish  
+A school of fish swam past the boat.  
+The divers were surrounded by a school of colorful tropical fish.  
+We saw a school of dolphins playing near the shore.  
+Catch of a lifetime  
+Landing that job was the catch of a lifetime.  
+Those fish are invasive and harm local ecosystems.  
+🚨🇨🇳 If Communism doesnt work, then why is China so advanced?  
+I remembered what my father told me … “Never argue with a mug” Mug is Australian slang for fool.  
+Never been to China, have ya?  
+Trillion Dollar Club  
+I’ll fix it right away.  
+Please reply right away.  
+The change takes effect right away.  
+Reopen PDF to take effect right away.  
+The weather affects my mood.  
+The largest real explosion in cinema history 🔥  
+Imagine if cameraman forgot to roll it  😬  
+🎬 “Roll camera!”  
+That was a close call — the car almost hit us!  
+My Lord. What a moron. Did she really think she could get away?  
+Love the body slam.  
+He body-slammed the thief who tried to run away.  
+The dog was like, "I don't know her." 😬  
+I’m taking the afternoon off to spend time with my family.  
+She told her boss she was taking the afternoon off for a doctor’s appointment.  
+First day at CloudFlare , pushed a little update and taking the afternoon off ✌️  
+A flare lit up the dark sky.  
+The ship sent up a flare to signal for help.  
+He was fired from AWS  
+Cut him some slack — he’s new here.  
+It was my first day as a forklift driver.  Cut me some slack.  
+Do you support Zelensky? 🇺🇦  
+No. The golden toilets were too much for me.  
+The heat was too much for the old man.  
+Iraq seen from above.  
+Cop: how high are you?  Me: 6ft. (你嗨成什麼樣了？」即問對方是不是吸毒或喝醉。)  
+Demolition of old buildings  
+1400-year-old Ginkgo tree in the Gu Guanyin temple in Xi’An China.  
+Little boy gets PAYBACK!!  
+That’s AI; but if it was real, it would be JUSTICE. 🤣  
+The investment had a quick payback.  
 
 
 
 
-
-
-
-
+### 8
 
 
 

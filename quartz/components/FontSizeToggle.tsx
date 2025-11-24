@@ -7,7 +7,7 @@ import { classNames } from "../util/lang"
 const FontSizeToggle: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
   return (
     <button class={classNames(displayClass, "font-size-toggle")} aria-label="切换字号">
-      <span>A</span>
+      <span>中</span>
     </button>
   )
 }

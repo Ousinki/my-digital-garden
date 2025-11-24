@@ -1,12 +1,29 @@
 @use "./base.scss";
 
+// 注意：Google Sans Flex 不是公开可用的字体
+// 使用系统字体和 Google Fonts 作为回退
+// 如果需要使用 Google Sans Flex，需要自行获取字体文件并放置在 content/static/fonts/ 目录下
+
 // 自定义字体：方正屏显雅宋
 @font-face {
   font-family: "方正屏显雅宋";
-  src: url("./static/fonts/方正屏显雅宋.TTF") format("truetype");
+  src: url("/static/fonts/方正屏显雅宋.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
+  // 只应用于中文字符
+}
+
+// 自定义字体：方正小篆体
+@font-face {
+  font-family: "方正小篆体";
+  src: url("/static/fonts/FZXZTFW_0.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+4E00-9FFF, U+3400-4DBF, U+20000-2A6DF, U+2A700-2B73F, U+2B740-2B81F, U+2B820-2CEAF, U+F900-FAFF, U+2F800-2FA1F;
+  // 只应用于中文字符
 }
 
 // ========== 灰色字体功能 ==========
@@ -88,22 +105,42 @@ article.gray * .cn font {
   opacity: 0.6 !important;
 }
 
-// ========== 增强宋体和楷体的粗体显示 ==========
-// 当使用宋体或楷体时，增强粗体的显示效果
-// 使用更高的字重和文字阴影来增强视觉效果
-html[font-family="songti"] strong,
-html[font-family="songti"] p > strong,
-html[font-family="songti"] article strong,
-html[font-family="songti"] li strong,
-html[font-family="songti"] td strong,
-html[font-family="songti"] th strong,
-html[font-family="kaiti"] strong,
-html[font-family="kaiti"] p > strong,
-html[font-family="kaiti"] article strong,
-html[font-family="kaiti"] li strong,
-html[font-family="kaiti"] td strong,
-html[font-family="kaiti"] th strong {
-  font-weight: 700 !important;
-  // 使用文字阴影增强粗体效果，对中文字体特别有效
-  text-shadow: 0.35px 0 0 currentColor, -0.35px 0 0 currentColor;
+// ========== 字体应用逻辑：只对中文应用中文字体，英文使用系统字体 ==========
+// 默认模式：使用系统字体和 Google Fonts
+html[font-family="default"] article,
+html[font-family="default"] article *,
+html:not([font-family]) article,
+html:not([font-family]) article * {
+  font-family: var(--bodyFont), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+// 当切换中文字体时，使用 font-family 堆栈，让浏览器根据 unicode-range 自动选择
+// 中文字符会使用中文字体，英文字符会回退到系统字体
+html[font-family="ya"] article,
+html[font-family="ya"] article * {
+  font-family: "方正屏显雅宋", var(--bodyFont), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif;
+}
+
+
+html[font-family="zhuan"] article,
+html[font-family="zhuan"] article * {
+  font-family: "方正小篆体", var(--bodyFont), system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, serif;
+}
+
+
+// ========== 小篆字体字号放大 ==========
+// 当使用小篆字体时，将所有字号都放大，使其更易读
+// 小号：14px -> 18px（相当于原来的大号）
+html[font-family="zhuan"][font-size="small"] article {
+  font-size: 18px !important;
+}
+
+// 中号：16px -> 20px
+html[font-family="zhuan"][font-size="medium"] article {
+  font-size: 20px !important;
+}
+
+// 大号：18px -> 22px
+html[font-family="zhuan"][font-size="large"] article {
+  font-size: 22px !important;
 }

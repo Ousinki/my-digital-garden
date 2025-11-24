@@ -17,11 +17,18 @@ function setupCallout() {
     if (!title || !content) continue
 
     title.addEventListener("click", toggleCallout)
-    window.addCleanup(() => title.removeEventListener("click", toggleCallout))
+    ;(window as Window & { addCleanup?: (cleanup: () => void) => void }).addCleanup?.(() =>
+      title.removeEventListener("click", toggleCallout),
+    )
 
     const collapsed = div.classList.contains("is-collapsed")
     content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
   }
 }
 
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", setupCallout)
+} else {
+  setupCallout()
+}
 document.addEventListener("nav", setupCallout)
