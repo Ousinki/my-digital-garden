@@ -98,6 +98,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
       Plugin.HoverReveal(),
+      Plugin.Tooltip(),
       // Plugin.Citations() - Uncomment when you have a bibliography.bib file with entries
       // Plugin.Citations({
       //   bibliographyFile: "./content/bibliography.bib",

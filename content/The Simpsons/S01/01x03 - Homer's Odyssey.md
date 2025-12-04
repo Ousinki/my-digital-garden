@@ -19,7 +19,7 @@ cssclasses:
 <span class="audio-link" path="S01E03.mp3" data-start="00:01:30,888" data-end="00:01:41,125">Mrs. Krabappel:</span> Now class, I don't want this <font color="#ffff00"><ruby>field trip<rt>校外考察</rt></ruby></font> to be a repeat of our infamous visit to the Springfield <ruby>State Prison<rt>州立监狱</rt></ruby>. So, I want you all to be on your best behavior, especially you, Bart Simpson.
 <span class="cn">克拉伯珀尔夫人：好了，同学们，我可不希望这次郊游重演我们臭名昭著的斯普林菲尔德州立监狱之行。所以，我希望你们都表现得最好，尤其是你，巴特·辛普森。  </span>
 
-<span class="audio-link" path="S01E03.mp3" data-start="00:01:41,125" data-end="00:01:44,207">Bart:</span> Mrs. Krabappel, I didn't <ruby>unlock that door<rt>打开门锁</rt></ruby>.
+<span class="audio-link" path="S01E03.mp3" data-start="00:01:41,125" data-end="00:01:44,207">Bart:</span> Mrs. Krabappel, I didn't <font color="#fac08f"><ruby>unlock that door<rt>打开门锁</rt></ruby></font>.
 <span class="cn">巴特：克拉伯珀尔夫尔夫人，我没有打开那扇门。  </span>
 
 (tires screech) 
@@ -719,7 +719,38 @@ Crowd: Homer! Homer! Homer!
 <span class="cn">人群：侯默！侯默！侯默！</span>
 
 
-
 ---
 Submitted & Corrected by Derek  
 <span class="cn">提交与校正：Derek</span>
+
+
+
+
+```dataviewjs
+// 讀取當前文件內容
+const text = await dv.io.load(dv.current().file.path);
+
+// 匹配 <ruby>漢字<rt>假名</rt></ruby> 形式
+const re = /<ruby>(?:\s*<rb>)?([\s\S]*?)(?:<\/rb>)?\s*<rt>([\s\S]*?)<\/rt>\s*<\/ruby>/gi;
+
+const rows = [];
+let m;
+while ((m = re.exec(text)) !== null) {
+  rows.push({
+    base: m[1].trim(),
+    rt: m[2].trim()
+  });
+}
+
+if (rows.length === 0) {
+  dv.paragraph("❌ 本筆記未找到任何 <ruby> 註音標記。");
+} else {
+  dv.table(["漢字 / 基底", "註音 / 上標"], rows.map(r => [r.base, r.rt]));
+}
+```
+
+
+
+
+
+
