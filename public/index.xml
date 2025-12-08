@@ -10,7 +10,13 @@
     <link>https://https://ousinki.github.io/my-digital-garden/Cantonese</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/Cantonese</guid>
     <description><![CDATA[ 想講我而家ji4 gaa1現在住大陸開Twitter要用VPN. 每次想睇吓啲鹹嘢di1 haam4 je5一些鹹的東西。在口語中常用來指代一些露骨的內容。都會彈出呢個頁面🫠🫠 點解台灣過咗成個sing4 go3整個禮拜仲係度救緊災，點解佢哋會嚴重咁重成咁. ]]></description>
-    <pubDate>Mon, 08 Dec 2025 05:48:40 GMT</pubDate>
+    <pubDate>Mon, 08 Dec 2025 08:22:21 GMT</pubDate>
+  </item><item>
+    <title>vocabulary</title>
+    <link>https://https://ousinki.github.io/my-digital-garden/vocabulary</link>
+    <guid>https://https://ousinki.github.io/my-digital-garden/vocabulary</guid>
+    <description><![CDATA[ 1 No good deed goes unpunished. ]]></description>
+    <pubDate>Mon, 08 Dec 2025 08:22:21 GMT</pubDate>
   </item><item>
     <title>Terminal</title>
     <link>https://https://ousinki.github.io/my-digital-garden/Terminal</link>
@@ -22,12 +28,6 @@
     <link>https://https://ousinki.github.io/my-digital-garden/vim</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/vim</guid>
     <description><![CDATA[  Vim 中如何像 opt+up/down 一樣移動文字？ :m-2 或 :move .-2 表示上移一行， :m+1 或 :move .+1 表示下移一行， ddp 其中的dd表示剪下當前行（並存儲在Vim寄存器內），p表示貼到遊標的下一行。 ddkp 其中的k表示遊標上移一行。 .md.swp 是什麼文件？ 是 Vim 编辑器生成的临时交换文件 (Swap file)。当你用 Vim (或 Vi) 编辑文件时，它会生成一个 .swp 文件来保存未保存的修改。如果编辑器崩溃或非正常关闭，你可以用它来恢复数据。 如何在 Vim 中保存內容？ :wq = :x = ZZ 快捷保存並退出 . ]]></description>
-    <pubDate>Thu, 04 Dec 2025 08:07:57 GMT</pubDate>
-  </item><item>
-    <title>vocabulary</title>
-    <link>https://https://ousinki.github.io/my-digital-garden/vocabulary</link>
-    <guid>https://https://ousinki.github.io/my-digital-garden/vocabulary</guid>
-    <description><![CDATA[ 1 No good deed goes unpunished. ]]></description>
     <pubDate>Thu, 04 Dec 2025 08:07:57 GMT</pubDate>
   </item><item>
     <title>film</title>

@@ -1143,7 +1143,17 @@ Dude is shark food.
 Everytime a black guy is filming something like this they make it all about themselves.  
 “Oh I [gotta]{"Gotta" 係 "got to" 嘅口語縮寫，係 "have to" 嘅意思，表示「必須」或者「需要」做某件事。} see this shit” and half the video is just a selfie of them laughing.  
 Can never be about the actual situation at hand.  
-The deadline is [at hand]{迫在眉睫}, so we need to finish the project soon.  
+The deadline is [at hand]{迫在眉睫；即將來臨}, so we need to finish the project soon.  
+A baby as pure and beautiful as a snowflake ❄️👶  
+iPhone [macro lens|微距鏡頭] captures a snowflake up close  
+I’m a creep I’m a weirdo  
+buck is the biggest [snowflake|玻璃心] when u think about it. bisexual daddy issues suicidal  
+Typical Snowflake [in a nutshell]{「簡單嚟講」、「總結嚟講」或者「簡而言之」}.  
+One of the reasons our country is [going down the pan]{"Going down the pan" 呢個短語係一個俚語，意思係某樣事物或者情況出現咗嚴重嘅問題，或者變得完全失敗。簡單嚟講，就係形容某樣嘢好似無可挽回咁跌落谷底、冇得救。}.  
+It's like being threatened by an ant  
+I want him on the front lines in Ukraine.  
+Wait! Did he just say the military isn’t under Trump’s control 😳 😂😂😂😂💀  
+Clearly he hasn't read the constitution.  
 
 
 
