@@ -88,6 +88,10 @@ const calloutMapping = {
   example: "example",
   quote: "quote",
   cite: "quote",
+  seamless: "seamless",
+  plain: "seamless",
+  minimal: "seamless",
+  details: "seamless",
 } as const
 
 const arrowMapping: Record<string, string> = {

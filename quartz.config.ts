@@ -97,6 +97,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.RubySyntax(),
       Plugin.HoverReveal(),
       Plugin.Tooltip(),
       // Plugin.Citations() - Uncomment when you have a bibliography.bib file with entries

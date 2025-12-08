@@ -5,7 +5,7 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [Component.RubyControls(), Component.VimKeys()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/Ousinki/my-digital-garden",

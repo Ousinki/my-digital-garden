@@ -1,4 +1,6 @@
-function toggleCallout(this: HTMLElement) {
+function toggleCallout(this: HTMLElement, evt?: Event) {
+  evt?.preventDefault()
+  evt?.stopPropagation()
   const outerBlock = this.parentElement!
   outerBlock.classList.toggle("is-collapsed")
   const content = outerBlock.getElementsByClassName("callout-content")[0] as HTMLElement
@@ -25,6 +27,22 @@ function setupCallout() {
     content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
   }
 }
+
+// Fallback: ensure clicks still work even if per-callout binding misses
+document.addEventListener(
+  "click",
+  (evt) => {
+    const target = evt.target as HTMLElement | null
+    // allow clicking anywhere inside a collapsible callout, not just the title
+    const outer = target?.closest(".callout.is-collapsible") as HTMLElement | null
+    if (!outer) return
+    const title = outer.querySelector(".callout-title") as HTMLElement | null
+    if (!title) return
+    toggleCallout.call(title, evt)
+  },
+  // do not use passive to allow preventDefault when needed
+  { passive: false },
+)
 
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", setupCallout)

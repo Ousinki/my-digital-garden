@@ -118,8 +118,11 @@
     --callout-icon: var(--callout-icon-quote);
   }
 
-  // seamless callout - no border, no background
-  &[data-callout="seamless"] {
+  // seamless/minimal/plain/details callout - no border, no background
+  &[data-callout="seamless"],
+  &[data-callout="plain"],
+  &[data-callout="minimal"],
+  &[data-callout="details"] {
     background-color: transparent;
     border: none;
     box-shadow: none;
@@ -303,6 +306,10 @@
   gap: 5px;
   padding: 1rem 0;
   color: var(--color);
+  cursor: pointer;
+  pointer-events: auto;
+  position: relative;
+  z-index: 1;
 
   --icon-size: 18px;
 

@@ -1,15 +1,24 @@
+// 存储所有清理函数，确保在重新初始化前能清理
+let globalCleanupFns: Array<() => void> = []
+
 function setupHoverReveal() {
+  // 先清理之前的监听器
+  globalCleanupFns.forEach((fn) => fn())
+  globalCleanupFns = []
+
   const containers = document.querySelectorAll(
     ".hover-reveal"
   ) as NodeListOf<HTMLElement>
-
-  const cleanupFns: Array<() => void> = []
 
   containers.forEach((container) => {
     const hoverElement = container.querySelector("span:first-child") as HTMLElement
     const tooltip = container.querySelector(".hover-reveal-tooltip") as HTMLElement
 
     if (!hoverElement || !tooltip) return
+
+    // 确保 tooltip 初始状态正确
+    tooltip.style.visibility = "hidden"
+    tooltip.style.opacity = "0"
 
     const updateTooltipPosition = () => {
       // 等待内容渲染完成
@@ -105,17 +114,19 @@ function setupHoverReveal() {
     window.addEventListener("resize", resizeHandler)
 
     // 保存清理函数
-    cleanupFns.push(() => {
+    const cleanup = () => {
       container.removeEventListener("mouseenter", mouseEnterHandler)
       container.removeEventListener("mouseleave", mouseLeaveHandler)
       window.removeEventListener("resize", resizeHandler)
-    })
+    }
+    
+    globalCleanupFns.push(cleanup)
+    
+    // 注册清理函数
+    if (window.addCleanup) {
+      window.addCleanup(cleanup)
+    }
   })
-
-  // 注册清理函数
-  if (window.addCleanup) {
-    cleanupFns.forEach((fn) => window.addCleanup(fn))
-  }
 }
 
 // 初始加载时执行
@@ -127,4 +138,11 @@ if (document.readyState === "loading") {
 
 // 导航时也执行
 document.addEventListener("nav", setupHoverReveal)
+
+// 暴露到全局，供其他脚本调用
+// @ts-ignore
+if (typeof window !== "undefined") {
+  // @ts-ignore
+  window.setupHoverReveal = setupHoverReveal
+}
 

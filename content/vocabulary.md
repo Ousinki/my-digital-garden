@@ -652,14 +652,14 @@ cotton
 ### 11
 
 The view from the mountain was magnificent.  
-Breaking Bad is a very good show. = 《絕命毒師》  
+[Breaking Bad]{= 《絕命毒師》} is a very good show.  
 Are you sure you want to delete the highlighting of "..." and the associated notes permanently?  
 Gm 🍬 = Good morning  
 Gn = Good night  
 Hot take: Pineapple on pizza is actually amazing. 🍍🍕  
 Hot take: Homework should be banned.  
 That’s a hot take, but I kinda agree.  
-🫧 Don’t chew gum in class. (chew gum = 嚼口香糖)  
+🫧 Don’t [chew gum]{chew gum = 嚼口香糖} in class.  
 The kid was blowing bubbles after chewing bubblegum.  
 he looks so fine chewing that gum  
 He bought a pack of chewing gum.  
@@ -721,7 +721,7 @@ I would refuse delivery and tell the car dealer to bring a new undamaged car.
 The dealer shuffled the cards and dealt two to each player.  
 Imagine you buy an electric car to save the planet and a tree kills it.  
 So you bought an electric car to save the planet… and nature _clapped back_ with a tree?  
-That's some tough EV. (EV = Electric Vehicle 縮寫，即電動車)  
+That's some tough [EV]{EV = Electric Vehicle 縮寫，即電動車}.  
 That is some good coffee!  
 The pillars are holding up the roof.  
 Hold up a minute! You forgot your keys.  
@@ -761,34 +761,34 @@ This is Sugarcane
 Farmers grow sugar cane to produce sugar.  
 He walks with a cane after the accident.  
 Don't want to pay? Fine.  
-🚨 RFK Jr. warns: "In a million years, I would not take the flu shot—and I'll tell you why."  
-
+🚨 RFK Jr. warns: "In a million years, I would not take the flu shot—and I'll tell you why."
 
 ### 13
-a motorcycle parts  dealer  
+
+a motorcycle parts dealer  
 a drug dealer  
 an antique dealer  
-A semi-automatic Type 56 displayed by a South African arms dealer.   
+A semi-automatic Type 56 displayed by a South African arms dealer.  
 “A leader is a dealer in hope.” --Napoleon  
 Mr. Elon Musk Just Revealed the Game-Changing Tesla **Motorcycle**  
 Remember to wear your _helmet_ while riding a motorcycle. They save lives.
 I'm a _spare parts_ dealer. Please patronize me🙏🏻  
 Looking for genuine spare parts? I’ve got a wide range in stock — fast delivery, fair prices.  
-[DM]{DM = direct message 私信} or 📞 0768481371 
-Auto parts dealer (Auto = automobile / automotive)  
+[DM]{DM = direct message 私信} or 📞 0768481371
+[Auto]{Auto = automobile / automotive，"Automobile" 更正式，通常在技術或專業領域使用；"Car" 是日常用語。"Automotive" 這個詞來自於 "automobile"（汽車），意思是“汽車的”，Automotive parts = 汽車零件} parts dealer  
 I gotta buy me another Snowmobile 😎🫵🏻❄️  
-\#StreetView and chill:   
+\#StreetView and chill:  
 from the back of a dogsled to a snowmobile, here’s how we worked with locals to map Canada's arctic  
 Fun Fact Giveaway! 5 winners will get $30 USDT each! How to _participate_:  
- 1⃣ Follow @Four_FORM_  2⃣ ❤ + RT  3⃣ Drop your answer & tag 3 friends  
+ 1⃣ Follow @Four*FORM* 2⃣ ❤ + RT 3⃣ Drop your answer & tag 3 friends  
 All you need to do to participate is: 1.Follow the official @Makeship account & mine! 2.Retweet this post!  
 I want to participate in the competition.  
-Hundreds of religious sisters _take part in_ a Rosary Rally in India.   
+Hundreds of religious sisters _take part in_ a Rosary Rally in India.  
 Are you ready to take part in our UK Parliament Week 2025 quiz next week? 📝  
 here lemme fix your propaganda right up  
 Lemme see.  
 Lemme help you.  
-The Nike [Dunk]{Dunk 原本是籃球裡的「灌籃」，也是這雙鞋系列的名字。} [Low]{Low 指低筒款式，跟「High（高筒）」相對。} “Pegasus Pack” Ushers Mythical Energy for Lunar New Year 🐎 
+The Nike [Dunk]{Dunk 原本是籃球裡的「灌籃」，也是這雙鞋系列的名字。} [Low]{Low 指低筒款式，跟「High（高筒）」相對。} “Pegasus Pack” Ushers Mythical Energy for Lunar New Year 🐎
 Holiday Pack（節日系列）/Animal Pack（動物主題系列）  
 Donald J. Trump Attends the Presidential Parade  
 President Trump is going to save this great nation!!  
@@ -826,19 +826,19 @@ Thanks G (类似于 "dude" 或 "bro"。)
 "The fiery debate lasted for hours."  
 Can you identify what this is?  
 Aloe  
-Pulling up to the [AirBnB]{Airbnb 的名字来自 "air bed & breakfast"}. I swear I've been here before   
+Pulling up to the [AirBnB]{Airbnb 的名字来自 "air bed & breakfast"}. I swear I've been here before
 
-
-### 14 
+### 14
+ 
 Asked someone not to touch me today bc I'm a [germaphobe]{Germaphobe 來自 "germs"（細菌）和 "phobia"（恐懼症）}! They proceeded to touch me  
 [Dettol]{🧴 滴露，一種消毒劑} kills [99.99%]{ninety-nine point nine nine percent} germs.  
 I need Dettol 💯 [Germs Free]{無菌}  
 Your home will stay fresh, fragrant, and mold-free!🏡🌸  
 Washing your hands with soap and water helps stop the spread of germs and infections.  
-The one to/on the left is a germaphobe with [OCD]{Obsessive-Compulsive Disorder（强迫症）}   
+The one to/on the left is a germaphobe with [OCD]{Obsessive-Compulsive Disorder（强迫症）}  
 The store is to/on the left of the post office.  
 Look [to]{Look to your right. = 把視線轉向右邊（方向）；Look at your right. ❌不自然，幾乎不這麼說。look to + 方向 ; look at + 具體物品 / 人} your right.  
-How Can So Much Milk Come From a Woman's Breast? 😲 [Iykyk]{"If you know, you know" 的缩写，懂的都懂} 💀   
+How Can So Much Milk Come From a Woman's Breast? 😲 [Iykyk]{"If you know, you know" 的缩写，懂的都懂} 💀  
 Hard for a germaphobe like me to watch  
 Nonetheless breast milk is still best for babies. 😀  
 'A Christmas Carol and other Christmas Stories' by Charles Dickens, illustrated by Arthur Rackham, 1915  
@@ -850,7 +850,7 @@ Could you count [large amounts of money]{amount 用來指「不可數名詞」�
 Each Chinese red [bill]{在這裡，bill 指的是「紙鈔、鈔票」（a banknote），不是「帳單」。} is 100 RMB, or about 14 dollars.  
 You might want to change your profile status, from "For truth" to "[Makes sh!t up]{= to make things up（捏造事實、編故事）}."  
 Stop making things up and tell me what really happened.  
-Damn u [cooked]{cook（俚語）＝ 狠狠教訓；把某人逼到毫無招架之力；完爆某人} that [mf]{= motherf***er（骂人的缩写，但在網路上常用作隨口的指代，未必真的帶強烈侮辱）} 😂  
+Damn u [cooked]{cook（俚語）＝ 狠狠教訓；把某人逼到毫無招架之力；完爆某人} that [mf]{= motherf\*\*\*er（骂人的缩写，但在網路上常用作隨口的指代，未必真的帶強烈侮辱）} 😂  
 I feel safer in China than any of a [dozen]{dozen 的意思是 「一打」= 12 個。這裏指十幾個} other countries that I've visited or lived in.
 iMessage = Luxury car (Weekend Drive)  
 WhatsApp = Toyota (Everyday All day Drive)  
@@ -884,7 +884,7 @@ Is he right or a bully?
 Name one BAD thing about this game  
 It's holding GTA 6 back  
 It's complete and utter dog shit compared to GTA4.  
-What is he reading? Understanding women  vol 1.  
+What is he reading? Understanding women vol 1.  
 How to [please]{取悅} a woman 🧔‍♀️  
 The Epstein files 🧐  
 That’s a book on “What men do that makes a girl ick”  
@@ -895,7 +895,7 @@ Soy milk or oatmeal?
 Dishwater  
 When the verdict comes in 😂  
 AI is still sloppy  
-That was AI.  The ceiling tiles would not have held his weight.  
+That was AI. The ceiling tiles would not have held his weight.  
 He just couldn't drive straight if it's LGBT's intersection  
 [ion]{在這裡 “ion” 不是化學的 ion（離子），而是 美式網路俚語，是 “I don’t” 的縮寫（發音連在一起像 ion）。} support the rainbow side, but [ts]{that’s} lowkey funny [asl]{as hell → 「非常、超級」}  
 Underrated comment 🤣  
@@ -903,7 +903,7 @@ He should get a brand new set of [tyres]{tyres = 英式英文的 輪胎（美式
 Why? For vandalism? [Gtfoh]{Get The F\*\*\* Outta Here}
 Give him a salute  
 Why is the bullet flying with the bullet casing? Did someone throw it?  
-The show is about to start.  Popcorn 🍿 ready  
+The show is about to start. Popcorn 🍿 ready  
 his greed sickens me  
 Dine & dash  
 They tried to dine and dash, but the waiter caught them.  
@@ -911,10 +911,10 @@ Do you know which fruit is this? Looks like grapefruit
 looks like a red pomelo  
 Peeled pink grapefruit.  
 He almost had a heart attack. 😂  
-Ai is dumb but people who fall for it are dumber  
+Ai is dumb but people who fall for it are dumber
 
-
-### 15
+### 15 
+ 
 Since 1991, the [hepatitis B birth dose]{在疫苗相關內容裡，birth dose 常指孩子出生 24 小時內施打的第一劑疫苗，例如乙肝疫苗（Hepatitis B birth dose）。} has reduced U.S. childhood infections [by]{reduce A by B = 讓 A 減少 B（的量）} 99%. 🍼💛  
 sugar free [slurpee]{思乐冰是一种来自便利商店 7-Eleven（7-11）的著名饮料名称，指的是：🥤 半冰沙、半饮料的冰冻饮品（类似冰沙汽水）} [pt 2]{part 2 的缩写，第二彈}  
 Stop shortening everything !!! Everything doesn’t need an acronym??  
@@ -924,10 +924,228 @@ Sugar-Free Sweets: Guilt-Free or Just Marketing?
 A bar has opened in Saudi Arabia for the first time, serving alcohol-free beers.  
 It's so true. 53 months alcohol-free for me. 🙂  
 He has been living in [sobriety]{sobriety 的意思是 「清醒、戒酒、戒毒的状态」，通常指一個人 不再喝酒（或不再使用致醉物質）並保持清醒的生活方式。} for five years.
-Holy sh’t I cant believe it but just [hit 4 years]{达到四年、满四年、满四周年} alcohol and substance free today 🥳🎂
-After three months being sober, I decided to treat myself with a gift.  
+Holy sh’t I cant believe it but just [hit 4 years]{达到四年、满四年、满四周年} alcohol and substance free today 🥳🎂  
+He’s [sober]{他現在清醒、不醉。sober 是形容詞；sobriety 是名詞}.  
+After three months being sober, I decided to [treat myself]{犒賞自己、對自己好一下} with a gift.  
+I’ll treat you. = 我請客  
+Thanks for the treat. = 謝謝你請客  
 I went to the shelter and adopted this cute beagle. His nane is Nikko 😊.  
 i relapsed after half a year of being smoke free💔  
+“Shelter” arrives on January 30,2026. Only in [theaters]{theater（美式拼法）；theatre（英式拼法）。在美式英語中，theater（或 movie theater）就是指 cinema（電影院，英式常用）。}.
+First [trailer]{預告片} for ‘SHELTER’, a new action thriller [starring]{「由……主演」} Jason Statham.  
+I went to the cat shelter with my boyfriend today. Then this happened  
+This story had better end with cat being adopted 😶  
+Give me ONE good reason to buy a Windows laptop apart from gaming.  
+Windows laptops suck for gaming. So loud and hot. Buy a desktop instead.  
+This phone sucks for taking photos.  
+so that you can [wipe]{在電腦領域裡，wipe Windows 指的是 把 Windows 系統徹底刪除、格式化掉，然後重新安裝其他系統（例如 Linux）。} windows and install Linux.  
+Ketchup isn’t an option, what are you putting on these eggs?  
+I'm putting anyone who would put ketchup on eggs in jail  
+Tomato scrambled eggs 😡  
+now i'm craving for tomato scrambled eggs 🍅🍳🤤  
+Salt and pepper… if you put ketchup you’re either a child or a serial killer  
+A biscuit and bacon  
+Hot sauce. And what [freak]{怪胎} puts ketchup on eggs.  
+This steak was ordered [medium]{五分熟}. Overcooked, undercooked, or just right? 🥩  
+It’s raw  
+Don’t eat that, it’s raw!  
+That’s medium well, or at least [medium plus]{介於 medium（五分熟）和 medium well（七分熟）之間。}.  
+I’d [smash]{“smash” 是俚語「大口吃掉、秒殺、一下子就清光」} that 💯  
+Would you keep the pineapple or take it off? 🤔  
+Take it off and put it in my fruit salad.  
+Who the actual [fook]{fook = fuck 的英國、蘇格蘭或愛爾蘭口音寫法（較委婉）} is putting a fooking pineapple into the burger [equation]{等式；方程式。或許可以用 burger recipe 漢堡配方🍔}!?!  
+Take it off? It’s a frisbee at this point.  
+@grok which three are you picking?  
+I'd pick Grok for unbiased insights, Claude for creative tasks, and Perplexity for real-time searches.  
+堺雅人 Sakai Masato, I like his acting.  
+The AI is getting better and better [smh]{shaking my head（無語地）搖頭、無奈}  
+Titanium Blue or Deep Blue?  
+“ONE OF THESE [SOFT DRINKS]{「软饮料」指 不含酒精的碳酸饮料，} HAS TO GO”  
+Which One are you getting rid of? 🥤🗑️  
+Aww Kidnapping 🥹🧡 [Catnapping]{catnap 是「打盹、小睡」的意思。因為原推文用 Kidnapping（綁架）這個回覆的人改成 Catnapping → 玩文字梗}  
+A Chinese inventor made flying sword drones that move with hand gestures😮‍💨  
+The Sword in the Stone (1963)  
+One of the greatest animated movies ever.  
+Beheadings with a sword.  
+For the crime of listening to music.  
+"Islam is a factory of terrorism"  
+But…but…but “[Quran]{《古兰经》，也就是 伊斯兰教的圣典。} doesn’t allow this”….”this isn’t Islam”  
+A Japanese samurai in full armor with a sword, 1867.  
+It was originally a war between the [Soviet Union]{Soviet：蘇維埃（意為議會、代表的意思）；Union：聯盟} and the United States.  
+USSR：Union of Soviet Socialist Republics（苏维埃社会主义共和国联盟）  
+🚨🇨🇳 China is the MOST ADVANCED country on EARTH!  
+19th Century 中國：Addicted to opioids；美國：Making Stuff  
+21st Century 中國：Making Stuff；美國：Addicted to opioids  
+A snow leopard's reaction after seeing a tiger.  
+It's like running into the [Rock]{指的是 Dwayne “The Rock” Johnson（巨石強森）} on the streets.  
+You rock!  
+Queen - We Will Rock You  
+Unforgettable!  
+In need of a sweet treat? Have no fear, Homer is here! 🥧  
+How I want to treat my man when he says I've had a bad day  
+“[Zootopia]{Zoo（動物園、動物）＋ Utopia（烏托邦）→ Zootopia} 2,” releasing in Japan tomorrow🐇🦊🐍🦥🐎🐃🫶😍👍🙏👏  
+FBI agent in Movies 😭😹  
+How old were you when [One Piece]{《海賊王》，英文中讀起來像 “One Peace”（一個和平）} started?  
+One piece so PEAK  
+I wasn't even Born 🥲 not even a sperm 🤣  
+My partner asked me where the [camera]{security camera（監控攝像頭）} in our house went  
+If you paint it red now it's a speed camera.  
+That awkward run when a car lets you by  
+Superhero [bookend]{书挡 / 书立}  
+This bookend keeps the books from falling over.  
+Common sense went out the window  
+HERE 👇 are 5 common sense facts. ✔️ Wouldn’t you agree?! 🤔  
+America First isn't isolationism or selfishness—it's just plain common sense.  
+[y'all]{AAVE 口語，y’all = you all} [be]{African American Vernacular English，“be”（表示「經常、總是」）} heavy on everything but morals & common sense
+
+### 16
+
+When you buy a backup camera from [Temu]{Temu 是中国公司 PDD Holdings（拼多多母公司）推出的一家在线购物平台，类似亚马逊或eBay} 😂😭😭  
+RULE NUMBER 1: Neverrrrrrrrrrrrrrrrrrrr treat God as your backup plan.  
+God isn’t a backup plan, He’s the blueprint.  
+“Go to God first, not last”  
+She didn't have a backup plan 😭  
+Her intention was evil  
+imagine training for 7 years and dancing like a backup dancer…  
+And then her asking us “can u keep up?” Like sis can YOU keep up 😭  
+Back up dancers outdo this  
+You become wise when you begin to run out of money.....  
+If you had to live in one, where you heading?🤔🌍  
+I'd say Tokyo, but I am not doing the language barrier again.  
+This is China. The banner say Chinese.  
+The fastest way to peel a potato…  
+Fastest way to get rid of half your potato  
+Get rid of one era  
+You can't get rid of metaphysics  
+Sure you can, it just doesn't go away for the same reasons astrology and religion don't  
+You can (and modernity has) but you just get incoherence, circularity and relativism.  
+My gf says metaphysics are theology.  
+This baboon is helping his dog friend to get rid of bugs.  
+He's very thorough and thoughtful. I love animals.  
+How to get rid of neck hump  
+The best way to get rid of flies 🦟  
+Correct Ways To Get Rid Of Stains From Cloths  
+Best way to get rid of scam callers 😂  
+Or just answer the phone, “good afternoon, State Police fraud unit, how may I help you?”  
+"This is an unlisted CIA number. How did you get this?"  
+Answering the phone with these two words works every time…. Sheriffs Department  
+This isn’t real; the real scam callers usually have foreign accents, often from India and Africa.  
+Delete all games. Delete all dating apps. Get rid of all distractions. It's time to [run it back]{重新來過}  
+start meditating like a monk  
+The Christmas tree I ordered 3 weeks ago from [temu]{Temu 是 拼多多集團（PDD Holdings） 在海外推出的購物平台。} just arrived Finally  
+Minimalist  
+I think i might have been scammed 😭  
+bro this looks [fire]{在這裡 fire 是俚語，意思是：🔥 超讚、很酷}  
+The best thing I've [purchased]{"buy" 更口語、隨意，而 "purchase" 更正式，常用於正式文件或商業語境中。} from Temu❤️👏🏽  
+Samurai sword😭😭  
+Share the link  
+I know a lot of people who use Temu, and love it because it's cheap and [affordable]{價格合理、實惠}.  
+this would cure my mental health  
+My Grandpa has a [Narnia Library]{指的是 像《納尼亞傳奇》（The Chronicles of Narnia）裡的「衣櫥入口」那樣的秘密房間或隱藏空間。}.  
+Man shows off his table with hidden compartments  
+[Ngl]{“Not gonna lie” 的縮寫，意思是：老實說} that’s [sick]{在網路與年輕人語言中，不是生病，而是俚語，similar to “awesome”, “amazing”}  
+Today’s the day! @WorldLibertyFi token sale is live. Get your \$WLFI tokens now. Purchase \$WLFI here: http://worldlibertyfinancial.com  
+Fucking grifter  
+You need to embrace [dogecoin]{狗狗币是一种加密货币}, mister president.  
+Israel Stand with you Donald! Israel needs you back!  
+Fuck you and fuck israel  
+israel = war crimes  
+switched from windows to macOS a year back and haven't looked back since.....the best purchase of my life ❤️❤️❤️  
+You just won \$5 million. What's your first purchase? A.Dream car. B. Pay off debt. C.Invest for the future.  
+I finally [paid off|償還] my [student loan|學生貸款].  
+He tried to [pay off|賄賂] the officials to get the contract.  
+That man is [second guessing]{regret 表示明确的后悔；second guessing 不一定真的后悔，更多是一种不确定、再三思量，怀疑自己做得对不对的感觉。} his Temu taser purchase  
+🎥 BREAKING: Netflix is [set to]{「準備要…」或「即將…」} [purchase]{purchase = buy（買）+ acquire（收購）} [Warner bros|華納兄弟]{华纳兄弟，一家著名的美国影视娱乐公司。} for \$82.7B!  
+Netflix announces that it has [acquired|收購] Warner Bros., including HBO Max and HBO, [in a deal valued at]{"在一筆價值 827 億美元的交易中（完成收購）"} \$82.7 billion.  
+[Franchises]{“Franchises” 的意思是：（影視）系列作品／IP（知名作品品牌）} such as [The Big Bang Theory|生活大爆炸], [The Sopranos|黑道家族]{soprano 原本是「女高音 / 童聲高音」的意思。但在劇名 The Sopranos 裡，它是主角家族的姓氏——Tony Soprano。}, [Game of Thrones|權力的遊戲], [The Wizard of Oz|綠野仙蹤] and the [DC Universe|DC 宇宙] are set to join Netflix as a result.  
+Well, movie theatres [had a good run]{黄金时代已经落幕}.  
+Bye bye movie theaters 🥱  
+What are people using their [Action Button]{從 iPhone 15 Pro 開始，Apple 把原本的 靜音切換鍵 改成一個可自訂的按鈕，叫做 Action Button（動作按鈕）。} for these days? I feel like people are split about it.  
+I have it set to bring up the ChatGPT voice assistant. Anyone got any cool use cases? 🤔  
+Engineers suspended an entire football pitch 1,800 meters in the sky to set a new world record  
+imagine falling off after trying to celebrate a goal  
+Count me in!  
+An all-new movie from The Simpsons, now coming to theaters [Labor D'OH]{是对美国劳动节（Labor Day）的幽默改编} Weekend, 2027!  
+That will require a tetanus shot.  
+THEY CAN’T TAKE MOVIE THEATERS AWAY FROM ME  
+Netflix won Warner Bros. A moment of silence for movie theaters, please  
+RIP movie theaters (1895-2025)  
+肯德基宣傳語「Finger Lickin' Good」  
+The dog jumped up and licked her face.
+
+### 17
+The older I get the more emotional I get and I hate it . I cry for everything these days 😭  
+[Me asf]{“Asf” 是英文网络俚语，缩写自 “as fuck”，用来加强语气。這句話的意思是：“这就是我本人了 😭” / “太像我了 😭”} 😭  
+Waiting in a long line is annoying.  
+He keeps texting me, it’s so annoying.  
+I love to [yap to|对...讲个不停] my man I never shut up 😂  
+These were the good ol' days for Grampa... right?  
+Social Media Is Deceiving  
+You see the BMW - Not the 80k loan  
+You see the vacation- Not the credit card debt  
+You see expensive clothes- Not the \$0 savings  
+Be careful out there  
+Loan app: “reason for the loan” Me: Money to celebrate Jesus’s birthday  
+A Loan Repayment Schedule  
+The average American household owes:  
+\$10,000 in credit card debt  
+\$18,660 in medical debt  
+\$22,612 in auto loans  
+\$58,957 in student loan debt  
+\$241,840 in mortgage debt  
+We don’t own anything under capitalism. The banks own us.  
+I’m still paying my [mortgage]{按揭贷款（mortgage） 的意思是：👉 用房子作為抵押，向銀行借錢買房的長期貸款。你沒有一次付清房子的錢，你向銀行借錢買房，房子本身作為「抵押品」，你每月慢慢還（通常 20～30 年），如果不還款，銀行有權把房子收回（法拍 / foreclosure）。}.  
+[BS]{“BS” 是英文俚語，縮寫自 “bullshit”，“胡扯；扯淡”。}. I don't owe anybody [a dime]{dime 是美國貨幣單位，指 10 美分（$0.10）的硬幣。在口語中，「a dime」常引申出 “一點點錢”、“一毛錢(都沒有)” 的意思。}!  
+Vacation Time 🍃  
+Life is much better on vacation.  
+Homer is the ultimate tourist. Join \#TheSimpsons family vacation tomorrow at [8/7c]{「8/7c」是美國電視節目常用的標示方式，意思是：8 ＝ 美國東岸時間（ET）晚上 8 點；7c ＝ 美國中部時間（CT）晚上 7 點；c 的意思是 Central（中部時區）}!  
+Man caught his wife cheating on their [cruise vacation|郵輪度假].  
+Friends took a photo on vacation in 1975 and [recreated|再現] it 50 years later.  
+This couple goes on a vacation & waves to their cat.  
+On return, they see in the records that the cat waved back.  
+Every [creature]{生物、動物、生命體（比 “animal” 更廣，幾乎所有有生命的東西都能叫 creature）} understands kindness [to some degree]{👉 「在某種程度上」、「多少有一點」、「或多或少」}.  
+I agree with you to some degree.  
+Who’s taking care of the cat while the couple is on vacation?! 😼  
+Anyone who has cats knows that a cat can stay home alone without any issue, as long as it has water, food, and enough [litter]{這裡指的是貓咪上廁所使用的「貓砂」（cat litter），而不是「垃圾」。}.  
+The cat feels completely safe in its home — it simply increases its sleeping hours.  
+Don’t litter.＝不要亂丟垃圾。  
+Like when you go to a [safari park]{和一般動物園不同，safari park 裡的動物通常是自由活動的，而遊客是坐在車裡穿過園區觀看動物，而不是隔著籠子看。}  
+Favorite Vacation [Spot]{這裡不是「點、斑點」那種意思，而是「地方、地點、景點」（= place/location）}: Ellis Island 🏝️  
+This is a wave maker so surfers can practice. 🌊 🏄‍♂️  
+Is the butterfly effect a thing?  
+all that energy used for a bunch of idiots to play with their surfboards? Wow  
+To be a wave / that gently / kisses your / shoreline.  
+Utterly beautiful write ❤️  
+Ice waves. Rare to see.  
+A bear waves to thank a car driver for letting him cross the road.  
+Sure he wasn’t trying to hitch a ride?  
+It was expecting a [treat]{「獎勵、好吃的東西、零食」（用來獎勵動物或小孩的那種）}.  
+🎃 “Trick or treat?”  
+Look deeply into nature and you will find love and healing   
+Bear [waves down]{揮手示意讓某人停下來、過來、注意自己} a guy who lives close by because the bears cub is in need of his help   
+The police officer waved me down.  
+The return tide has arrived — millions of travelers are heading home from the holiday.  
+Tanzania is Africa's premier safari destination, It offers extremely wildlife experience, Visit Tanzania 🇹🇿   
+Antarctic Shoreline  
+
+
+### 18
+Who on this table needs to get up for [Tom Cruise|湯姆·克魯斯] to sit???  
+He gave up his seat for the elderly woman.  
+From nothing to a full cruise ship. That’s incredible  
+Someone [went overboard]{"Went overboard" 嘅意思係指某人或某物從船上掉落海中，或者在某個情況下過度做某事。} the carnival cruise ship  
+Imagine your final moments being documented by a dumbass like this  
+Imagine [jumping off|跳下] a cruise ship like a fucking dumbass  
+Someone dying and buddy made it into a whole laugh fest. [Man]{Man," 係一種口語表達：天啊...} some people need psychiatric help.  
+Carnival Cruise [aka|又名] Ghetto of the Sea  
+[STFU]{"STFU" 係 "Shut The F*** Up" 嘅縮寫} you absolute clown!  
+Dude is shark food.  
+Everytime a black guy is filming something like this they make it all about themselves.  
+“Oh I [gotta]{"Gotta" 係 "got to" 嘅口語縮寫，係 "have to" 嘅意思，表示「必須」或者「需要」做某件事。} see this shit” and half the video is just a selfie of them laughing.  
+Can never be about the actual situation at hand.  
+The deadline is [at hand]{迫在眉睫}, so we need to finish the project soon.  
+
+
 
 
 
