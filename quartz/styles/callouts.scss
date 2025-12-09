@@ -11,11 +11,13 @@
 
   & > .callout-content {
     display: grid;
+    grid-template-rows: 1fr;
     transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
     overflow: hidden;
 
     & > :first-child {
       margin-top: 0;
+      min-height: 0;
     }
   }
 
@@ -152,11 +154,19 @@
     }
     
     & > .callout-content {
+      display: grid;
+      grid-template-rows: 1fr;
+      transition: grid-template-rows 0.1s cubic-bezier(0.02, 0.01, 0.47, 1);
+      overflow: hidden;
       line-height: inherit;
       margin-top: 8px;
       border-left: 2px solid var(--lightgray);
       padding-left: 12px;
       color: var(--darkgray);
+      
+      & > :first-child {
+        min-height: 0;
+      }
     }
   }
 

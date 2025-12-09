@@ -1,7 +1,18 @@
 ### 1
-
+ 
 No good deed goes unpunished.  
-at the P.O.(post office)  
+A good deed a day keeps the [devil|魔鬼/撒旦] away? 😈  
+The devil [tempted|引誘] him.  
+“How far that little candle throws his beams! [So shines]{“so + 動詞” 是古典英語常見的倒裝強調：So shines a good deed = A good deed shines so (brightly). 倒裝讓語氣更詩意、更突出。} a good deed in a weary world.” ― William Shakespeare, The Merchant of Venice 🩶  
+Btw, [Karma|因果報應]{業 / 因果} means action and not [instant punishment|立即懲罰]. Karma may cause punishment for wrong deed.  
+Resident Evil 2  
+I CAN’T STOP LAUGHING!! 😂😂 that’s an evil chicken!!  
+This is AI but it's damn funny 😂😀😂  
+That one guy [overreacting|過激反應] [everywhere]{everywhere 的意思不是「到處都是」的字面意思，而是用來強調 「不管什麼情況都會過度反應」。}  
+AI is [getting out of hand|失控]  
+Is it bad that I’m looking for the Sora [watermark|水印]? 😉  
+[Church|教堂] bells keep the evil away! 🙏🏽♥️  
+at the [P.O.]{post office}  
 overtime pay  
 wage  
 Big liar!  
@@ -14,7 +25,7 @@ form a union
 Am I too nice?  
 Curiosity killed the cat.  
 dragon fruit / pitahaya  
-in NYC(New York City)  
+in [NYC]{New York City}  
 I’m stuck with this old phone.  
 character = 汉字、文字  
 the "walk" radical = 辶  
@@ -45,14 +56,14 @@ top-tier university
 mid-tier phone  
 a two-tier cake  
 We binge-watched the entire season in one weekend.  
-I watched that movie twice in a row because it was so good.（连续两次）  
+I watched that movie [twice in a row|連續兩次] because it was so good.  
 Don’t snooze on that job opportunity; it’s rare.  
 but I think season 9 has the edge  
 Bourne Again SHell (bash)  
 tilde (~)
 
 ### 2
-
+  
 Hover over the image to zoom in.  
 Zoom in to see more details.  
 Zoom out to see the whole page.  
@@ -132,7 +143,7 @@ delivery fee = 配送费
 coffee shops
 
 ### 3
-
+ 
 tortoise & turtle  
 take the metro  
 I’m on the metro.  
@@ -145,10 +156,10 @@ Log in to the admin panel.
 solar panel  
 He admitted his mistake.  
 Children are not admitted.  
-He admitted to breaking the window. (admit to doing sth 承认做了某事)  
+He [admitted to breaking]{admit to doing sth 承认做了某事} the window.   
 "No Admittance" 禁止入内  
 grant permission  
-a government grant 政府补助  
+a government [grant|政府补助]  
 May God grant you peace.（愿上帝赐你平安）  
 God grant us wisdom.（求上帝赐予我们智慧）  
 The school granted her a scholarship.  
@@ -158,7 +169,7 @@ This job requires experience.
 Let’s make a voice call.  
 He snores at night.😴  
 drag and drop = 🖱️拖放  
-The temperature dropped to 5°C. (✅ degrees Celsius / degrees C)  
+The temperature dropped to 5[°C]{(degrees Celsius / degrees C}.  
 A drop of water fell on my hand.  
 eye drops  
 He dropped out of school.  
@@ -175,12 +186,12 @@ The courier delivered the package.
 Call the courier to pick up the parcel.  
 alphabet = alpha + beta (α + β)  
 I scheduled a pickup for the package.  
-The Decline of the Simpsons 《辛普森一家》的衰落  
+The [Decline|衰落] of the Simpsons  
 Anyway, You’re absolutely right!  
 "it's getting frustrating and rather depressing"  
 sample mug = 样品马克杯  
 blood sample → 血液样本  
-a simple question → 一个简单的问题  
+a [simple|簡單的] question  
 He got mugged last night.  
 Mugging is on the increase.  
 I’m so frustrated. I just really don’t know what to do.  
@@ -190,14 +201,14 @@ the giants in mythology
 He’s as strong as a giant.
 
 ### 4
-
+ 
 Thinks through complex topics with 3 Pro
 The system saves files to this folder by default.  
 The app blocks notifications by default.  
 Comparison: 1... 2...  
 Every student has a unique ID.  
 Take a snapshot before installing new software.  
-Type the command in the Command Prompt. (命令提示符)  
+Type the command in the [Command Prompt|命令提示符].  
 This project took up all my weekend.  
 The sofa takes up too much space.  
 The default output is very detailed and takes up a lot of screen space.  
@@ -210,8 +221,8 @@ Her song turned into a runaway hit overnight.
 Do you have a favourite episode?  
 He forgot his lines on stage.  
 What do you think is Bart's funniest line?  
-He's a New Zealander. / She's a Kiwi.(口语)  
-Let me be blunt: you need to study more. = 恕我直言  
+He's a New Zealander. / She's a [Kiwi]{New Zealander(口语)}  
+[Let me be blunt|恕我直言]: you need to study more.  
 The country is facing an economic crisis.  
 He had a midlife crisis at forty.  
 Cantonese songs  
@@ -247,7 +258,7 @@ We’re extending our offer of a free year of our Google AI Pro plan.
 2 TB storage
 
 ### 5
-
+ 
 Fullstack  
 Google Antigravity has a lot of features, both familiar and new.  
 Let me walk you through the setup.  
@@ -272,14 +283,14 @@ When I saw the message, my first thought was “spam.”
 My first thought was that the photo was fake.  
 TIL = Today I Learned  
 Modern aircraft carriers have a crew of ~5000. Bigger than many rural towns around the country.  
-~20 years = 大约 20 年 (波浪线 ~ 表示 approximately / about)
+[~]{= 大约 20 年 (波浪线 ~ 表示 approximately / about)}20 years 
 My teacher brought a box of donuts.  
 I’m allergic to nuts.  
 This chocolate bar contains nuts.  
-It’s a plot aboot porn. (aboot = about 的加拿大口音写法)  
+It’s a plot [aboot]{aboot = about 的加拿大口音写法} porn.   
 porn = pornography  
-Shut up Canuck (= Canadian 加拿大佬)  
-Teacher’s pet 老师的宠儿  
+Shut up [Canuck]{= Canadian 加拿大佬}  
+Teacher’s [pet|寵兒]  
 Admit it, you bought it yourself  
 That jacket looks retro.  
 it's not retro it's just practically e-waste  
@@ -308,7 +319,7 @@ Her talent blows my mind.
 Could you elaborate 您能详细说明一下吗？
 
 ### 6
-
+ 
 Seems like you've requested a password reset for your Obsidian account.  
 Proof that people are sheep!  
 Hey Gemini, what’s playing at The Sphere tonight?  
@@ -351,8 +362,8 @@ The chase in Johnny English Reborn is hilarious
 This guy shares his “one way visibility” tent and it’s insane （“单向透视”帐篷）  
 RAISED THE BAR  
 WORKED AT A BAR  
-FAILED THE BAR (👉 bar = 律师资格考试)  
-SHOULD BE BEHIND BARS (👉 behind bars = 在监狱里)
+FAILED THE [BAR]{👉 bar = 律师资格考试}  
+SHOULD BE [BEHIND BARS]{👉 behind bars = 在监狱里}  
 Reunion ❤️  
 The movie is about a couple who reunite after many years.  
 They were reunited after months apart.  
@@ -379,7 +390,7 @@ You hang up. No, you hang up.
 One of the coolest selfies ever.
 
 ### 7
-
+ 
 I made french fries in the air fryer.  
 | 🇬🇧 英式英語 | 🇺🇸 美式英語 | 中文意思 |
 | :--------- | :--------------- | :-------- |
@@ -392,7 +403,7 @@ tea egg = 茶葉蛋
 sunny-side up egg = 荷包蛋（有陽光的一面朝上☀️）  
 “How would you like your eggs?” “Sunny-side up, please.”  
 Air fryers are great for cooking chicken wings.  
-A school of Koi fish（鯉〚こい〛）  
+A school of [Koi|鯉]{鯉〚こい〛} fish  
 A school of fish swam past the boat.  
 The divers were surrounded by a school of colorful tropical fish.  
 That’s a sensitive topic. Let’s not talk about it.  
@@ -441,7 +452,7 @@ That’s AI; but if it was real, it would be JUSTICE. 🤣
 The investment had a quick payback.
 
 ### 8
-
+ 
 "I fear not the man who has practiced 10,000 kicks once, but I fear the man who has practiced one kick 10,000 times.” -Bruce Lee  
 single-player mode ↔ multiplayer mode  
 We didn’t have the internet _back then_.  
@@ -452,7 +463,7 @@ No Startup can surpass Google Ecosystem
 Apple? Nah. Most of their services are shit  
 They got right to studying after dinner.  
 They’ll refund your money  
-He’s straight. ＝ 「他是異性戀」(相對詞是 gay 同性戀、bi 雙性戀)  
+He’s [straight|異性戀]{＝「他是異性戀」(相對詞是 gay 同性戀、bi 雙性戀)}.   
 that monkey is straight professional, _got right to_ work no questions asked  
 Keep your back straight. ＝ 「把背挺直。」  
 European innovation vs American innovation  
@@ -513,7 +524,7 @@ A message popped up on the screen.
 This candy pops in my mouth!
 
 ### 9
-
+ 
 Can I have a slice of cake, please?  
 This movie gives us a slice of life in the 1960s.  
 The beach at sunset was a slice of heaven.  
@@ -522,8 +533,7 @@ maple syrup（楓糖漿）
 I like pancakes with maple syrup.  
 That movie was too much syrup.  
 His love letters are full of syrup.  
-🚨BREAKING: ... (breaking news 突發新聞)  
-BREAKING: A major earthquake hits Japan.  
+[BREAKING]{breaking news 突發新聞}: A major earthquake hits Japan.  
 Black friday stream is coming - are you ready?  
 I do. But my wallet doesn't 🤣  
 We crossed a small stream on our hike.  
@@ -540,12 +550,12 @@ Was it hard? Not at all!
 Don’t change anything — keep it the way it is.  
 How about ditch Grok?  
 Hey, ditch your mom instead!😐😐😐  
-He ditched school today. = 翹課  
+He [ditched school|翹課] today.  
 The car fell into a ditch.  
-never stopped calling it twitter, just merge it already. (在口語或網路語氣裡，already 不是「已經」而是常用來表示不耐煩、催促、或強調「趕快做吧！」的語氣。)
+never stopped calling it twitter, just merge it [already]{在口語或網路語氣裡，already 不是「已經」而是常用來表示不耐煩、催促、或強調「趕快做吧！」的語氣。}.
 Come on, start already!  
 Just tell me already!  
-Please reply ASAP. (= as soon as possible)  
+Please reply [ASAP]{= as soon as possible}.  
 We need to fix this issue ASAP.  
 This is 🔥. Hire them immediately. You should copyright this image asap.  
 How did we let this happen? 😭  
@@ -563,7 +573,7 @@ No other things comes close to this👇👇👇
 Islam
 
 ### 10
-
+ 
 What name would you choose for the _very first_ Martian city?  
 I still remember my very first day of school.  
 This is my very first time visiting Japan.  
@@ -573,15 +583,11 @@ my macbook would **melt** the surrounding snow
 That puppy’s eyes just melted my heart.  
 The ice melted in the sun.
 
-<details>
-  <summary>No money for an M-Series Mac?</summary>
-  <p>这里的 M-Series 发音是：/em ˈsɪəriːz/，第一个音是 /e/，也就是元音音素，所以必须用 an，而不是 a。</p>
-  <ul>
-    <li>an MBA student</li>
-    <li>an FBI agent</li>
-    <li>a MacBook</li>
-  </ul>
-</details>
+> [!plain]- No money for an M-Series Mac?
+> 这里的 M-Series 发音是：/em ˈsɪəriːz/，第一个音是 /e/，也就是元音音素，所以必须用 an，而不是 a。
+> - an MBA student
+> - an FBI agent
+> - a MacBook
 
 What’s the worst Apple product ever?  
 You can feel his pain  
@@ -603,7 +609,7 @@ oh devil!😗
 Happy Thanksgiving! 🦃  
 From this i know you are racist  
 He made a racist comment.  
-The country has people from many different races. (race = 种族)  
+The country has people from many different [races|種族].  
 NATO will **fall apart**.  
 Their marriage fell apart after ten years.  
 She completely fell apart when she heard the news.  
@@ -635,9 +641,9 @@ PRAY FOR HONG KONG
 Who’s to blame for this accident - the truck or the semi? 🧐  
 No one is to blame — it was just an accident.  
 Charlie Chaplin!!  
-OMG, he has a mustache!!!! 🥸🤣 = 小胡子  
+OMG, he has a [mustache|小鬍子]!!!! 🥸🤣  
 Airplanes fly faster than helicopters.  
-I’m boarding the aeroplane.（英式）  
+I’m boarding the [aeroplane|(英式)飛機].  
 What is leaking in this aircraft?  
 If it's green it's freon or some coolant.  
 Bro thinks he’s the main character 💀  
@@ -650,7 +656,7 @@ Can you identify what it is?
 cotton
 
 ### 11
-
+ 
 The view from the mountain was magnificent.  
 [Breaking Bad]{= 《絕命毒師》} is a very good show.  
 Are you sure you want to delete the highlighting of "..." and the associated notes permanently?  
@@ -673,12 +679,12 @@ A golden eagle and a coyote battle it out over prey in winter
 Its a wolf  
 Polar bear tries to eat cameraman as they're one of the few species that actively see humans as prey  
 Rained so hard in LA this weekend that my old running shoes got completely soaked  
-RIP Pumas = Rest In Peace (安息)  
+[RIP]{= Rest In Peace (安息)} Pumas  
 Today I am feeling blessed 😊  
 Open 24 hrs = 24 小時營業  
 Winner in 24 hrs ＝「24 小時內公布獲勝者」  
 Remember this 5 second match?  
-So long, my friend. → 「再見了，我的朋友。」  
+[So long|再見], my friend.  
 Our first record So Long Forever is 7 years old today! 🎈 🎂 🍾  
 Needs another vinyl rerelease  
 MASTERPIECE.  
@@ -691,7 +697,7 @@ Before you give up, think about why you held on for so long.
 The chef doesn't like interruptions 😭
 
 ### 12
-
+ 
 The detonation at Bikini Atoll yielded 15 megatons, 1,000× stronger than Hiroshima.  
 All Chinese chefs can do all the stunning work with a simple cleaver  
 I finally learned how to use my air fryer  
@@ -764,7 +770,7 @@ Don't want to pay? Fine.
 🚨 RFK Jr. warns: "In a million years, I would not take the flu shot—and I'll tell you why."
 
 ### 13
-
+ 
 a motorcycle parts dealer  
 a drug dealer  
 an antique dealer  
@@ -829,7 +835,7 @@ Aloe
 Pulling up to the [AirBnB]{Airbnb 的名字来自 "air bed & breakfast"}. I swear I've been here before
 
 ### 14
- 
+  
 Asked someone not to touch me today bc I'm a [germaphobe]{Germaphobe 來自 "germs"（細菌）和 "phobia"（恐懼症）}! They proceeded to touch me  
 [Dettol]{🧴 滴露，一種消毒劑} kills [99.99%]{ninety-nine point nine nine percent} germs.  
 I need Dettol 💯 [Germs Free]{無菌}  
@@ -914,7 +920,7 @@ He almost had a heart attack. 😂
 Ai is dumb but people who fall for it are dumber
 
 ### 15 
- 
+  
 Since 1991, the [hepatitis B birth dose]{在疫苗相關內容裡，birth dose 常指孩子出生 24 小時內施打的第一劑疫苗，例如乙肝疫苗（Hepatitis B birth dose）。} has reduced U.S. childhood infections [by]{reduce A by B = 讓 A 減少 B（的量）} 99%. 🍼💛  
 sugar free [slurpee]{思乐冰是一种来自便利商店 7-Eleven（7-11）的著名饮料名称，指的是：🥤 半冰沙、半饮料的冰冻饮品（类似冰沙汽水）} [pt 2]{part 2 的缩写，第二彈}  
 Stop shortening everything !!! Everything doesn’t need an acronym??  
@@ -999,7 +1005,7 @@ America First isn't isolationism or selfishness—it's just plain common sense.
 [y'all]{AAVE 口語，y’all = you all} [be]{African American Vernacular English，“be”（表示「經常、總是」）} heavy on everything but morals & common sense
 
 ### 16
-
+ 
 When you buy a backup camera from [Temu]{Temu 是中国公司 PDD Holdings（拼多多母公司）推出的一家在线购物平台，类似亚马逊或eBay} 😂😭😭  
 RULE NUMBER 1: Neverrrrrrrrrrrrrrrrrrrr treat God as your backup plan.  
 God isn’t a backup plan, He’s the blueprint.  
@@ -1074,7 +1080,7 @@ RIP movie theaters (1895-2025)
 The dog jumped up and licked her face.
 
 ### 17
-The older I get the more emotional I get and I hate it . I cry for everything these days 😭  
+The olde r I get the more emotional I get and I hate it . I cry for everything these days 😭  
 [Me asf]{“Asf” 是英文网络俚语，缩写自 “as fuck”，用来加强语气。這句話的意思是：“这就是我本人了 😭” / “太像我了 😭”} 😭  
 Waiting in a long line is annoying.  
 He keeps texting me, it’s so annoying.  
@@ -1130,7 +1136,7 @@ Antarctic Shoreline
 
 
 ### 18
-Who on this table needs to get up for [Tom Cruise|湯姆·克魯斯] to sit???  
+Who on this ta ble needs to get up for [Tom Cruise|湯姆·克魯斯] to sit???  
 He gave up his seat for the elderly woman.  
 From nothing to a full cruise ship. That’s incredible  
 Someone [went overboard]{"Went overboard" 嘅意思係指某人或某物從船上掉落海中，或者在某個情況下過度做某事。} the carnival cruise ship  
@@ -1147,14 +1153,59 @@ The deadline is [at hand]{迫在眉睫；即將來臨}, so we need to finish the
 A baby as pure and beautiful as a snowflake ❄️👶  
 iPhone [macro lens|微距鏡頭] captures a snowflake up close  
 I’m a creep I’m a weirdo  
-buck is the biggest [snowflake|玻璃心] when u think about it. bisexual daddy issues suicidal  
+buck is the biggest [snowflake|玻璃心] when u think about it. [bisexual|雙性戀] daddy issues [suicidal|自殺傾向]  
 Typical Snowflake [in a nutshell]{「簡單嚟講」、「總結嚟講」或者「簡而言之」}.  
 One of the reasons our country is [going down the pan]{"Going down the pan" 呢個短語係一個俚語，意思係某樣事物或者情況出現咗嚴重嘅問題，或者變得完全失敗。簡單嚟講，就係形容某樣嘢好似無可挽回咁跌落谷底、冇得救。}.  
 It's like being threatened by an ant  
 I want him on the front lines in Ukraine.  
 Wait! Did he just say the military isn’t under Trump’s control 😳 😂😂😂😂💀  
 Clearly he hasn't read the constitution.  
+I didn’t like how he talked but I wanted to see what he was trying to do~ He’s just a [weirdo|怪胎]~ 🤭  
+I just noticed the pictures aren’t in order~ 🤭  
+Ewww how he thinks he's in charge🤢  
+Homer: "So you're not a [psychopath|精神病人], just a weirdo. Got it." This feels like a [personal attack|人身攻擊]?  
+This is why you don’t have an [AVI]{"Avatar Image" 嘅縮寫，意思就係網絡上用戶嘅頭像或個人圖片。},because you’re a weirdo!!!  
+lmao.😂🤣 you are so [mean|刻薄]. omg.🤣  
+all these [curves]{curves 指嘅係 身體嘅曲線、玲瓏有致嘅身材，特別係女性嘅身體線條（例如腰線、臀部、胸部等）。} and you still [stare at|盯住...睇] my feet... weirdo  
+“that’s so mean” okay but you like it so what now?  
+Keep bullying me and making me whine  
+So now I say thank you? Say “Please sir, may I have some more?🥺” [Oliver Twist|《雾都孤儿》] style?  
+“you’re so mean.” of course i am, bullying a little defenseless baby like you is what [gets me hard]{「讓我硬起來」}.
+“u look mean” “u look mad” “u look tired.” Bro I look like I'm minding my business  
+It [bothers|讓人不爽] them seeing you doing you  
+What does “E” mean I'm so confused? 🤔  
+Must be Error😅  
+Error because youre too [effing]{“effing” 是 “fucking” 的較委婉、較不粗俗的替代說法。≈freaking} fat 😂  
+E for 🐘 elephant (“Newly designed weighing scale.”)  
+Yep, that about [sums it up|概括了全部]!  
+I WAS SO MEAN A FEW YEARS AGO LOL  
 
+
+### 19
+It [takes twice as long|花兩倍時間] and it’s [retarded|弱智] 🤣🤣🤣  
+If that’s real it’s no reason why kids can’t [make change|找零]{make change = 找零(錢)💰。make a change = 做出改變(事情、生活)🔄}.  
+[Layer after layer|層層疊疊的] of administrators and consultants. Everybody selling [snake oil|狗皮膏藥]{snake oil 原本是中醫的水蛇油，但後來被美國騙子用假貨亂賣，因此變成「騙人的產品」的代稱。}.  
+Just [learn to multiply|學乘法]{`learn + 名詞` 才不用加 to，例如：learn math。而 multiply 是動詞，如：learn to swim}. 🗣️ This is so [dumb|蠢]{dumb = stupid}.  
+7 [Income streams|收入來源]{英文的 stream 原本意思是「溪流、流動的東西」，引申後 stream 也可以指不斷流入的東西（如水流 → 資金流 → 收入流）} that will multiply your [wealth|財富]  
+Money is simple: earn, keep, [multiply|增值].  
+I certainly like [multiplication|乘法] over [addition|加法].  
+Multiplying and dividing by 10 and 100 ✖️➗  
+[Multiplying by|乘以] 100 makes the number [a hundred times|一百倍] bigger.  
+Why do we [flip the inequality sign|反转不等号方向] when we multiply or divide by -1?  
+"Mickey" [flip it around|倒過來看].... [WICKED WITCHHHH|邪惡女巫]{Mickey（米奇）↔ 倒影看起來像 Wicked（邪惡）}  
+Flip it around 🤣🤣🤣  
+Weekend's here. Catch you [on the flip side|回頭見]{“on the flip side” 是一個很常見的美式口語片語，意思是：改天見 / 下次見 / 回頭見}, [dudemeisters]{dude = 哥們、老兄；meister = 從德文來的後綴，原義是「大師」、「高手」→ 變成「各位哥們」、「各位老兄」。}! \#thesimpsons  
+You’ve come a long way since the [flip-phone|翻蓋手機] days, @GoogleMaps. Happy 10th birthday!  
+iShowSpeed [delivers an amazing speech]{deliver a speech 比較正式、正式場合常用；give a speech 最常見、最自然的說法；make a speech 口語簡單說法} after winning [Streamer of the Year|年度最佳主播] and even does a [back-flip|后空翻] to celebrate 😭🔥  
+A True Relationship has. Respect, Care, [Arguments|爭論], Fun, Honesty, Tears, Trust, [Equality|平等], [Compromise|妥協]. And lots & lots of Love.  
+True [gender equality|性別平等]  
+Okay thats fun what [anime|アニメ]{🌏 在英語世界，animation：一般指任何動畫。anime：專門指日本動畫類型。}? 🤣  
+[Perv|老色批]{“perv” 是英文 “pervert” 的口語縮寫，意思是「色狼、變態、好色的人」。} 😭😭  
+[Violence at home|家暴] is never “private”.  
+Equality is liberty's greatest [threat|威脅].  
+You think women [being aware of|意識到] gender inequality is a recent thing?  
+This [chart|圖表] to me says that opportunities are very [unequal|不平等的] in the US.  
+Watch how the ruling class/bankers feel about income inequality.  
 
 
 

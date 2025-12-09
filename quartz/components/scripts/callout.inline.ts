@@ -1,47 +1,51 @@
-function toggleCallout(this: HTMLElement, evt?: Event) {
-  evt?.preventDefault()
-  evt?.stopPropagation()
-  const outerBlock = this.parentElement!
+function toggleCallout(evt: Event) {
+  evt.preventDefault()
+  evt.stopPropagation()
+  const target = evt.target as HTMLElement
+  const title = target.closest(".callout-title") as HTMLElement
+  if (!title) return
+  const outerBlock = title.closest(".callout.is-collapsible") as HTMLElement
+  if (!outerBlock) return
   outerBlock.classList.toggle("is-collapsed")
-  const content = outerBlock.getElementsByClassName("callout-content")[0] as HTMLElement
+  const content = outerBlock.querySelector(".callout-content") as HTMLElement
   if (!content) return
   const collapsed = outerBlock.classList.contains("is-collapsed")
   content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
 }
 
 function setupCallout() {
-  const collapsible = document.getElementsByClassName(
-    `callout is-collapsible`,
-  ) as HTMLCollectionOf<HTMLElement>
+  const collapsible = document.querySelectorAll(
+    `.callout.is-collapsible`,
+  ) as NodeListOf<HTMLElement>
   for (const div of collapsible) {
-    const title = div.getElementsByClassName("callout-title")[0] as HTMLElement
-    const content = div.getElementsByClassName("callout-content")[0] as HTMLElement
-    if (!title || !content) continue
+    const content = div.querySelector(".callout-content") as HTMLElement
+    if (!content) continue
 
-    title.addEventListener("click", toggleCallout)
-    ;(window as Window & { addCleanup?: (cleanup: () => void) => void }).addCleanup?.(() =>
-      title.removeEventListener("click", toggleCallout),
-    )
-
+    // Set initial state
     const collapsed = div.classList.contains("is-collapsed")
     content.style.gridTemplateRows = collapsed ? "0fr" : "1fr"
   }
 }
 
-// Fallback: ensure clicks still work even if per-callout binding misses
+// Use a single document-level click handler with capture phase
 document.addEventListener(
   "click",
   (evt) => {
     const target = evt.target as HTMLElement | null
-    // allow clicking anywhere inside a collapsible callout, not just the title
-    const outer = target?.closest(".callout.is-collapsible") as HTMLElement | null
-    if (!outer) return
-    const title = outer.querySelector(".callout-title") as HTMLElement | null
-    if (!title) return
-    toggleCallout.call(title, evt)
+    if (!target) return
+    
+    // Check if click is on callout-title or its children
+    const title = target.closest(".callout-title") as HTMLElement | null
+    if (title) {
+      const outer = title.closest(".callout.is-collapsible") as HTMLElement | null
+      if (outer) {
+        toggleCallout(evt)
+        return
+      }
+    }
   },
-  // do not use passive to allow preventDefault when needed
-  { passive: false },
+  // Use capture phase to catch events early
+  { capture: true, passive: false },
 )
 
 if (document.readyState === "loading") {
