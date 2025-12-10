@@ -1,48 +1,7 @@
-`git status -sb` 是 `git status -s -b` 的简写。  
--s 代表 Short（简短模式）  
--b 代表 Branch（分支信息）  
 
+U 未追蹤(Untracked)：新文件，还未对它执行过 git add。  
+M 已修改(Modified)。  
 
-<font color=#008000><b>U</b></font> (Untracked) 未追踪：This file is new to your project. Git sees it exists, but it is not yet tracking its history. 你还没有对它执行过 git add。  
-<font color=#B8B894><b>M</b></font> (Modified) 已修改：This file is already tracked by Git, but you have made changes to it since the last commit.  
-
-
-`git --version`  
-
-
-
-`Ctrl + L`  Clear screen (keeps history, just scrolls down)  
-`Ctrl + U`  Clear the entire line (start over)  
-
-
-
-`git log`  点击 `q` key 退出  
-
-
-⚠️ Important: How to Exit ? `git log` opens a viewer (called a "pager"). If the history is long, your terminal will show a `:` at the bottom.
-
-- Press `q` to quit and return to the command prompt.
-- Press `Space` to scroll down.
-- Press `b` to scroll back up.
-
-
-
-
-ls -l       # 以详细列表显示
-ls -a       # 显示所有文件(包括隐藏文件)
-ls -lh      # 详细信息+人类可读格式
-
-```zsh
-curl https://example.com  # 访问网页
-```
-
-```zsh
-curl -O https://example.com/file.zip  # -O = 保留原文件名下载
-```
-
-```zsh
-curl https://example.com -o mypage.html  # 保存到指定的文件
-```
 
 > [!plain]- 提交 git 更改的完整流程是什麼？
 > ✅ `git add -A .` - 已暂存所有更改  
@@ -55,6 +14,21 @@ curl https://example.com -o mypage.html  # 保存到指定的文件
 > `±`（加减号）说明：文件已修改，但还没有用 `git add` 添加到暂存区  
 > `✚`（加号）说明：文件已用 `git add` 添加到暂存区，但还没有提交  
 
+
+> [!plain]- `git commit -m` 中的 `-m` 是什麼意思？
+> `-m` 是 `--message` 的简写，用来直接在命令行里写提交说明。  
+
+
+> [!plain]- 命令中 `-單橫線` 與 `--雙橫線` 有什麼區別？
+> `-m` 这种单横线后跟单字母，是短选项（short option），`-abc` 可以等同于 `-a -b -c`。  
+> `--message` 这种双横线后跟完整单词，是长选项（long option）。  
+
+
+> [!plain]- `git add -A` 和 `git add -A .` 有什麼區別？
+> - `git add -A`：暂存整个仓库的变更。  
+> - `git add -A .`：只暂存当前目录及子目录的变更。  
+>
+> 如果你当前在 `SyncVault` 仓库根目录，两者效果相同；在子目录下就不同。
 
 
 
