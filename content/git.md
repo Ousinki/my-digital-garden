@@ -44,6 +44,17 @@ curl -O https://example.com/file.zip  # -O = 保留原文件名下载
 curl https://example.com -o mypage.html  # 保存到指定的文件
 ```
 
+> [!plain]- 提交 git 更改的完整流程是什麼？
+> ✅ `git add -A .` - 已暂存所有更改  
+> ⬇️ `git commit -m "提交信息"` - 提交更改  
+> ⬇️ `git push` - 推送到远程仓库（可选）  
+
+
+
+> [!plain]- [如圖](img/main.png) `main ±` 和 `main ✚` 表示是什麼意思？
+> `±`（加减号）说明：文件已修改，但还没有用 `git add` 添加到暂存区  
+> `✚`（加号）说明：文件已用 `git add` 添加到暂存区，但还没有提交  
+
 
 
 
