@@ -1136,7 +1136,7 @@ Antarctic Shoreline
 
 
 ### 18
-Who on this ta ble needs to get up for [Tom Cruise|湯姆·克魯斯] to sit???  
+Who on this table needs to get up for [Tom Cruise|湯姆·克魯斯] to sit???  
 He gave up his seat for the elderly woman.  
 From nothing to a full cruise ship. That’s incredible  
 Someone [went overboard]{"Went overboard" 嘅意思係指某人或某物從船上掉落海中，或者在某個情況下過度做某事。} the carnival cruise ship  
@@ -1206,6 +1206,30 @@ Equality is liberty's greatest [threat|威脅].
 You think women [being aware of|意識到] gender inequality is a recent thing?  
 This [chart|圖表] to me says that opportunities are very [unequal|不平等的] in the US.  
 Watch how the ruling class/bankers feel about income inequality.  
+A closer look at how your stomach [breaks down|分解/消化] [instant noodles|方便麪].  
+He got instant [karma|報應]  
+LOL!  He [laid down|秒怂]{字面意思：躺下、把身體放倒；比喻、口語：認輸、放棄抵抗、投降（本例）} quick  hahaha.  
+Man fucked around and found out  
+Like, [retweet|轉發] and [drop|留言] Hi” for a dream changing slip  
+This is how to draw a perfect [anti-slip|防滑] arrow mark!  
+I bet I can [slip on it|在上面滑倒].  
+So it doesn’t [slip out of their hand|從手中滑落]  
+[I was today years old when I found out|我今天才知道] [military|軍用] iPhone's don't [come with|附帶] a camera  
+I was today years old when I found out that Apple make military iPhones 😂  
+"damn i looked good in that selfie"  
+No [selfie camera|前置攝像頭] too?! Then why the [notch|刘海屏]{notch(名詞) = 一個凹口、切口、開槽。在手機語境中 = 螢幕上為放置感測器、聽筒、Face ID 零件而保留的那塊黑色凹形區域（瀏海）}?  
+[Plus|而且]{Plus 不是「加號」的字面意思，而是 口語用法，表示：「而且…」「另外…」「還有…」} no face id  
+what if apple [planted]{plant 除了種植（字面意思），還有安插、暗中放進去（本句用法），常用在「間諜、證據、竊聽器、偷拍器材」等語境。} spy [cams]{cameras} in it?  
+[No way.|不可能] Don’t be [paranoid|疑神疑鬼].  
+Go google “[irony|反諷]”.  
+because its a [regular|普通的]{不用 normal，因爲 normal 更像「正常 vs 不正常」的比較，用在 iPhone 上會變成「正常的 iPhone」，語感奇怪。} iPhone, they just [took out|移除] the camera [components|組件]  
+This [took me out|讓我笑翻]{這裡的 take out 並不是字面上的「拿出去 / 外帶」，而是網路流行語。“take (someone) out” = 笑到把某人「打倒」、讓某人完全不行了}😂  
+Last one took me out🤣🤣  
+A black bear [attempts to|試圖] eat pigs, he quickly finds out they’re [tougher|更難對付]{“tougher” 是形容詞 “tough” 的比較級。tough = 強悍的、難對付的、堅韌的} than they look 😅🐷  
+Group of teens in a 'bike [gang|幫派]' [loot|洗劫]{搶劫、洗劫、趁亂偷東西} a 7-Eleven in Los Angeles and start throwing snacks out of the store to all their friends.  
+[Fatherless behavior.|沒家教]  
+The mall during Christmas time in the 1980s. The good [ole]{“ole” 在這裡是 “old” 的口語／懷舊寫法，常見於美式英語表達 “the good ole days”，意思等同於：美好的往日時光、從前的好日子} days! You'll never see malls [packed|熙熙攘攘]{packed = 擠滿的、塞得滿滿的、爆滿的。crowded：很多人／東西，擁擠但沒有 packed 那麼誇張} like this anymore.  
+When people fail to fear and respect the law, lawlessness [takes over|占据上风].  
 
 
 
