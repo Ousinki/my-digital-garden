@@ -119,6 +119,14 @@ function performHide() {
   toggleRubyHidden()
 }
 
+// 将控制条移到 body，避免受父级滚动或 transform 影响
+function ensureControlsInBody() {
+  const controls = document.querySelector(".ruby-controls")
+  if (controls && controls.parentElement !== document.body) {
+    document.body.appendChild(controls)
+  }
+}
+
 // 全局按钮点击处理器（使用事件委托）
 let buttonClickHandler: ((e: MouseEvent) => void) | null = null
 
@@ -203,6 +211,7 @@ if (userPrefHidden) {
 // 在导航事件中设置所有功能
 document.addEventListener("nav", () => {
   setupRubyControls()
+  ensureControlsInBody()
 
   // 键盘事件处理器
   function keyboardHandler(e: KeyboardEvent) {
@@ -253,8 +262,10 @@ document.addEventListener("nav", () => {
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", () => {
     setupRubyControls()
+    ensureControlsInBody()
   })
 } else {
   setupRubyControls()
+  ensureControlsInBody()
 }
 
