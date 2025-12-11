@@ -1,6 +1,6 @@
 
-U 未追蹤(Untracked)：新文件，还未对它执行过 git add。  
-M 已修改(Modified)。  
+U 未追蹤(Untracked)：新文件，还未对它执行过 `git add`。  
+M 已修改(Modified)：已跟踪文件被修改但未提交。  
 
 
 > [!plain]- 提交 git 更改的完整流程是什麼？
@@ -29,6 +29,28 @@ M 已修改(Modified)。
 > - `git add -A .`：只暂存当前目录及子目录的变更。  
 >
 > 如果你当前在 `SyncVault` 仓库根目录，两者效果相同；在子目录下就不同。
+
+
+> [!plain]- `git status -sb` 是什麼意思？
+> `git status -sb` 是精简版的状态查看，其中：
+> - `-s`（short）：简短输出
+> - `-b`（branch）：显示当前分支及与上游的 ahead/behind  
+> 
+> 效果：在一行显示分支状态，后面列出变更文件的简短标记（如 `M` 修改、`??` 未跟踪），比默认 `git status` 更紧凑。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

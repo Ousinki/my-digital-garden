@@ -74,9 +74,14 @@ function applyRubyHidden(hidden: boolean) {
     const rt = ruby.querySelector("rt")
     if (rt) {
       if (hidden) {
-        rt.style.display = "none"
+        // 保留占位，避免页面高度跳动
+        rt.style.visibility = "hidden"
+        rt.style.opacity = "0"
+        rt.style.pointerEvents = "none"
       } else {
-        rt.style.display = ""
+        rt.style.visibility = ""
+        rt.style.opacity = ""
+        rt.style.pointerEvents = ""
       }
     }
   })
@@ -215,23 +220,18 @@ document.addEventListener("nav", () => {
       return
     }
 
-    // Option+Q (Alt+Q) 切换
-    // 在 macOS 上，Option 键对应 altKey
-    // 使用 e.code 而不是 e.key，因为 Option 键会改变 e.key 的值（如 Option+Q 会变成 "∑"）
-    const isOptionKey = e.altKey || e.getModifierState?.("Alt")
-    
-    if (isOptionKey && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
-      // 使用 e.code 来检测物理按键，而不是输入字符
-      // e.code 在按下 Q 键时是 "KeyQ"，按下 W 键时是 "KeyW"
-      if (e.code === "KeyQ") {
+    // 直接使用字母快捷键（无修饰键）
+    if (!e.altKey && !e.ctrlKey && !e.metaKey && !e.shiftKey) {
+      const key = e.key.toLowerCase()
+
+      if (key === "q") {
         e.preventDefault()
         e.stopPropagation()
         performSwap()
         return
       }
-      
-      // Option+W (Alt+W) 隐藏
-      if (e.code === "KeyW") {
+
+      if (key === "w") {
         e.preventDefault()
         e.stopPropagation()
         performHide()
