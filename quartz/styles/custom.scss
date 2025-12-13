@@ -169,12 +169,15 @@ body > .ruby-controls {
 // 强制 html 和 body 不隐藏溢出，且无 transform，确保 fixed 定位生效
 html, body {
   overflow: visible !important;
+  overflow-x: hidden !important; // 防止横向滚动
   transform: none !important;
   filter: none !important;
   perspective: none !important;
   contain: none !important;
-  width: auto !important; // 避免 100vw 导致的滚动条问题
+  width: auto !important;
   height: auto !important;
+  min-height: 100vh; // 确保高度足够
+  -webkit-overflow-scrolling: touch; // 优化 iOS 滚动
 }
 
 // 临时调试：红色边框确认样式已加载 (已移除)

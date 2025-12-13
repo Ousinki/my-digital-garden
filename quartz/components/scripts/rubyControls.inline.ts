@@ -300,5 +300,28 @@ if (document.readyState === "loading") {
   setInterval(() => {
     ensureControlsInBody()
   }, 1000)
+
+  // Mobile Fallback: 如果 fixed 定位失效（例如在某些 iOS webview 中），使用 JS 模拟
+  if (window.innerWidth <= 768) {
+    window.addEventListener('scroll', () => {
+      const controls = document.querySelector('.ruby-controls') as HTMLElement
+      if (!controls) return
+      
+      // 检查当前 top 值是否异常（说明 fixed 失效，跟着滚走了）
+      const rect = controls.getBoundingClientRect()
+      // 预期 top 应该在 0 到 100px 之间（考虑 safe area）
+      // 如果 top 为负数，说明滚上去了
+      if (rect.top < 0) {
+        // 强制重置样式
+        controls.style.position = 'fixed'
+        controls.style.top = 'calc(env(safe-area-inset-top, 0px) + 1rem)'
+        // 如果重置后还是不行，说明环境不支持 fixed，启用 absolute 模拟（极其罕见）
+        if (controls.getBoundingClientRect().top < 0) {
+           controls.style.position = 'absolute'
+           controls.style.top = (window.scrollY + 16) + 'px'
+        }
+      }
+    }, { passive: true })
+  }
 }
 
