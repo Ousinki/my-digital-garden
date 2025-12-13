@@ -1232,6 +1232,45 @@ The mall during Christmas time in the 1980s. The good [ole]{“ole” 在這裡�
 When people fail to fear and respect the law, lawlessness [takes over|占据上风].  
 
 
+### 20
+Wonderful time with [peal of laughter|一陣大笑]{"Peal of laughter" 是一個慣用語，指的是一陣大聲、持久的笑聲，通常用來形容快樂或有趣的時刻。這個表達中的 "peal" 原本指的是鐘聲的洪亮回響，所以 "peal of laughter" 形容的是一種響亮、充滿感染力的笑聲。} 😆  
+“What will you get if you vote? I have been voting [for ages|很多年了],” [retorts|反驳] Sabitri Mal ([name changed|化名]) in her late 70s, [releasing|引發] a peal of laughter among the women.  
+We've been waiting for our food [for ages|好久了]{強調感覺很久，❌ for years }.
+Drunk [Racoon|浣熊] [broke into|闯入] [liquor store|酒類專賣店]{Liquor store：販賣酒精飲料的商店，類似於酒鋪或酒類專賣店。Liquor：指烈酒，通常是指酒精濃度較高的飲品，如威士忌、伏特加、朗姆酒等。"液體" 的英文是 liquid。} 🦝 😂  
+The thief broke into the house last night.  
+Attempted break in.. [caught on camera|被攝像頭拍下]! 😂❤️  
+friend is trying to stop the [intrusion|侵入] from behind🤣  
+Yesterday 2 thieves broke into my house and found nothing they started [beating|揍] me ..telling me to work hard😭  
+Never forget when an [INTRUDER|闖入者] broke into DDG’s home just to [SLAP|扇(耳光)] him 😳😭  
+What would you do if a [huge|巨大的] bear broke into you house 😱🤔🐻  
+I would get my ‘Goldilocks’ on and try to find the right temp of [porridge|麥片粥], right size of chair and the ‘just right’ bed. 😂
+[Home break-in|入室盗窃] captured on security camera.  
+This video broke my heart into a million pieces. My country is poor and we need time to develop our country, Thailand please stop the war.  
+No this is the result of Thailand wants [Cambodia|柬埔寨]’s territory.  
+They are so [pitiful|可憐].  
+Bad Cambodian [Propaganda|宣傳]  
+The Cambodian people [call on|呼籲] the world to see the truth.  
+I didnt know [prepone|提前] was a word, thought my friend made a typo. But it makes sense now coming from [postpone|推遲]. i.e Pre vs Post. Learn something new everyday  
+Today is soap washing day and [thus|因此/所以] I am washing all my soaps. Washing them so they're all [squeaky clean|乾乾淨淨]. Washing my soaps. All of them  
+Egads, man... Why must the stars [torment me thus|如此折磨我]?  
+I shall leave this here... [just in case|以防萬一].  
+Isn't it enough that you already charged me for [an annual subscription|年費訂閱] WITHOUT [NOTIFYING|通知]{notify} ME [BEFOREHAND|事先]?  
+a gentle [breeze|清風/微風] reminds me of you. so do yellow butterflies, [fluttering curtains|飄動的窗簾]{"Fluttering" 是指輕輕擺動或顫動，通常用來形容某物因為風或其他原因而輕微地搖動或顫抖。}, and [pomegranates|石榴].  
+[Greek white|希臘白] isn’t just a color, it’s the silence, the sun, and the island breeze painted on stone. 🇬🇷  
+oh to sit under a willow tree and read  
+I'd [weep|哭泣]  
+"Take me back... where the [weary|疲憊的] willow weeps for me...". V. Clarke & A. Bell.
+they’re [on a date|約會]  
+I would like to [give them little smooches|給他們一些親親], please. Thank you.  
+"i finally got him to date me, he is so cute! idk what to say to him omg"  
+It looks like they are eating some kind is chocolate [berry|漿果] pie ☺️  
+hyungwon looking so [adorable|可愛的] in [duvet|羽絨被] 💕
+how tf did i lose a whole ass duvet at home  
+Winter is coming. Get yourself a [cuddle|擁抱] buddy or an extra duvet buddy.  
+Oh that’s [a fabulous idea|絕妙的主意]😍  
+[Weeping willow|垂柳] curtains 🌿
+
+
 
 
 

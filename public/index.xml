@@ -33,7 +33,7 @@
     <title>Terminal</title>
     <link>https://https://ousinki.github.io/my-digital-garden/Terminal</link>
     <guid>https://https://ousinki.github.io/my-digital-garden/Terminal</guid>
-    <description><![CDATA[ Ctrl+L 可以清屏，但保留歷史 Cmd+K 清屏並清除歷史 Ctrl+U 清除整行 如何創建一個新的md文件？ touch newfile.md 用於創建新文件；mkdir new_folder 用於創建新文件夾。 如何通過終端在文件中插入新文本？ echo &quot;新內容&quot; &gt; file.md # &gt; 會覆蓋原有內容，檔案中只剩 &quot;新內容&quot;。 echo &quot;新內容&quot; &gt;&gt; file.md # &gt;&gt; 會在檔案最後新增一行，不刪掉原內容。 . ]]></description>
+    <description><![CDATA[ Ctrl+L 可以清屏，但保留歷史 Cmd+K 清屏並清除歷史 Ctrl+U 清除整行 如何創建一個新的md文件？ touch newfile.md 用於創建新文件；mkdir new_folder 用於創建新文件夾。 如何通過終端在文件中插入新文本？ echo &quot;新內容&quot; &gt; file.md # &gt; 會覆蓋原有內容，檔案中只剩 &quot;新內容&quot;。 echo &quot;新內容&quot; &gt;&gt; file.md # &gt;&gt; 會在檔案最後新增一行，不刪掉原內容。 如何刪除文件？ rm test.txt # 直接刪除文件（不進垃圾... ]]></description>
     <pubDate>Mon, 08 Dec 2025 08:22:21 GMT</pubDate>
   </item><item>
     <title>film</title>

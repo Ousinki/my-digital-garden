@@ -119,11 +119,41 @@ function performHide() {
   toggleRubyHidden()
 }
 
+
 // 将控制条移到 body，避免受父级滚动或 transform 影响
 function ensureControlsInBody() {
-  const controls = document.querySelector(".ruby-controls")
-  if (controls && controls.parentElement !== document.body) {
+  // 查找所有可能的 controls
+  const controlsList = document.querySelectorAll(".ruby-controls")
+  
+  if (controlsList.length === 0) return
+
+  // 只保留第一个，其他的移除（避免重复）
+  let controls = controlsList[0] as HTMLElement
+  for (let i = 1; i < controlsList.length; i++) {
+    controlsList[i].remove()
+  }
+
+  // 确保按钮在 body 中
+  if (controls.parentElement !== document.body) {
     document.body.appendChild(controls)
+  }
+  
+  // 强制设置样式，确保固定定位
+  controls.style.setProperty("position", "fixed", "important")
+  controls.style.setProperty("z-index", "2147483647", "important")
+  controls.style.setProperty("top", "1rem", "important")
+  controls.style.setProperty("left", "1rem", "important")
+  controls.style.setProperty("display", "flex", "important")
+  controls.style.setProperty("visibility", "visible", "important")
+  controls.style.setProperty("opacity", "1", "important")
+  controls.style.setProperty("transform", "none", "important")
+  
+  // 针对移动端的调整
+  if (window.innerWidth <= 768) {
+    const safeTop = getComputedStyle(document.documentElement).getPropertyValue("--safe-area-inset-top") || "0px"
+    const safeLeft = getComputedStyle(document.documentElement).getPropertyValue("--safe-area-inset-left") || "0px"
+    controls.style.top = `calc(${safeTop} + 1rem)`
+    controls.style.left = `calc(${safeLeft} + 1rem)`
   }
 }
 

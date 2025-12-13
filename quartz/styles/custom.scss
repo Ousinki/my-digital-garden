@@ -144,3 +144,23 @@ html[font-family="zhuan"][font-size="medium"] article {
 html[font-family="zhuan"][font-size="large"] article {
   font-size: 22px !important;
 }
+
+// ========== 强制固定 Ruby Controls (Backup) ==========
+// 这是一个备份规则，确保即使 JS 执行延迟，按钮也能保持固定
+body > .ruby-controls {
+  position: fixed !important;
+  top: 1rem !important;
+  left: 1rem !important;
+  z-index: 2147483647 !important;
+  display: flex !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  transform: none !important;
+}
+
+@media (max-width: 768px) {
+  body > .ruby-controls {
+    top: calc(env(safe-area-inset-top, 0px) + 1rem) !important;
+    left: calc(env(safe-area-inset-left, 0px) + 1rem) !important;
+  }
+}
