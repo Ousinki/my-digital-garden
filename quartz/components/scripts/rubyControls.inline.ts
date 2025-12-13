@@ -150,10 +150,8 @@ function ensureControlsInBody() {
   
   // 针对移动端的调整
   if (window.innerWidth <= 768) {
-    const safeTop = getComputedStyle(document.documentElement).getPropertyValue("--safe-area-inset-top") || "0px"
-    const safeLeft = getComputedStyle(document.documentElement).getPropertyValue("--safe-area-inset-left") || "0px"
-    controls.style.top = `calc(${safeTop} + 1rem)`
-    controls.style.left = `calc(${safeLeft} + 1rem)`
+    controls.style.setProperty("top", "calc(env(safe-area-inset-top, 0px) + 1rem)", "important")
+    controls.style.setProperty("left", "calc(env(safe-area-inset-left, 0px) + 1rem)", "important")
   }
 }
 
@@ -297,5 +295,10 @@ if (document.readyState === "loading") {
 } else {
   setupRubyControls()
   ensureControlsInBody()
+  
+  // 启动一个定时器，定期检查（防止被其他脚本修改或 SPA 导航导致失效）
+  setInterval(() => {
+    ensureControlsInBody()
+  }, 1000)
 }
 
