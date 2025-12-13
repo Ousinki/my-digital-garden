@@ -41,8 +41,8 @@
   overflow-wrap: break-word;
   display: block;
   width: max-content;
-  max-width: 400px;
-  box-sizing: content-box;
+  max-width: min(400px, calc(100vw - 32px));
+  box-sizing: border-box;
   max-height: 300px;
   overflow-y: auto;
   z-index: 1000;

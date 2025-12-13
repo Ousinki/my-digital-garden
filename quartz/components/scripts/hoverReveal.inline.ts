@@ -27,50 +27,42 @@ function setupHoverReveal() {
         if (tooltipRect.width === 0) return
 
         // 获取视口边界
-        const viewportLeft = 0
-        const viewportRight = window.innerWidth
-        const viewportTop = 0
-        const viewportBottom = window.innerHeight
+        const viewportWidth = window.innerWidth
+        const padding = 10 // 保持 10px 边距
 
-        // 获取触发元素的边界
+        // 获取触发元素和容器的边界
         const triggerRect = hoverElement.getBoundingClientRect()
-
-        // 重置位置样式
-        tooltip.style.left = "50%"
+        const containerRect = container.getBoundingClientRect()
+        
+        // 1. 计算理想的水平位置 (居中对齐触发元素)
+        // 目标视口坐标 left
+        let targetLeft = triggerRect.left + (triggerRect.width / 2) - (tooltipRect.width / 2)
+        
+        // 2. 限制在视口内
+        const minLeft = padding
+        const maxLeft = viewportWidth - tooltipRect.width - padding
+        
+        // 优先保证左边不溢出，如果宽度过大，右边可能会溢出（但 CSS max-width 应该防止了这种情况）
+        // 使用 Math.min/max 确保在 minLeft > maxLeft 时也能合理表现（优先左对齐）
+        if (targetLeft < minLeft) targetLeft = minLeft
+        if (targetLeft > maxLeft) targetLeft = maxLeft
+        
+        // 3. 转换为相对坐标 (相对于 container)
+        const relativeLeft = targetLeft - containerRect.left
+        
+        // 应用水平位置
+        tooltip.style.left = `${relativeLeft}px`
         tooltip.style.right = "auto"
-        tooltip.style.transform = "translateX(-50%)"
-        tooltip.style.top = "auto"
-        tooltip.style.bottom = "100%"
-
-        // 重新获取悬浮窗位置
-        const currentRect = tooltip.getBoundingClientRect()
-
-        // 水平位置调整
-        if (currentRect.left < viewportLeft) {
-          tooltip.style.left = "0"
-          tooltip.style.transform = "translateX(0)"
-        } else if (currentRect.right > viewportRight) {
-          tooltip.style.left = "auto"
-          tooltip.style.right = "0"
-          tooltip.style.transform = "translateX(0)"
-        }
-
-        // 垂直位置调整
-        if (currentRect.top < viewportTop) {
+        tooltip.style.transform = "none" // 移除 translateX(-50%)
+        
+        // 4. 垂直位置调整
+        // 默认 bottom: 100% (上方). 如果上方空间不足，放下方。
+        if (containerRect.top - tooltipRect.height < padding) {
           tooltip.style.top = "100%"
           tooltip.style.bottom = "auto"
-        }
-
-        // 最终检查，确保悬浮窗完全在视口内
-        const finalRect = tooltip.getBoundingClientRect()
-        if (finalRect.left < viewportLeft) {
-          tooltip.style.left = "0"
-          tooltip.style.transform = "translateX(0)"
-        }
-        if (finalRect.right > viewportRight) {
-          tooltip.style.left = "auto"
-          tooltip.style.right = "0"
-          tooltip.style.transform = "translateX(0)"
+        } else {
+          tooltip.style.top = "auto"
+          tooltip.style.bottom = "100%"
         }
       }, 10)
     }
