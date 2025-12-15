@@ -1,9 +1,11 @@
-### 1
- 
-No good deed goes unpunished.  
+ ## 1
+
+[No good deed goes unpunished.|好人沒好報]  
+This is to prove actions speak louder than words.  
+lol he will [regret]{後悔} it.  
 A good deed a day keeps the [devil|魔鬼/撒旦] away? 😈  
 The devil [tempted|引誘] him.  
-“How far that little candle throws his beams! [So shines]{“so + 動詞” 是古典英語常見的倒裝強調：So shines a good deed = A good deed shines so (brightly). 倒裝讓語氣更詩意、更突出。} a good deed in a weary world.” ― William Shakespeare, The Merchant of Venice 🩶  
+“How far that little candle throws his beams! [So shines]{“so + 動詞” 是古典英語常見的倒裝強調：So shines a good deed = A good deed shines so (brightly). 倒裝讓語氣更詩意、更突出。} a good deed in a [weary|令人疲倦的] world.” ― William Shakespeare, [The Merchant of Venice|威尼斯商人] 🩶  
 Btw, [Karma|因果報應]{業 / 因果} means action and not [instant punishment|立即懲罰]. Karma may cause punishment for wrong deed.  
 Resident Evil 2  
 I CAN’T STOP LAUGHING!! 😂😂 that’s an evil chicken!!  
@@ -392,6 +394,7 @@ One of the coolest selfies ever.
 ### 7
  
 I made french fries in the air fryer.  
+
 | 🇬🇧 英式英語 | 🇺🇸 美式英語 | 中文意思 |
 | :--------- | :--------------- | :-------- |
 | **chips** | **french fries** | 薯條（炸馬鈴薯條） |

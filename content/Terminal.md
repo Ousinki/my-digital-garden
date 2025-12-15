@@ -19,7 +19,7 @@
 > rm test.txt  # 直接刪除文件（不進垃圾桶）  
 > rm -i test.txt  # interactive：互動。刪除前會先詢問 `remove test.txt? (y/n)`  
 > rm -f test.txt  # force：強制刪除。不詢問、不顯示錯誤（新手慎用）  
-> ```  
+> ```
 
 
 > [!plain]- 如何刪除資料夾？  
@@ -30,9 +30,14 @@
 > ```
 
 
+> [!plain]- `ls -la` 如何讓文件夾下的文檔也顯示?
+> `ls -laR` Recursive（遞迴），會展開子資料夾  
+> `tree -a` 需要安裝`brew install tree`  
 
 
-
+> [!plain]- `brew install fd eza` 這兩個工具是什麼？
+> fd = find 的現代版  
+> eza = ls 的現代版（彩色、圖示、Git 狀態）  
 
 
 

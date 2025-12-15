@@ -14,6 +14,20 @@
 > `:wq` = `:x` = `ZZ` 快捷保存並退出
 
 
+> [!plain]- 如何展開/關閉所有的 Markdown code block fold（摺疊）?
+> - `zR` 展開所有    
+> - `zM` 關閉所有  
+
+
+> [!plain]-  normal模式下 `o` 和 `O` 是什麼意思？
+> - `O`（大写）- 在当前行上方插入一个新行，并进入 Insert mode  
+> - `o`（小写）- 在当前行下方插入一个新行，并进入 Insert mode  
+
+
+
+
+
+
 
 
 
